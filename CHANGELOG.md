@@ -1,3 +1,82 @@
+# Changelog - Week of October 06, 2025
+
+## Recent Releases
+
+### v1.359.1
+Released: 2025-10-03T23:52:37Z
+
+## What's Changed
+
+ * Remove EHR login from few-questions page. It will now only be in the review page.
+
+ * Fix modal showing up (briefly) when navigating to new gate page 
+
+
+
+---
+
+### v1.359.0
+Released: 2025-10-03T22:29:33Z
+
+## What's Changed
+
+ *  Updating django 4.2.24 -> 4.2.25 
+
+ *  updating packagges to address dependency vulnerabilities 
+
+ * Internal updates
+
+---
+
+### v1.358.0
+Released: 2025-10-02T18:12:04Z
+
+## What's Changed
+
+ * Compliance related internal updates 
+
+ * Update dependencies 
+
+ * Documentation update  
+
+
+---
+
+### v1.357.0
+Released: 2025-09-30T17:04:24Z
+
+## What's Changed
+
+ *  Internal Update 
+
+---
+
+### v1.356.0
+Released: 2025-09-29T23:09:28Z
+
+## What's Changed
+
+ * Small bug fixes
+ * Dependency updates
+
+---
+
+### v1.355.2
+Released: 2025-09-29T18:37:12Z
+
+  * Internal updates 
+
+---
+
+### v1.355.1
+Released: 2025-09-29T16:48:06Z
+
+## What's Changed
+
+ * Improved vulnerability scanning
+
+---
+
 # Changelog - Week of September 29, 2025
 
 ## Recent Releases
@@ -88,3 +167,5 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
