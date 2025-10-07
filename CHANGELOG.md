@@ -49,8 +49,6 @@ Released: 2025-09-30T17:04:24Z
 
  *  Internal Update 
 
-
-
 ---
 
 ### v1.356.0
@@ -58,38 +56,15 @@ Released: 2025-09-29T23:09:28Z
 
 ## What's Changed
 
- * Add tagging to CAN zip code SF action, backfill 
-
- * Vulnerability slack webhook 
-
- * Flow 1 missing data feature 
-
- * Fix CAN zip code script 
-
- *  - Move to stg-environment 
-
- * chore(deps): bump actions/setup-node from 4.4.0 to 5.0.0 
-
- * chore(deps): bump actions/setup-python from 5.6.0 to 6.0.0 
-
- * chore(deps): bump actions/checkout from 4 to 5 
-
- *  updating axios version to fix vulnerability 
-
- * GM Validation error display 
-
- *  - move pg prod test to stg sequencing service 
-
- * Fix extra comma in diagnoses API 
-
-
+ * Small bug fixes
+ * Dependency updates
 
 ---
 
 ### v1.355.2
 Released: 2025-09-29T18:37:12Z
 
-
+  * Internal updates 
 
 ---
 
@@ -98,14 +73,7 @@ Released: 2025-09-29T16:48:06Z
 
 ## What's Changed
 
- * Adding slack message for github action complete sast scan 
-
- *  - Add environment creation in Terraform 
-
- * Adding security scan before front-end deploy 
-
- * Allow trivy report to create artifact before failing workflow 
-
+ * Improved vulnerability scanning
 
 ---
 
@@ -199,4 +167,5 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
