@@ -1,3 +1,48 @@
+# Changelog - Week of October 13, 2025
+
+## Recent Releases
+
+### v1.371.1
+Released: 2025-10-09T22:23:06Z
+
+## What's Changed
+
+ * Internal changes
+
+---
+
+### v1.371.0
+Released: 2025-10-09T21:47:59Z
+
+## What's Changed
+
+ *  Internal updates
+ *  Removing WHIM auto offers
+
+
+
+---
+
+### v1.370.0
+Released: 2025-10-08T21:01:57Z
+
+## What's Changed
+
+ * Internal improvements and bug fixes
+
+---
+
+### v1.360.0
+Released: 2025-10-08T17:33:52Z
+
+## What's Changed
+
+ * Cleaning up unused infrastructure
+ * Upgrading internal tooling
+ * Improving internal alarms
+
+---
+
 # Changelog - Week of October 06, 2025
 
 ## Recent Releases
@@ -167,5 +212,6 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
