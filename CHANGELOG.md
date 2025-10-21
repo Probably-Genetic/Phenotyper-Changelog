@@ -1,3 +1,58 @@
+# Changelog - Week of October 21, 2025
+
+## Recent Releases
+
+### v1.373.4
+Released: 2025-10-21T17:56:49Z
+
+## What's Changed
+
+ * Remove one more onboarding_url  
+
+
+
+---
+
+### v1.373.3
+Released: 2025-10-21T17:41:30Z
+
+## What's Changed
+
+ * Don't use onboarding url on URL 
+
+
+
+---
+
+### v1.373.2
+Released: 2025-10-21T17:11:52Z
+
+## What's Changed
+
+ * chore(deps): bump actions/setup-node from 5.0.0 to 6.0.0 
+
+ * Add insurance referrals to django admin 
+
+ * Don't add onboarding URL to params 
+
+
+
+---
+
+### v1.373.1
+Released: 2025-10-20T19:06:37Z
+
+## What's Changed
+
+ * Fix genomemedicalreferral -> insurancereferral 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of October 20, 2025
 
 ## Recent Releases
