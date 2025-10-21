@@ -1,3 +1,33 @@
+# Changelog - Week of October 20, 2025
+
+## Recent Releases
+
+### v1.373.0
+Released: 2025-10-17T22:57:48Z
+
+## What's Changed
+
+ * Updating automatic restore testing configuration
+ * Bug Fixes
+ * Added required address input for insurance flow
+ * Internal updates
+
+
+---
+
+### v1.372.0
+Released: 2025-10-14T19:30:18Z
+
+## What's Changed
+
+ * Added duo/trio/proband genetic testing input page for insurance flow
+ * Fix bug with Fabric integration
+ * Removing extra fields from genome medical referral 
+ * Testing program updates
+
+
+---
+
 # Changelog - Week of October 13, 2025
 
 ## Recent Releases
@@ -212,6 +242,8 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
 
 
 
