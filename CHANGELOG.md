@@ -9,7 +9,7 @@ Released: 2025-10-17T22:57:48Z
 
  * Updating automatic restore testing configuration
  * Bug Fixes
- * Added PWN required address input
+ * Added required address input for insurance flow
  * Internal updates
 
 
@@ -23,7 +23,7 @@ Released: 2025-10-14T19:30:18Z
  * Added duo/trio/proband genetic testing input page for insurance flow
  * Fix bug with Fabric integration
  * Removing extra fields from genome medical referral 
- * Disable MOGAD program
+ * Testing program updates
 
 
 ---
@@ -242,6 +242,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
