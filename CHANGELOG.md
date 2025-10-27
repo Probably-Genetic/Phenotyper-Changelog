@@ -7,10 +7,7 @@ Released: 2025-10-24T22:34:01Z
 
 ## What's Changed
 
- *  Add tier_6 to possible insurance tiers 
-
- * Populate relationship to patient for PWN request 
-
+ *  Update insurance flow
 
 
 ---
@@ -20,9 +17,8 @@ Released: 2025-10-24T18:21:02Z
 
 ## What's Changed
 
- * Update missing data copy for insurance 
-
- * : Search By Name Fix 
+ * Update text copy for insurance flow
+ * Internal tooling bug fix
 
 
 
@@ -33,8 +29,7 @@ Released: 2025-10-24T00:03:51Z
 
 ## What's Changed
 
- * : hotfix to exclude FE2 
-
+ * Bug Fix
 
 
 ---
@@ -44,10 +39,7 @@ Released: 2025-10-23T23:31:28Z
 
 ## What's Changed
 
- * : Form Response Query search 
-
- * : missing create command for staging / prod 
-
+ * Updating internal tooling 
 
 
 ---
@@ -57,17 +49,13 @@ Released: 2025-10-23T20:42:11Z
 
 ## What's Changed
 
- *  Create chron job to sync reports 
+ *  Improving analytics identification 
 
- *  PostHog identify and alias in more places 
-
- * Feat/pwn referral order workflow 
+ *  Updating insurance flow 
 
  * Add medicare/medicaid to main chatpg flow 
 
- * Adding get ehr brinary resoruces to bruno 
-
- * Fixed temporal interceptor to handle both sync and async functions 
+ * Updating internal tooling  
 
 
 
@@ -76,7 +64,7 @@ Released: 2025-10-23T20:42:11Z
 ### v1.374.1
 Released: 2025-10-23T00:42:27Z
 
-
+ * Internal Update
 
 ---
 
@@ -85,10 +73,7 @@ Released: 2025-10-21T22:22:10Z
 
 ## What's Changed
 
- *  Fix generate changelog auto versioning 
-
- * Unique form_responses for flow 1 script 
-
+ * Fix generate changelog auto versioning  
 
 
 ---
@@ -98,9 +83,7 @@ Released: 2025-10-21T17:56:49Z
 
 ## What's Changed
 
- * Remove one more onboarding_url  
-
-
+ * Update insurance flow
 
 ---
 
@@ -109,9 +92,7 @@ Released: 2025-10-21T17:41:30Z
 
 ## What's Changed
 
- * Don't use onboarding url on URL 
-
-
+ * Update insurance flow 
 
 ---
 
@@ -124,9 +105,6 @@ Released: 2025-10-21T17:11:52Z
 
  * Add insurance referrals to django admin 
 
- * Don't add onboarding URL to params 
-
-
 
 ---
 
@@ -135,9 +113,7 @@ Released: 2025-10-20T19:06:37Z
 
 ## What's Changed
 
- * Fix genomemedicalreferral -> insurancereferral 
-
-
+ * Fix rename insurancereferral service
 
 ---
 
@@ -388,6 +364,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
