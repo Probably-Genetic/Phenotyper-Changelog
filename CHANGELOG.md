@@ -1,3 +1,125 @@
+# Changelog - Week of October 27, 2025
+
+## Recent Releases
+
+### v1.378.0
+Released: 2025-10-24T22:34:01Z
+
+## What's Changed
+
+ *  Update insurance flow
+
+
+---
+
+### v1.377.0
+Released: 2025-10-24T18:21:02Z
+
+## What's Changed
+
+ * Update text copy for insurance flow
+ * Internal tooling bug fix
+
+
+
+---
+
+### v1.376.1
+Released: 2025-10-24T00:03:51Z
+
+## What's Changed
+
+ * Bug Fix
+
+
+---
+
+### v1.376.0
+Released: 2025-10-23T23:31:28Z
+
+## What's Changed
+
+ * Updating internal tooling 
+
+
+---
+
+### v1.375.0
+Released: 2025-10-23T20:42:11Z
+
+## What's Changed
+
+ *  Improving analytics identification 
+
+ *  Updating insurance flow 
+
+ * Add medicare/medicaid to main chatpg flow 
+
+ * Updating internal tooling  
+
+
+
+---
+
+### v1.374.1
+Released: 2025-10-23T00:42:27Z
+
+ * Internal Update
+
+---
+
+### v1.374.0
+Released: 2025-10-21T22:22:10Z
+
+## What's Changed
+
+ * Fix generate changelog auto versioning  
+
+
+---
+
+### v1.373.4
+Released: 2025-10-21T17:56:49Z
+
+## What's Changed
+
+ * Update insurance flow
+
+---
+
+### v1.373.3
+Released: 2025-10-21T17:41:30Z
+
+## What's Changed
+
+ * Update insurance flow 
+
+---
+
+### v1.373.2
+Released: 2025-10-21T17:11:52Z
+
+## What's Changed
+
+ * chore(deps): bump actions/setup-node from 5.0.0 to 6.0.0 
+
+ * Add insurance referrals to django admin 
+
+
+---
+
+### v1.373.1
+Released: 2025-10-20T19:06:37Z
+
+## What's Changed
+
+ * Fix rename insurancereferral service
+
+---
+
+
+---
+
 # Changelog - Week of October 20, 2025
 
 ## Recent Releases
@@ -242,6 +364,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
