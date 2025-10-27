@@ -1,3 +1,149 @@
+# Changelog - Week of October 27, 2025
+
+## Recent Releases
+
+### v1.378.0
+Released: 2025-10-24T22:34:01Z
+
+## What's Changed
+
+ *  Add tier_6 to possible insurance tiers 
+
+ * Populate relationship to patient for PWN request 
+
+
+
+---
+
+### v1.377.0
+Released: 2025-10-24T18:21:02Z
+
+## What's Changed
+
+ * Update missing data copy for insurance 
+
+ * : Search By Name Fix 
+
+
+
+---
+
+### v1.376.1
+Released: 2025-10-24T00:03:51Z
+
+## What's Changed
+
+ * : hotfix to exclude FE2 
+
+
+
+---
+
+### v1.376.0
+Released: 2025-10-23T23:31:28Z
+
+## What's Changed
+
+ * : Form Response Query search 
+
+ * : missing create command for staging / prod 
+
+
+
+---
+
+### v1.375.0
+Released: 2025-10-23T20:42:11Z
+
+## What's Changed
+
+ *  Create chron job to sync reports 
+
+ *  PostHog identify and alias in more places 
+
+ * Feat/pwn referral order workflow 
+
+ * Add medicare/medicaid to main chatpg flow 
+
+ * Adding get ehr brinary resoruces to bruno 
+
+ * Fixed temporal interceptor to handle both sync and async functions 
+
+
+
+---
+
+### v1.374.1
+Released: 2025-10-23T00:42:27Z
+
+
+
+---
+
+### v1.374.0
+Released: 2025-10-21T22:22:10Z
+
+## What's Changed
+
+ *  Fix generate changelog auto versioning 
+
+ * Unique form_responses for flow 1 script 
+
+
+
+---
+
+### v1.373.4
+Released: 2025-10-21T17:56:49Z
+
+## What's Changed
+
+ * Remove one more onboarding_url  
+
+
+
+---
+
+### v1.373.3
+Released: 2025-10-21T17:41:30Z
+
+## What's Changed
+
+ * Don't use onboarding url on URL 
+
+
+
+---
+
+### v1.373.2
+Released: 2025-10-21T17:11:52Z
+
+## What's Changed
+
+ * chore(deps): bump actions/setup-node from 5.0.0 to 6.0.0 
+
+ * Add insurance referrals to django admin 
+
+ * Don't add onboarding URL to params 
+
+
+
+---
+
+### v1.373.1
+Released: 2025-10-20T19:06:37Z
+
+## What's Changed
+
+ * Fix genomemedicalreferral -> insurancereferral 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of October 20, 2025
 
 ## Recent Releases
