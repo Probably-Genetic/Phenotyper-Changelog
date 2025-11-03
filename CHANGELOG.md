@@ -1,3 +1,89 @@
+# Changelog - Week of November 03, 2025
+
+## Recent Releases
+
+### v1.382.0
+Released: 2025-10-30T17:01:09Z
+
+## What's Changed
+
+ * E2E tests for insurance flow  
+
+ * Fix PWN Webhook pydantic types 
+
+
+
+---
+
+### v1.381.0
+Released: 2025-10-29T22:17:51Z
+
+## What's Changed
+
+ *  - Add payload for multiple signatures in Docuseal 
+
+ *  de-indenting block out of if-block 
+
+ * Update playwright npm deps 
+
+ *  initiating universal file upload django app 
+
+ * PWN Referral Workflow Follow ups 
+
+ *  Setup for PWN launch 
+
+ * Do not update SC with Insurance Referral Order Reference Id 
+
+ * Fix Logging 
+
+ *  - Feature flag new implementation to unblock releases 
+
+ *  Adding marketing events to criteria predictor smart filters 
+
+
+
+---
+
+### v1.380.1
+Released: 2025-10-29T19:18:42Z
+
+
+
+---
+
+### v1.380.0
+Released: 2025-10-28T22:17:44Z
+
+## What's Changed
+
+ *  Adding CriteriaPredictor 
+
+
+
+---
+
+### v1.379.0
+Released: 2025-10-28T20:59:10Z
+
+## What's Changed
+
+ * Pin local Temporal DB image version 
+
+ * PWN referral webhooks 
+
+ * Adding to bruno apis for updating EHR data for a given patient 
+
+ * : Dynamic Intro Page 
+
+ * : logging and failure imrovements 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of October 27, 2025
 
 ## Recent Releases
