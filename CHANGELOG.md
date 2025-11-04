@@ -9,9 +9,7 @@ Released: 2025-10-30T17:01:09Z
 
  * E2E tests for insurance flow  
 
- * Fix PWN Webhook pydantic types 
-
-
+ * Fix PWN Webhook types 
 
 ---
 
@@ -20,25 +18,19 @@ Released: 2025-10-29T22:17:51Z
 
 ## What's Changed
 
- *  - Add payload for multiple signatures in Docuseal 
+ * Add support for multiple signatures in Docuseal 
 
- *  de-indenting block out of if-block 
-
- * Update playwright npm deps 
-
- *  initiating universal file upload django app 
+ * Update playwright npm deps  
 
  * PWN Referral Workflow Follow ups 
 
- *  Setup for PWN launch 
+ * Setup for PWN launch 
 
- * Do not update SC with Insurance Referral Order Reference Id 
+ * Logging bug fix 
 
- * Fix Logging 
+ * Updating feature flag implementation 
 
- *  - Feature flag new implementation to unblock releases 
-
- *  Adding marketing events to criteria predictor smart filters 
+ * Updating prediction marketing events 
 
 
 
@@ -47,6 +39,7 @@ Released: 2025-10-29T22:17:51Z
 ### v1.380.1
 Released: 2025-10-29T19:18:42Z
 
+ * Internal Changes
 
 
 ---
@@ -56,8 +49,7 @@ Released: 2025-10-28T22:17:44Z
 
 ## What's Changed
 
- *  Adding CriteriaPredictor 
-
+ *  Updating prediction system 
 
 
 ---
@@ -69,18 +61,13 @@ Released: 2025-10-28T20:59:10Z
 
  * Pin local Temporal DB image version 
 
- * PWN referral webhooks 
+ * Updating PWN referral webhooks 
 
- * Adding to bruno apis for updating EHR data for a given patient 
+ * Internal tooling improvements
 
- * : Dynamic Intro Page 
+ * Adding Dynamic Intro Page 
 
- * : logging and failure imrovements 
-
-
-
----
-
+ * logging and failure imrovements 
 
 ---
 
@@ -450,6 +437,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
