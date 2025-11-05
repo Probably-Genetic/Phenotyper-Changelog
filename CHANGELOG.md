@@ -1,3 +1,76 @@
+# Changelog - Week of November 03, 2025
+
+## Recent Releases
+
+### v1.382.0
+Released: 2025-10-30T17:01:09Z
+
+## What's Changed
+
+ * E2E tests for insurance flow  
+
+ * Fix PWN Webhook types 
+
+---
+
+### v1.381.0
+Released: 2025-10-29T22:17:51Z
+
+## What's Changed
+
+ * Add support for multiple signatures in Docuseal 
+
+ * Update playwright npm deps  
+
+ * PWN Referral Workflow Follow ups 
+
+ * Setup for PWN launch 
+
+ * Logging bug fix 
+
+ * Updating feature flag implementation 
+
+ * Updating prediction marketing events 
+
+
+
+---
+
+### v1.380.1
+Released: 2025-10-29T19:18:42Z
+
+ * Internal Changes
+
+
+---
+
+### v1.380.0
+Released: 2025-10-28T22:17:44Z
+
+## What's Changed
+
+ *  Updating prediction system 
+
+
+---
+
+### v1.379.0
+Released: 2025-10-28T20:59:10Z
+
+## What's Changed
+
+ * Pin local Temporal DB image version 
+
+ * Updating PWN referral webhooks 
+
+ * Internal tooling improvements
+
+ * Adding Dynamic Intro Page 
+
+ * logging and failure imrovements 
+
+---
+
 # Changelog - Week of October 27, 2025
 
 ## Recent Releases
@@ -364,6 +437,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
