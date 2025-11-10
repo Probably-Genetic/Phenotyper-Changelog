@@ -7,13 +7,8 @@ Released: 2025-11-07T23:57:29Z
 
 ## What's Changed
 
- *  Document SF condition removal 
-
- *  -  - Run early the insurance check and prevent running again if a referral… 
-
- * : Get patient file metadata endpoint 
-
-
+ *  Update internal documentation
+ *  Run early the insurance check and prevent running again if a referral was already created
 
 ---
 
@@ -22,9 +17,7 @@ Released: 2025-11-07T21:54:57Z
 
 ## What's Changed
 
- * Remove WHIM 
-
-
+ * Remove WHIM - last update missed something 
 
 ---
 
@@ -33,17 +26,8 @@ Released: 2025-11-07T21:11:32Z
 
 ## What's Changed
 
- * Hharris/pro 7864 create file upload component 
-
- *  Adding support for checking file types 
-
- * Remove whim from smartfilters 
-
+ * Updating auto offer service to no longer include whim syndrome
  * Add chromatic back to frontend 
-
- *   Creating generate and complete multi part upload services 
-
-
 
 ---
 
@@ -52,11 +36,8 @@ Released: 2025-11-06T23:04:15Z
 
 ## What's Changed
 
- *  -  - Exclude insurance reinbursement if proband had a WES/WGS in the past 3 years. 
-
- *  reduce fields on insurance intake form flow 3 
-
-
+ * Exclude insurance reinbursement if proband had a WES/WGS testing in the past 3 years. 
+ * reduce fields on insurance intake form flow
 
 ---
 
@@ -66,14 +47,9 @@ Released: 2025-11-05T23:18:27Z
 ## What's Changed
 
  * Add a timeout for user info API call 
-
- * PWN Consult scheduled event name 
-
- * Make build faster 
-
- *  Insurance Flow 2 
-
-
+ * Updating PWN Consult scheduled event name
+ * Improving build times 
+ * Updating Insurance Flow
 
 ---
 
@@ -81,14 +57,8 @@ Released: 2025-11-05T23:18:27Z
 Released: 2025-11-05T20:00:02Z
 
 ## What's Changed
-
- *  Adding new service to complete single part file uploads 
-
- *  Complete single part upload api 
-
+ 
  * Fix PWN consult complete check 
-
-
 
 ---
 
@@ -98,8 +68,6 @@ Released: 2025-11-05T17:19:45Z
 ## What's Changed
 
  * Fix intro screen getting skipped on insurance 
-
-
 
 ---
 
@@ -117,15 +85,11 @@ Released: 2025-11-04T23:42:43Z
 
 ## What's Changed
 
- *  Updating AWS Access doc to be more clear 
+ * Updating internal documentation
 
- *  Adding api endpoint for single part presigned url 
-
- *  Allow unauth users to go back to insurance pathway with a `redirectTo`  
+ * Allow unauth users to go back to insurance pathway with a `redirectTo`  
 
  * Consult log parsing fix 
-
-
 
 ---
 
@@ -134,11 +98,8 @@ Released: 2025-11-04T00:25:18Z
 
 ## What's Changed
 
- *  Adding service for single part upload 
-
- * Fix status card 
-
-
+ * Setting up service for new file upload service
+ * Fix patient status card 
 
 ---
 
@@ -147,11 +108,8 @@ Released: 2025-11-03T22:55:53Z
 
 ## What's Changed
 
- * : create PatientMediaMetadata model and s3 storage class 
-
- *  Adding new bucket for universal file upload service 
-
- *  Separating basic and strong criteria_match events 
+ * Setting infrastructure for up new file upload service 
+ * Updating insurance flow
 
 
 
@@ -599,6 +557,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
