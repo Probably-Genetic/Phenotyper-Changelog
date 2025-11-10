@@ -1,3 +1,165 @@
+# Changelog - Week of November 10, 2025
+
+## Recent Releases
+
+### v1.390.0
+Released: 2025-11-07T23:57:29Z
+
+## What's Changed
+
+ *  Document SF condition removal 
+
+ *  -  - Run early the insurance check and prevent running again if a referral… 
+
+ * : Get patient file metadata endpoint 
+
+
+
+---
+
+### v1.389.1
+Released: 2025-11-07T21:54:57Z
+
+## What's Changed
+
+ * Remove WHIM 
+
+
+
+---
+
+### v1.389.0
+Released: 2025-11-07T21:11:32Z
+
+## What's Changed
+
+ * Hharris/pro 7864 create file upload component 
+
+ *  Adding support for checking file types 
+
+ * Remove whim from smartfilters 
+
+ * Add chromatic back to frontend 
+
+ *   Creating generate and complete multi part upload services 
+
+
+
+---
+
+### v1.388.0
+Released: 2025-11-06T23:04:15Z
+
+## What's Changed
+
+ *  -  - Exclude insurance reinbursement if proband had a WES/WGS in the past 3 years. 
+
+ *  reduce fields on insurance intake form flow 3 
+
+
+
+---
+
+### v1.387.0
+Released: 2025-11-05T23:18:27Z
+
+## What's Changed
+
+ * Add a timeout for user info API call 
+
+ * PWN Consult scheduled event name 
+
+ * Make build faster 
+
+ *  Insurance Flow 2 
+
+
+
+---
+
+### v1.386.0
+Released: 2025-11-05T20:00:02Z
+
+## What's Changed
+
+ *  Adding new service to complete single part file uploads 
+
+ *  Complete single part upload api 
+
+ * Fix PWN consult complete check 
+
+
+
+---
+
+### v1.385.2
+Released: 2025-11-05T17:19:45Z
+
+## What's Changed
+
+ * Fix intro screen getting skipped on insurance 
+
+
+
+---
+
+### v1.385.1
+Released: 2025-11-05T00:08:32Z
+
+## What's Changed
+
+
+
+---
+
+### v1.385.0
+Released: 2025-11-04T23:42:43Z
+
+## What's Changed
+
+ *  Updating AWS Access doc to be more clear 
+
+ *  Adding api endpoint for single part presigned url 
+
+ *  Allow unauth users to go back to insurance pathway with a `redirectTo`  
+
+ * Consult log parsing fix 
+
+
+
+---
+
+### v1.384.0
+Released: 2025-11-04T00:25:18Z
+
+## What's Changed
+
+ *  Adding service for single part upload 
+
+ * Fix status card 
+
+
+
+---
+
+### v1.383.0
+Released: 2025-11-03T22:55:53Z
+
+## What's Changed
+
+ * : create PatientMediaMetadata model and s3 storage class 
+
+ *  Adding new bucket for universal file upload service 
+
+ *  Separating basic and strong criteria_match events 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 03, 2025
 
 ## Recent Releases
