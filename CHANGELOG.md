@@ -1,3 +1,123 @@
+# Changelog - Week of November 10, 2025
+
+## Recent Releases
+
+### v1.390.0
+Released: 2025-11-07T23:57:29Z
+
+## What's Changed
+
+ *  Update internal documentation
+ *  Run early the insurance check and prevent running again if a referral was already created
+
+---
+
+### v1.389.1
+Released: 2025-11-07T21:54:57Z
+
+## What's Changed
+
+ * Remove WHIM - last update missed something 
+
+---
+
+### v1.389.0
+Released: 2025-11-07T21:11:32Z
+
+## What's Changed
+
+ * Updating auto offer service to no longer include whim syndrome
+ * Add chromatic back to frontend 
+
+---
+
+### v1.388.0
+Released: 2025-11-06T23:04:15Z
+
+## What's Changed
+
+ * Exclude insurance reinbursement if proband had a WES/WGS testing in the past 3 years. 
+ * reduce fields on insurance intake form flow
+
+---
+
+### v1.387.0
+Released: 2025-11-05T23:18:27Z
+
+## What's Changed
+
+ * Add a timeout for user info API call 
+ * Updating PWN Consult scheduled event name
+ * Improving build times 
+ * Updating Insurance Flow
+
+---
+
+### v1.386.0
+Released: 2025-11-05T20:00:02Z
+
+## What's Changed
+ 
+ * Fix PWN consult complete check 
+
+---
+
+### v1.385.2
+Released: 2025-11-05T17:19:45Z
+
+## What's Changed
+
+ * Fix intro screen getting skipped on insurance 
+
+---
+
+### v1.385.1
+Released: 2025-11-05T00:08:32Z
+
+## What's Changed
+
+
+
+---
+
+### v1.385.0
+Released: 2025-11-04T23:42:43Z
+
+## What's Changed
+
+ * Updating internal documentation
+
+ * Allow unauth users to go back to insurance pathway with a `redirectTo`  
+
+ * Consult log parsing fix 
+
+---
+
+### v1.384.0
+Released: 2025-11-04T00:25:18Z
+
+## What's Changed
+
+ * Setting up service for new file upload service
+ * Fix patient status card 
+
+---
+
+### v1.383.0
+Released: 2025-11-03T22:55:53Z
+
+## What's Changed
+
+ * Setting infrastructure for up new file upload service 
+ * Updating insurance flow
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 03, 2025
 
 ## Recent Releases
@@ -437,6 +557,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
