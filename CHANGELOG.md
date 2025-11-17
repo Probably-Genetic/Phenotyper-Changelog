@@ -1,3 +1,79 @@
+# Changelog - Week of November 17, 2025
+
+## Recent Releases
+
+### v1.393.0
+Released: 2025-11-14T22:59:31Z
+
+## What's Changed
+
+ *  Local development VSCode improvements
+
+ *  Support for multiple signers on documents
+
+ *  Released multi-modal file upload service
+
+ *  Add production docuseal template ids 
+
+
+
+---
+
+### v1.392.0
+Released: 2025-11-13T19:07:24Z
+
+## What's Changed
+
+ *  Adding aws alarms in preparation to launch multi-modal file upload service
+
+ *  Adding delete patient file API 
+
+ *  Adding PDF Document Verify 
+
+ *  Adding HIPAA request logging 
+
+ *  Fixed PWN consult report type 
+
+ *  Extension fix patient files 
+
+ *  Adding support for new insurance flow pathway
+
+
+
+---
+
+### v1.391.2
+Released: 2025-11-11T04:18:54Z
+
+## What's Changed
+
+ *  Adding PWN Analytics script 
+
+ *  Increase user info api call timeout 
+
+
+
+---
+
+### v1.391.1
+Released: 2025-11-11T00:35:29Z
+
+## What's Changed
+
+ *  Upgrading django to 4.2.26 to fix vulnerability 
+
+ *  Update brotli and fonttools to address vulnerabilities 
+
+ *  Removing tagging for alpha mann condition
+
+ *  Fix insurance flow login issues
+
+
+---
+
+
+---
+
 # Changelog - Week of November 10, 2025
 
 ## Recent Releases
@@ -557,6 +633,8 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
 
 
 
