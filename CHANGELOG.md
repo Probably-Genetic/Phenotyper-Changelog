@@ -7,19 +7,13 @@ Released: 2025-11-14T22:59:31Z
 
 ## What's Changed
 
- * Hydra vsc to use doppler correctly 
+ * Local development VSCode improvements
 
- *  - Multi Form support date_of_birth and emails sent (and keep empty for legacy purpose) 
+ *  Multi Form support date of birth and emails sent
 
- *  File upload e2e tests 
+ *  Released multi-modal file upload service
 
- *  adding git upgrade to base docker build 
-
- * Add production docuseal template ids 
-
- * : Universal File Upload Error Handling 
-
- *  Organizing upload e2e tests better 
+ *  Add production docuseal template ids 
 
 
 
@@ -30,37 +24,19 @@ Released: 2025-11-13T19:07:24Z
 
 ## What's Changed
 
- * : update get endpoint to work with form response 
-
- *  Adding aws alarms for universal file upload 
+ *  Adding aws alarms in preparation to launch multi-modal file upload service
 
  *  Adding delete patient file API 
 
- *  PDF Document Verify 
+ *  Adding PDF Document Verify 
 
- * HIPAA request logging 
+ *  Adding HIPAA request logging 
 
- * Fixed PWN consult report type 
-
- * : multi part upload 
-
- *  Feat/new backend 
-
- *  Doppler cli trivy ignore 
-
- * VSC settings for Hydra 
-
- * FastAPI dependency injection 
+ *  Fixed PWN consult report type 
 
  *  Extension fix patient files 
 
- * : Universal Upload via patient dashboard 
-
- *   Add support for a flow_4  
-
- * Hydra folder structure setup 
-
- *  few bug fixes and adding parallel upload of files 
+ *  Adding support for new insurance flow pathway
 
 
 
@@ -71,7 +47,7 @@ Released: 2025-11-11T04:18:54Z
 
 ## What's Changed
 
- * PWN Analytics script 
+ *  Adding PWN Analytics script 
 
  *  Increase user info api call timeout 
 
@@ -84,24 +60,13 @@ Released: 2025-11-11T00:35:29Z
 
 ## What's Changed
 
- *   Adding api endpoints for multi-part upload apis 
+ *  Upgrading django to 4.2.26 to fix vulnerability 
 
- *  Improve error handling 
+ *  Update brotli and fonttools to address vulnerabilities 
 
- *  Migrate to form response 
+ *  Removing tagging for alpha mann condition
 
- * Upgrading django to 4.2.26 to fix vulnerability 
-
- * Update brotli and fonttools 
-
- *  Update fastapi version for vulnerability resolution 
-
- *  Decoupling universal file upload storage from patients where possible 
-
- * Remove tagging for alpha mann 
-
- *  Fix flow 3 login issues 
-
+ *  Fix insurance flow login issues
 
 
 ---
@@ -668,6 +633,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
