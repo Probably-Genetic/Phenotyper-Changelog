@@ -1,3 +1,114 @@
+# Changelog - Week of November 17, 2025
+
+## Recent Releases
+
+### v1.393.0
+Released: 2025-11-14T22:59:31Z
+
+## What's Changed
+
+ * Hydra vsc to use doppler correctly 
+
+ *  - Multi Form support date_of_birth and emails sent (and keep empty for legacy purpose) 
+
+ *  File upload e2e tests 
+
+ *  adding git upgrade to base docker build 
+
+ * Add production docuseal template ids 
+
+ * : Universal File Upload Error Handling 
+
+ *  Organizing upload e2e tests better 
+
+
+
+---
+
+### v1.392.0
+Released: 2025-11-13T19:07:24Z
+
+## What's Changed
+
+ * : update get endpoint to work with form response 
+
+ *  Adding aws alarms for universal file upload 
+
+ *  Adding delete patient file API 
+
+ *  PDF Document Verify 
+
+ * HIPAA request logging 
+
+ * Fixed PWN consult report type 
+
+ * : multi part upload 
+
+ *  Feat/new backend 
+
+ *  Doppler cli trivy ignore 
+
+ * VSC settings for Hydra 
+
+ * FastAPI dependency injection 
+
+ *  Extension fix patient files 
+
+ * : Universal Upload via patient dashboard 
+
+ *   Add support for a flow_4  
+
+ * Hydra folder structure setup 
+
+ *  few bug fixes and adding parallel upload of files 
+
+
+
+---
+
+### v1.391.2
+Released: 2025-11-11T04:18:54Z
+
+## What's Changed
+
+ * PWN Analytics script 
+
+ *  Increase user info api call timeout 
+
+
+
+---
+
+### v1.391.1
+Released: 2025-11-11T00:35:29Z
+
+## What's Changed
+
+ *   Adding api endpoints for multi-part upload apis 
+
+ *  Improve error handling 
+
+ *  Migrate to form response 
+
+ * Upgrading django to 4.2.26 to fix vulnerability 
+
+ * Update brotli and fonttools 
+
+ *  Update fastapi version for vulnerability resolution 
+
+ *  Decoupling universal file upload storage from patients where possible 
+
+ * Remove tagging for alpha mann 
+
+ *  Fix flow 3 login issues 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 10, 2025
 
 ## Recent Releases
