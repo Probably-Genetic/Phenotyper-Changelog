@@ -7,9 +7,9 @@ Released: 2025-11-14T22:59:31Z
 
 ## What's Changed
 
- * Local development VSCode improvements
+ *  Local development VSCode improvements
 
- *  Multi Form support date of birth and emails sent
+ *  Support for multiple signers on documents
 
  *  Released multi-modal file upload service
 
@@ -633,6 +633,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
