@@ -43,7 +43,7 @@ Released: 2025-11-18T22:23:39Z
 
 ## What's Changed
 
- *  Prevent InsuranceReferral deletion when FormResponse is deleted
+ *  Prevent insurance referral deletion on form response deletion for audit purposes
  *  Changes to PWN integration
  *  Internal tooling updates
  *  Event log for insurance referrals 
@@ -689,6 +689,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
