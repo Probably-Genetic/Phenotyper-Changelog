@@ -8,24 +8,12 @@ Released: 2025-11-22T00:46:17Z
 ## What's Changed
 
  *  Insurance updates
-
- *  Update all 
-
- *  Updating lock on python-phenotyper-builder 
-
- * Frontend UI lib with PrimeReact and Tailwind 
-
- * Fix Fabric PHI max length 
-
- *  Insurance error message 
-
- * Fix order status update for Broad reship kits 
-
- * Validate sponsor sample collection type in CreateSponsoredOrder class to prevent None values 
-
- *  - nys test codes updatesworkflows 
-
-
+ *  Internal update to frontend libraries
+ *  Fix bug in Fabric integration
+ *  Fix bugs in Broad integration
+ *  Fix bug with internal ordering service
+ *  Fix bug with testing in New York State
+ 
 
 ---
 
@@ -34,12 +22,7 @@ Released: 2025-11-19T23:05:20Z
 
 ## What's Changed
 
- *  Update requests library 
-
- *  More updates to requests 
-
- *  Setting fabric report trasnscript omim as optional 
-
+ *  Internal update for Fabric integration
 
 
 ---
@@ -49,10 +32,8 @@ Released: 2025-11-19T00:21:32Z
 
 ## What's Changed
 
- *  Update requests library 
-
- * Fix new backend service apptible app name 
-
+ *  Update requests library to address vulnerabilities
+ *  Internal infra configuration
 
 
 ---
@@ -62,40 +43,13 @@ Released: 2025-11-18T22:23:39Z
 
 ## What's Changed
 
- *  Adding lifecycle to delete old incomplete multi-part uploads 
-
- *  Increasing sequencing service queue age threshold 
-
- *  Prevent InsuranceReferral row deletion on FormResponse delete 
-
- * notify pwn when a report is amended 
-
- * No order events for pwn workflows 
-
- * Feat/sql alchemy orm 
-
- * new backend service CI&CD 
-
+ *  Prevent InsuranceReferral deletion when FormResponse is deleted
+ *  Changes to PWN integration
+ *  Internal tooling updates
  *  Event log for insurance referrals 
-
- *  Updating certifi to address vulnerabilities 
-
- *  Updating joserfc to fix critical vulnerability 
-
- * Expose docker port for new backend service 
-
- *  Updating idna package to address vulnerability issues 
-
- * chore(deps): bump actions/upload-artifact from 4 to 5 
-
- * Fix/new backend service healthcheck endpoint 
-
- * management command to backfill amended reports 
-
- *  adding trivy ignore for glob injection 
-
- *  Use new insurance event log 
-
+ *  Updating certifi, joserfc, idna to address vulnerabilities 
+ *  Expose docker port for new backend service 
+ *  management command to backfill amended reports
 
 
 ---
@@ -106,9 +60,7 @@ Released: 2025-11-17T22:01:05Z
 ## What's Changed
 
  *  - PWN order creation upload hipaa and patient history to PWN. 
-
  *  Fix issue with form response id undefined when getting patient files 
-
 
 
 ---
@@ -126,11 +78,8 @@ Released: 2025-11-14T22:59:31Z
 ## What's Changed
 
  *  Local development VSCode improvements
-
  *  Support for multiple signers on documents
-
  *  Released multi-modal file upload service
-
  *  Add production docuseal template ids 
 
 
@@ -143,17 +92,11 @@ Released: 2025-11-13T19:07:24Z
 ## What's Changed
 
  *  Adding aws alarms in preparation to launch multi-modal file upload service
-
  *  Adding delete patient file API 
-
  *  Adding PDF Document Verify 
-
  *  Adding HIPAA request logging 
-
  *  Fixed PWN consult report type 
-
  *  Extension fix patient files 
-
  *  Adding support for new insurance flow pathway
 
 
@@ -166,9 +109,7 @@ Released: 2025-11-11T04:18:54Z
 ## What's Changed
 
  *  Adding PWN Analytics script 
-
  *  Increase user info api call timeout 
-
 
 
 ---
@@ -179,11 +120,8 @@ Released: 2025-11-11T00:35:29Z
 ## What's Changed
 
  *  Upgrading django to 4.2.26 to fix vulnerability 
-
  *  Update brotli and fonttools to address vulnerabilities 
-
  *  Removing tagging for alpha mann condition
-
  *  Fix insurance flow login issues
 
 
@@ -751,6 +689,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
