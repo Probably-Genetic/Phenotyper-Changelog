@@ -7,9 +7,7 @@ Released: 2025-11-22T00:46:17Z
 
 ## What's Changed
 
- *  pt2 insurance events migration 
-
- * : Add missing PWN states 
+ *  Insurance updates
 
  *  Update all 
 
@@ -53,7 +51,7 @@ Released: 2025-11-19T00:21:32Z
 
  *  Update requests library 
 
- * Fix Hydra apptible app name 
+ * Fix [something] service apptible app name 
 
 
 
@@ -70,13 +68,13 @@ Released: 2025-11-18T22:23:39Z
 
  *  Prevent InsuranceReferral row deletion on FormResponse delete 
 
- * : notify pwn when a report is amended 
+ * notify pwn when a report is amended 
 
  * No order events for pwn workflows 
 
  * Feat/sql alchemy orm 
 
- * Hydra CI&CD 
+ * [something] service CI&CD 
 
  *  Event log for insurance referrals 
 
@@ -84,15 +82,15 @@ Released: 2025-11-18T22:23:39Z
 
  *  Updating joserfc to fix critical vulnerability 
 
- * Expose docker port for Hydra 
+ * Expose docker port for [something] service 
 
  *  Updating idna package to address vulnerability issues 
 
  * chore(deps): bump actions/upload-artifact from 4 to 5 
 
- * Fix/hydra healthcheck endpoint 
+ * Fix/[something] service healthcheck endpoint 
 
- * : management command to backfill amended reports 
+ * management command to backfill amended reports 
 
  *  adding trivy ignore for glob injection 
 
@@ -753,6 +751,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
