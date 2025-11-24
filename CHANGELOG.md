@@ -51,7 +51,7 @@ Released: 2025-11-19T00:21:32Z
 
  *  Update requests library 
 
- * Fix [something] service apptible app name 
+ * Fix new backend service apptible app name 
 
 
 
@@ -74,7 +74,7 @@ Released: 2025-11-18T22:23:39Z
 
  * Feat/sql alchemy orm 
 
- * [something] service CI&CD 
+ * new backend service CI&CD 
 
  *  Event log for insurance referrals 
 
@@ -82,13 +82,13 @@ Released: 2025-11-18T22:23:39Z
 
  *  Updating joserfc to fix critical vulnerability 
 
- * Expose docker port for [something] service 
+ * Expose docker port for new backend service 
 
  *  Updating idna package to address vulnerability issues 
 
  * chore(deps): bump actions/upload-artifact from 4 to 5 
 
- * Fix/[something] service healthcheck endpoint 
+ * Fix/new backend service healthcheck endpoint 
 
  * management command to backfill amended reports 
 
@@ -751,6 +751,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
