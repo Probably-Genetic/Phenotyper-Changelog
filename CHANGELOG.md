@@ -1,3 +1,123 @@
+# Changelog - Week of November 24, 2025
+
+## Recent Releases
+
+### v1.397.0
+Released: 2025-11-22T00:46:17Z
+
+## What's Changed
+
+ *  pt2 insurance events migration 
+
+ * : Add missing PWN states 
+
+ *  Update all 
+
+ *  Updating lock on python-phenotyper-builder 
+
+ * Frontend UI lib with PrimeReact and Tailwind 
+
+ * Fix Fabric PHI max length 
+
+ *  Insurance error message 
+
+ * Fix order status update for Broad reship kits 
+
+ * Validate sponsor sample collection type in CreateSponsoredOrder class to prevent None values 
+
+ *  - nys test codes updatesworkflows 
+
+
+
+---
+
+### v1.396.0
+Released: 2025-11-19T23:05:20Z
+
+## What's Changed
+
+ *  Update requests library 
+
+ *  More updates to requests 
+
+ *  Setting fabric report trasnscript omim as optional 
+
+
+
+---
+
+### v1.395.1
+Released: 2025-11-19T00:21:32Z
+
+## What's Changed
+
+ *  Update requests library 
+
+ * Fix Hydra apptible app name 
+
+
+
+---
+
+### v1.395.0
+Released: 2025-11-18T22:23:39Z
+
+## What's Changed
+
+ *  Adding lifecycle to delete old incomplete multi-part uploads 
+
+ *  Increasing sequencing service queue age threshold 
+
+ *  Prevent InsuranceReferral row deletion on FormResponse delete 
+
+ * : notify pwn when a report is amended 
+
+ * No order events for pwn workflows 
+
+ * Feat/sql alchemy orm 
+
+ * Hydra CI&CD 
+
+ *  Event log for insurance referrals 
+
+ *  Updating certifi to address vulnerabilities 
+
+ *  Updating joserfc to fix critical vulnerability 
+
+ * Expose docker port for Hydra 
+
+ *  Updating idna package to address vulnerability issues 
+
+ * chore(deps): bump actions/upload-artifact from 4 to 5 
+
+ * Fix/hydra healthcheck endpoint 
+
+ * : management command to backfill amended reports 
+
+ *  adding trivy ignore for glob injection 
+
+ *  Use new insurance event log 
+
+
+
+---
+
+### v1.394.0
+Released: 2025-11-17T22:01:05Z
+
+## What's Changed
+
+ *  - PWN order creation upload hipaa and patient history to PWN. 
+
+ *  Fix issue with form response id undefined when getting patient files 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 17, 2025
 
 ## Recent Releases
