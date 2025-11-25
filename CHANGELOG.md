@@ -1,3 +1,73 @@
+# Changelog - Week of November 24, 2025
+
+## Recent Releases
+
+### v1.397.0
+Released: 2025-11-22T00:46:17Z
+
+## What's Changed
+
+ *  Insurance updates
+ *  Internal update to frontend libraries
+ *  Fix bug in Fabric integration
+ *  Fix bugs in Broad integration
+ *  Fix bug with internal ordering service
+ *  Fix bug with testing in New York State
+ 
+
+---
+
+### v1.396.0
+Released: 2025-11-19T23:05:20Z
+
+## What's Changed
+
+ *  Internal update for Fabric integration
+
+
+---
+
+### v1.395.1
+Released: 2025-11-19T00:21:32Z
+
+## What's Changed
+
+ *  Update requests library to address vulnerabilities
+ *  Internal infra configuration
+
+
+---
+
+### v1.395.0
+Released: 2025-11-18T22:23:39Z
+
+## What's Changed
+
+ *  Prevent insurance referral deletion on form response deletion for audit purposes
+ *  Changes to PWN integration
+ *  Internal tooling updates
+ *  Event log for insurance referrals 
+ *  Updating certifi, joserfc, idna to address vulnerabilities 
+ *  Expose docker port for new backend service 
+ *  management command to backfill amended reports
+
+
+---
+
+### v1.394.0
+Released: 2025-11-17T22:01:05Z
+
+## What's Changed
+
+ *  Upload HIPAA and patient history to PWN
+ *  Fix internal issue with patient files 
+
+
+---
+
+
+---
+
 # Changelog - Week of November 17, 2025
 
 ## Recent Releases
@@ -8,11 +78,8 @@ Released: 2025-11-14T22:59:31Z
 ## What's Changed
 
  *  Local development VSCode improvements
-
  *  Support for multiple signers on documents
-
  *  Released multi-modal file upload service
-
  *  Add production docuseal template ids 
 
 
@@ -25,17 +92,11 @@ Released: 2025-11-13T19:07:24Z
 ## What's Changed
 
  *  Adding aws alarms in preparation to launch multi-modal file upload service
-
  *  Adding delete patient file API 
-
  *  Adding PDF Document Verify 
-
  *  Adding HIPAA request logging 
-
  *  Fixed PWN consult report type 
-
  *  Extension fix patient files 
-
  *  Adding support for new insurance flow pathway
 
 
@@ -48,9 +109,7 @@ Released: 2025-11-11T04:18:54Z
 ## What's Changed
 
  *  Adding PWN Analytics script 
-
  *  Increase user info api call timeout 
-
 
 
 ---
@@ -61,11 +120,8 @@ Released: 2025-11-11T00:35:29Z
 ## What's Changed
 
  *  Upgrading django to 4.2.26 to fix vulnerability 
-
  *  Update brotli and fonttools to address vulnerabilities 
-
  *  Removing tagging for alpha mann condition
-
  *  Fix insurance flow login issues
 
 
@@ -633,6 +689,11 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
+
+
+
 
 
 
