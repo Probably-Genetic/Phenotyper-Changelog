@@ -59,8 +59,8 @@ Released: 2025-11-17T22:01:05Z
 
 ## What's Changed
 
- *  - PWN order creation upload hipaa and patient history to PWN. 
- *  Fix issue with form response id undefined when getting patient files 
+ *  Upload HIPAA and patient history to PWN
+ *  Fix internal issue with patient files 
 
 
 ---
@@ -689,6 +689,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
