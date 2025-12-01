@@ -1,3 +1,33 @@
+# Changelog - Week of December 01, 2025
+
+## Recent Releases
+
+### v1.398.0
+Released: 2025-11-26T22:27:34Z
+
+## What's Changed
+
+ * chore(deps): bump actions/checkout from 4 to 6 
+
+ * : primereact configured in bearded-dragon 
+
+ * : implement design changes to patient dashboard 
+
+ * Fix incorrectly named temporal input 
+
+ *  Import static bucket and add cloudfront distribution 
+
+ *  - use pg_manifest_202X-XX-XXT000000Z.csv in the key name 
+
+ *  Add FAv2 to allowed utms 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 24, 2025
 
 ## Recent Releases
