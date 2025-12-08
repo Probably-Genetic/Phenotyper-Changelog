@@ -7,18 +7,16 @@ Released: null
 
 ## What's Changed
 
- *  Frontend tests on GH actions 
+ * Updating Frontend tests in CI/CD 
 
- *  updating the patient media metadata table to match new model 
-
-
+ * Internal Updates
 
 ---
 
 ### v1.402.1
 Released: 2025-12-06T00:49:41Z
 
-
+ * Interal updates
 
 ---
 
@@ -27,14 +25,9 @@ Released: 2025-12-04T21:33:30Z
 
 ## What's Changed
 
- *  Importing patient media metadata to hydra 
+ * Internal updates
 
- *  Adding make and alembic command support to docker 
-
- * Fix PWN attachment upload name 
-
- *  Fixing typo in ChatPG Chat question 
-
+ * Fixing typo in ChatPG Chat question 
 
 
 ---
@@ -44,9 +37,7 @@ Released: 2025-12-04T19:43:58Z
 
 ## What's Changed
 
- *  Adding global developmental delay to AM criteria predictor logic 
-
-
+ *  Updating Alpha Mannosidosis predictor logic to include developmental delay
 
 ---
 
@@ -55,17 +46,13 @@ Released: 2025-12-04T17:10:58Z
 
 ## What's Changed
 
- *  Updating fastapi and ran audit fix for front-end 
+ * Updating packages and running audit fix for front-end 
 
  * Fix e2e test 
 
- *  Add router for base, non-versioned API routes 
+ * Adding new internal APIs
 
- * : more elements 
-
- * Fix for medicare/medicaid getting required for trainx users 
-
- * Fix missing confirmation status 
+ * Fix for medicare/medicaid getting required for trainer intake
 
 
 
@@ -74,6 +61,7 @@ Released: 2025-12-04T17:10:58Z
 ### v1.399.2
 Released: 2025-12-04T01:50:40Z
 
+ * Internal updates
 
 
 ---
@@ -85,12 +73,6 @@ Released: 2025-12-02T23:07:48Z
 
  *  Update intake form text 
 
- *  Fix temporal error 
-
- *  Add missing env var 
-
-
-
 ---
 
 ### v1.399.0
@@ -98,25 +80,21 @@ Released: 2025-12-02T22:16:23Z
 
 ## What's Changed
 
- * Modal Hotfix 
+ * Fixed custom modal bug where close button did nothing
 
- * chore(deps): bump actions/setup-python from 6.0.0 to 6.1.0 
+ * Fix EHR error on patient dashboard page
 
- *  - Fix for the EHR error 
+ * Configure new front-end theme with correct font-family 
 
- * : configure custom theme with correct font-family 
+ * Adding JWT auth via email otp 
 
- *  Update e2e GitHub action 
+ * Package updates
 
- * JWT auth via email otp 
+ * Add new flow to insurance testing
 
- * chore(deps): bump astral-sh/setup-uv from 5 to 7 
+ * Fixing database url in staging envrionment 
 
- *  Add 'flow4' 
-
- *  Use newer psycopg3 to fix async on staging 
-
- *  E2E tests on main merge 
+ * Updating auto E2E tests
 
 
 
@@ -127,19 +105,13 @@ Released: 2025-11-26T22:27:34Z
 
 ## What's Changed
 
- * chore(deps): bump actions/checkout from 4 to 6 
+ * Configuring new react component library for front-end 
 
- * : primereact configured in bearded-dragon 
+ * Release new patient dashboard design 
 
- * : implement design changes to patient dashboard 
+ * Fix issue where the PG logo is not visible in some emails
 
- * Fix incorrectly named temporal input 
-
- *  Import static bucket and add cloudfront distribution 
-
- *  - use pg_manifest_202X-XX-XXT000000Z.csv in the key name 
-
- *  Add FAv2 to allowed utms 
+ * Created new UTM campaign
 
 
 
@@ -839,6 +811,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
