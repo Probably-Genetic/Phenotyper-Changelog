@@ -1,3 +1,153 @@
+# Changelog - Week of December 08, 2025
+
+## Recent Releases
+
+### v1.403.0
+Released: null
+
+## What's Changed
+
+ *  Frontend tests on GH actions 
+
+ *  updating the patient media metadata table to match new model 
+
+
+
+---
+
+### v1.402.1
+Released: 2025-12-06T00:49:41Z
+
+
+
+---
+
+### v1.402.0
+Released: 2025-12-04T21:33:30Z
+
+## What's Changed
+
+ *  Importing patient media metadata to hydra 
+
+ *  Adding make and alembic command support to docker 
+
+ * Fix PWN attachment upload name 
+
+ *  Fixing typo in ChatPG Chat question 
+
+
+
+---
+
+### v1.401.0
+Released: 2025-12-04T19:43:58Z
+
+## What's Changed
+
+ *  Adding global developmental delay to AM criteria predictor logic 
+
+
+
+---
+
+### v1.400.0
+Released: 2025-12-04T17:10:58Z
+
+## What's Changed
+
+ *  Updating fastapi and ran audit fix for front-end 
+
+ * Fix e2e test 
+
+ *  Add router for base, non-versioned API routes 
+
+ * : more elements 
+
+ * Fix for medicare/medicaid getting required for trainx users 
+
+ * Fix missing confirmation status 
+
+
+
+---
+
+### v1.399.2
+Released: 2025-12-04T01:50:40Z
+
+
+
+---
+
+### v1.399.1
+Released: 2025-12-02T23:07:48Z
+
+## What's Changed
+
+ *  Update intake form text 
+
+ *  Fix temporal error 
+
+ *  Add missing env var 
+
+
+
+---
+
+### v1.399.0
+Released: 2025-12-02T22:16:23Z
+
+## What's Changed
+
+ * Modal Hotfix 
+
+ * chore(deps): bump actions/setup-python from 6.0.0 to 6.1.0 
+
+ *  - Fix for the EHR error 
+
+ * : configure custom theme with correct font-family 
+
+ *  Update e2e GitHub action 
+
+ * JWT auth via email otp 
+
+ * chore(deps): bump astral-sh/setup-uv from 5 to 7 
+
+ *  Add 'flow4' 
+
+ *  Use newer psycopg3 to fix async on staging 
+
+ *  E2E tests on main merge 
+
+
+
+---
+
+### v1.398.0
+Released: 2025-11-26T22:27:34Z
+
+## What's Changed
+
+ * chore(deps): bump actions/checkout from 4 to 6 
+
+ * : primereact configured in bearded-dragon 
+
+ * : implement design changes to patient dashboard 
+
+ * Fix incorrectly named temporal input 
+
+ *  Import static bucket and add cloudfront distribution 
+
+ *  - use pg_manifest_202X-XX-XXT000000Z.csv in the key name 
+
+ *  Add FAv2 to allowed utms 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 24, 2025
 
 ## Recent Releases
