@@ -1,3 +1,125 @@
+# Changelog - Week of December 08, 2025
+
+## Recent Releases
+
+### v1.403.0
+Released: null
+
+## What's Changed
+
+ * Updating Frontend tests in CI/CD 
+
+ * Internal Updates
+
+---
+
+### v1.402.1
+Released: 2025-12-06T00:49:41Z
+
+ * Interal updates
+
+---
+
+### v1.402.0
+Released: 2025-12-04T21:33:30Z
+
+## What's Changed
+
+ * Internal updates
+
+ * Fixing typo in ChatPG Chat question 
+
+
+---
+
+### v1.401.0
+Released: 2025-12-04T19:43:58Z
+
+## What's Changed
+
+ *  Updating Alpha Mannosidosis predictor logic to include developmental delay
+
+---
+
+### v1.400.0
+Released: 2025-12-04T17:10:58Z
+
+## What's Changed
+
+ * Updating packages and running audit fix for front-end 
+
+ * Fix e2e test 
+
+ * Adding new internal APIs
+
+ * Fix for medicare/medicaid getting required for trainer intake
+
+
+
+---
+
+### v1.399.2
+Released: 2025-12-04T01:50:40Z
+
+ * Internal updates
+
+
+---
+
+### v1.399.1
+Released: 2025-12-02T23:07:48Z
+
+## What's Changed
+
+ *  Update intake form text 
+
+---
+
+### v1.399.0
+Released: 2025-12-02T22:16:23Z
+
+## What's Changed
+
+ * Fixed custom modal bug where close button did nothing
+
+ * Fix EHR error on patient dashboard page
+
+ * Configure new front-end theme with correct font-family 
+
+ * Adding JWT auth via email otp 
+
+ * Package updates
+
+ * Add new flow to insurance testing
+
+ * Fixing database url in staging envrionment 
+
+ * Updating auto E2E tests
+
+
+
+---
+
+### v1.398.0
+Released: 2025-11-26T22:27:34Z
+
+## What's Changed
+
+ * Configuring new react component library for front-end 
+
+ * Release new patient dashboard design 
+
+ * Fix issue where the PG logo is not visible in some emails
+
+ * Created new UTM campaign
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 24, 2025
 
 ## Recent Releases
@@ -689,6 +811,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
