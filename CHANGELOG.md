@@ -21,6 +21,7 @@ Released: 2025-12-12T22:23:10Z
 ### v1.405.2
 Released: 2025-12-12T04:41:33Z
 
+ * Internal changes
 
 
 ---
@@ -28,6 +29,7 @@ Released: 2025-12-12T04:41:33Z
 ### v1.405.1
 Released: 2025-12-12T03:33:33Z
 
+ * Internal changes
 
 
 ---
@@ -890,6 +892,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
