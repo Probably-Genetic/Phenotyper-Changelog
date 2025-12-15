@@ -7,24 +7,13 @@ Released: 2025-12-12T22:23:10Z
 
 ## What's Changed
 
- *  Moving non-prod ml research package into other repo 
+ *  Internal updates
 
- *  Updating urllib3 in more places 
+ *  Migrate functionality to new backend
 
- *  add delete file confirmation modal 
+ *  Tooling updates for compliance
 
- *  Adding and updating models for dynamic file upload 
-
- *  Update insurance logic and models for GM/PWN 
-
- *  Fixing forwarding bug and adding logging 
-
- *  Update frontend to show separate medicare and medicaid fields 
-
- *  Add CRUD endpoints for Consent Policy 
-
- *  Migrating get patient file requests to hydra 
-
+ *  UI enhancements to support new functionality
 
 
 ---
@@ -48,21 +37,11 @@ Released: 2025-12-11T01:26:22Z
 
 ## What's Changed
 
- *  adding stub for get patient file requests api 
+ * Adding functionality to new backend
 
- * fix:  dynamic file request list component 
+ * Backend versioning changes
 
- * /8177/8178: Patient Consent Backend 
-
- * chore: loosen the node version to 22.x.x 
-
- * Chore/loosen node version 22 v2 
-
- *  Add pwn attachments to insurance referral process 
-
-## New Contributors
-
- * @tristanmatthias-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/3770
+ * Internal changes
 
 
 ---
@@ -72,43 +51,24 @@ Released: 2025-12-09T23:29:16Z
 
 ## What's Changed
 
- *  Refactoring settings to be more manageable and reflect old settings more 
+ * Internal Changes
 
- *  Setting up s3 integration in hydra for universal file upload 
+ * Improved error tracking
 
- *  Universal file upload migrate patient storage checker 
+ * Linting updates
+   
+ * Migrate functionality to new backend
 
- *  Universal file upload migrate upload service 
+ * Package versioning for compliance
 
- *  single part upload apis, error handling, fix OTP 
+ * Request forwarding for inter-service communication
 
- *   Migrating generate multi-part upload universal file upload 
+ * Setup integrations in new backend
+  
+ * Trainer enhancements
 
- *   Universal file upload migrate complete multi part upload 
+ * UI bug fixes
 
- *   Migrating get patient files api 
-
- *   migrated delete patient file endpoint 
-
- *  Adding lib magic for python-magic 
-
- * Add dummy task to clear out SQS 
-
- *  Updating urllib3 
-
- *  Renaming media to file 
-
- *  Updating referral id type to be str or int 
-
- *  Fix few-questions page when patient doesnt exist 
-
- * Push email validation to zod error state to clear out properly 
-
- *  Making issues required for all todos in hydra 
-
- * Add NPC disease to trainers list 
-
- *  Hydra service client 
 
 
 
@@ -930,6 +890,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
