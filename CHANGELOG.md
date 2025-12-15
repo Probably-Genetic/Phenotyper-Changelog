@@ -1,3 +1,122 @@
+# Changelog - Week of December 15, 2025
+
+## Recent Releases
+
+### v1.406.0
+Released: 2025-12-12T22:23:10Z
+
+## What's Changed
+
+ *  Moving non-prod ml research package into other repo 
+
+ *  Updating urllib3 in more places 
+
+ *  add delete file confirmation modal 
+
+ *  Adding and updating models for dynamic file upload 
+
+ *  Update insurance logic and models for GM/PWN 
+
+ *  Fixing forwarding bug and adding logging 
+
+ *  Update frontend to show separate medicare and medicaid fields 
+
+ *  Add CRUD endpoints for Consent Policy 
+
+ *  Migrating get patient file requests to hydra 
+
+
+
+---
+
+### v1.405.2
+Released: 2025-12-12T04:41:33Z
+
+
+
+---
+
+### v1.405.1
+Released: 2025-12-12T03:33:33Z
+
+
+
+---
+
+### v1.405.0
+Released: 2025-12-11T01:26:22Z
+
+## What's Changed
+
+ *  adding stub for get patient file requests api 
+
+ * fix:  dynamic file request list component 
+
+ * /8177/8178: Patient Consent Backend 
+
+ * chore: loosen the node version to 22.x.x 
+
+ * Chore/loosen node version 22 v2 
+
+ *  Add pwn attachments to insurance referral process 
+
+## New Contributors
+
+ * @tristanmatthias-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/3770
+
+
+---
+
+### v1.404.0
+Released: 2025-12-09T23:29:16Z
+
+## What's Changed
+
+ *  Refactoring settings to be more manageable and reflect old settings more 
+
+ *  Setting up s3 integration in hydra for universal file upload 
+
+ *  Universal file upload migrate patient storage checker 
+
+ *  Universal file upload migrate upload service 
+
+ *  single part upload apis, error handling, fix OTP 
+
+ *   Migrating generate multi-part upload universal file upload 
+
+ *   Universal file upload migrate complete multi part upload 
+
+ *   Migrating get patient files api 
+
+ *   migrated delete patient file endpoint 
+
+ *  Adding lib magic for python-magic 
+
+ * Add dummy task to clear out SQS 
+
+ *  Updating urllib3 
+
+ *  Renaming media to file 
+
+ *  Updating referral id type to be str or int 
+
+ *  Fix few-questions page when patient doesnt exist 
+
+ * Push email validation to zod error state to clear out properly 
+
+ *  Making issues required for all todos in hydra 
+
+ * Add NPC disease to trainers list 
+
+ *  Hydra service client 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of December 08, 2025
 
 ## Recent Releases
