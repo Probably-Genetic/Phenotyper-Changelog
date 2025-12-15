@@ -7,7 +7,7 @@ Released: 2025-12-12T22:23:10Z
 
 ## What's Changed
 
- *  Internal updates
+ *  Internal changes
 
  *  Migrate functionality to new backend
 
@@ -51,7 +51,7 @@ Released: 2025-12-09T23:29:16Z
 
 ## What's Changed
 
- * Internal Changes
+ * Internal changes
 
  * Improved error tracking
 
@@ -890,6 +890,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
