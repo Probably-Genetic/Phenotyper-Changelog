@@ -1,3 +1,84 @@
+# Changelog - Week of December 15, 2025
+
+## Recent Releases
+
+### v1.406.0
+Released: 2025-12-12T22:23:10Z
+
+## What's Changed
+
+ *  Internal changes
+
+ *  Migrate functionality to new backend
+
+ *  Tooling updates for compliance
+
+ *  UI enhancements to support new functionality
+
+
+---
+
+### v1.405.2
+Released: 2025-12-12T04:41:33Z
+
+ * Internal changes
+
+
+---
+
+### v1.405.1
+Released: 2025-12-12T03:33:33Z
+
+ * Internal changes
+
+
+---
+
+### v1.405.0
+Released: 2025-12-11T01:26:22Z
+
+## What's Changed
+
+ * Adding functionality to new backend
+
+ * Backend versioning changes
+
+ * Internal changes
+
+
+---
+
+### v1.404.0
+Released: 2025-12-09T23:29:16Z
+
+## What's Changed
+
+ * Internal changes
+
+ * Improved error tracking
+
+ * Linting updates
+   
+ * Migrate functionality to new backend
+
+ * Package versioning for compliance
+
+ * Request forwarding for inter-service communication
+
+ * Setup integrations in new backend
+  
+ * Trainer enhancements
+
+ * UI bug fixes
+
+
+
+
+---
+
+
+---
+
 # Changelog - Week of December 08, 2025
 
 ## Recent Releases
@@ -811,6 +892,9 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
+
 
 
 
