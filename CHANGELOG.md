@@ -1,3 +1,139 @@
+# Changelog - Week of December 29, 2025
+
+## Recent Releases
+
+### v1.409.1
+Released: 2025-12-25T01:27:43Z
+
+## What's Changed
+
+ *  Remo unnecessary celery task definition for generation file requests 
+
+
+
+---
+
+### v1.409.0
+Released: 2025-12-24T23:33:53Z
+
+## What's Changed
+
+ *  security update storybook fix chromatic 
+
+ *  Dynamic file upload request generation update 
+
+ *  dis-allowing print statements in hydra (cause they are icky) 
+
+ *  Creating file analysis service mvp 
+
+ * Force add husky script 
+
+ * Update to React 19 
+
+ *  Adding support for knowing the status of patient file request creation 
+
+ *  Improving dynamic file upload request text 
+
+ *  Fixing old e2e tests for universal file upload 
+
+ *  Add reply-to email to Docuseal submission creation 
+
+ *  Adding e2e test for dynamic file upload 
+
+
+
+---
+
+### v1.408.0
+Released: 2025-12-23T17:45:53Z
+
+## What's Changed
+
+ *  Update pre/post gc scheduling links 
+
+
+
+---
+
+### v1.407.1
+Released: 2025-12-23T02:00:21Z
+
+## What's Changed
+
+ * fix test 
+
+ *  Upload file bug 
+
+
+
+---
+
+### v1.407.0
+Released: 2025-12-22T22:09:02Z
+
+## What's Changed
+
+ *  Request forwarding for PatientConsent and ConsentPolicy 
+
+ * chore(deps): bump actions/cache from 4 to 5 
+
+ * chore(deps): bump codecov/codecov-action from 5.5.0 to 5.5.2 
+
+ * chore(deps): bump actions/upload-artifact from 5 to 6 
+
+ * fix:  
+
+ *  Creating malware result lambda and local dev setup with SAM 
+
+ *  Adding terraform infra for s3 malware result lambda 
+
+ *  Date of birth input  
+
+ *  Rudderstack for Hydra 
+
+ *  Fixing patient file request allowed file type typing 
+
+ * Tristanmatthias/pro 8145 create intake file upload page 
+
+ *  Updating names to match the new names in aptible 
+
+ * fix: ui build and moved DynamicFileUpload fields to own component 
+
+ * Rename ConsentPolicy Column 
+
+ *  Adding api for notifying system when upload has completed 
+
+ *  updating business logic for s3 scan result processor + terraform 
+
+ *  Patient Consent testing 
+
+ *  adding basic file request generation + trigger 
+
+ * feat:  add universal file upload to it's own dashboard page 
+
+ *  Change Metabase image 
+
+ *  Patient Consent Frontend 
+
+ *  file request generation use transcript + better api response 
+
+ *  fixing file upload flashing while waiting for file questions 
+
+ *  Matching dynamic file request id to file when used 
+
+ *  Keep insurance referral migrations on FK delete 
+
+ * chore(deps): bump docker/setup-buildx-action from 3.11.1 to 3.12.0 
+
+ * Update file uploader for prod use 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of December 15, 2025
 
 ## Recent Releases
