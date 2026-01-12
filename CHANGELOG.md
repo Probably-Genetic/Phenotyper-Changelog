@@ -7,7 +7,7 @@ Released: 2026-01-10T05:00:01Z
 
 ## What's Changed
 
- * Proper status for these 
+ * Insurance related updates
 
 
 
@@ -18,7 +18,7 @@ Released: 2026-01-10T03:53:53Z
 
 ## What's Changed
 
- * Workaround for pdfs not working with celery cause of size 
+ * Insurance related updates with PDFs
 
 
 
@@ -29,9 +29,7 @@ Released: 2026-01-09T22:59:09Z
 
 ## What's Changed
 
- *  spike design solution to process manually provided lab 
-
- * Add additional JWT auth to help with running command adhoc 
+ * Improve automations for insurance
 
 
 
@@ -42,17 +40,11 @@ Released: 2026-01-09T21:17:11Z
 
 ## What's Changed
 
- *  Init of event_processing module 
-
- *  Removing broad md5 check 
-
- *  Fix rpa dockerfile 
-
- * Revert dockerfiles 
-
- *  Un deploy file uploader service terraform 
+ * Broad integration updates
 
  *  Dashboard Status Cards 
+ 
+ * Update Dockerfiles
 
  * Update logic for PWN contact scheduled 
 
@@ -83,16 +75,15 @@ Released: 2026-01-08T22:54:14Z
 
  * Fix webhook handler to bypass workflow for now 
 
- *  - Add EDS subtypes (except hypermobile, hEDS) as eligible conditions to Tier 4 
+ *  Update insurance checks
 
  *  Adding NPC condition and hallmark phenos question 
 
  *  Feedback from file request demo 
 
- *  - Address high and critical semgrep vulnerabilities 
+ *  Address high and critical semgrep vulnerabilities 
 
  *  Fixing docker image for phenotyper builder 
-
 
 
 ---
@@ -120,17 +111,17 @@ Released: 2026-01-06T00:31:54Z
 
 ## What's Changed
 
- * Optimize image size but not including all git history 
+ * CI/CD Updates
 
  * Fix undefined error on consent lookup 
 
- *  updating urllib3 and qs dependencies 
+ * updating urllib3 and qs dependencies 
 
- * Update results delivery sessions for PWN 
+ * Update results delivery integrations
 
- *  updating urllib3 in psomagen pipeline uploader 
+ * Updating urllib3 dependencies
 
- *  Allowing rpa to delete messages from sqs (normal behavior) 
+ * Update permissions for rpa service
 
 
 
