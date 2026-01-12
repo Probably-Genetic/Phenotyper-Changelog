@@ -127,9 +127,6 @@ Released: 2026-01-06T00:31:54Z
 
 ---
 
-
----
-
 # Changelog - Week of January 05, 2026
 
 ## Recent Releases
