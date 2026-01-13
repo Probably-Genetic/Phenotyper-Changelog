@@ -1,3 +1,132 @@
+# Changelog - Week of January 12, 2026
+
+## Recent Releases
+
+### v1.413.2
+Released: 2026-01-10T05:00:01Z
+
+## What's Changed
+
+ * Insurance related updates
+
+
+
+---
+
+### v1.413.1
+Released: 2026-01-10T03:53:53Z
+
+## What's Changed
+
+ * Insurance related updates with PDFs
+
+
+
+---
+
+### v1.413.0
+Released: 2026-01-09T22:59:09Z
+
+## What's Changed
+
+ * Improve automations for insurance
+
+
+
+---
+
+### v1.412.0
+Released: 2026-01-09T21:17:11Z
+
+## What's Changed
+
+ * Broad integration updates
+
+ *  Dashboard Status Cards 
+ 
+ * Update Dockerfiles
+
+ * Update logic for PWN contact scheduled 
+
+
+
+---
+
+### v1.411.4
+Released: 2026-01-09T05:20:16Z
+
+
+
+---
+
+### v1.411.3
+Released: 2026-01-09T01:42:25Z
+
+
+
+---
+
+### v1.411.2
+Released: 2026-01-08T22:54:14Z
+
+## What's Changed
+
+ *  Addressing a handful of medium and low level vulnerabilities 
+
+ * Fix webhook handler to bypass workflow for now 
+
+ *  Update insurance checks
+
+ *  Adding NPC condition and hallmark phenos question 
+
+ *  Feedback from file request demo 
+
+ *  Address high and critical semgrep vulnerabilities 
+
+ *  Fixing docker image for phenotyper builder 
+
+
+---
+
+### v1.411.1
+Released: 2026-01-07T06:04:12Z
+
+
+
+---
+
+### v1.411.0
+Released: 2026-01-06T18:06:52Z
+
+## What's Changed
+
+ *  Disabling legacy fabric uploader service 
+
+
+
+---
+
+### v1.410.0
+Released: 2026-01-06T00:31:54Z
+
+## What's Changed
+
+ * CI/CD Updates
+
+ * Fix undefined error on consent lookup 
+
+ * updating urllib3 and qs dependencies 
+
+ * Update results delivery integrations
+
+ * Updating urllib3 dependencies
+
+ * Update permissions for rpa service
+
+
+
+---
+
 # Changelog - Week of January 05, 2026
 
 ## Recent Releases
