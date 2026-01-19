@@ -1,3 +1,55 @@
+# Changelog - Week of January 19, 2026
+
+## Recent Releases
+
+### v1.415.0
+Released: 2026-01-16T21:55:35Z
+
+## What's Changed
+
+ *  Deleting legacy file uploader service 
+
+ *  Suppress non-500 errors 
+
+ *  Fix error with response being used when never initialized 
+
+ * fix:  Add insurance tier reasoning to clinical docs/PWN PDF 
+
+ * Fix for box returning too many items 
+
+ * feat:  expose patient biopharma eligibility to UI 
+
+
+
+---
+
+### v1.414.1
+Released: 2026-01-14T19:57:33Z
+
+
+
+---
+
+### v1.414.0
+Released: 2026-01-13T22:45:02Z
+
+## What's Changed
+
+ *  Adding metrics for dynamic file load time and type 
+
+ * fix:  added legal name clarifications 
+
+ * Migrate all of `pg-web` to pnpm - remove `nx` usage 
+
+ * Make zygosity optional for Fabric 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of January 12, 2026
 
 ## Recent Releases
