@@ -143,7 +143,7 @@ Released: 2026-01-10T05:00:01Z
 
 ## What's Changed
 
- * Insurance related updates
+ * Insurance updates
 
 
 
@@ -154,7 +154,7 @@ Released: 2026-01-10T03:53:53Z
 
 ## What's Changed
 
- * Insurance related updates with PDFs
+ * Insurance updates
 
 
 
@@ -165,7 +165,7 @@ Released: 2026-01-09T22:59:09Z
 
 ## What's Changed
 
- * Improve automations for insurance
+ * Insurance updates
 
 
 
@@ -178,7 +178,7 @@ Released: 2026-01-09T21:17:11Z
 
  * Broad integration updates
 
- *  Dashboard Status Cards 
+ * Dashboard Status Cards 
  
  * Update Dockerfiles
 
@@ -191,6 +191,9 @@ Released: 2026-01-09T21:17:11Z
 ### v1.411.4
 Released: 2026-01-09T05:20:16Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -198,6 +201,9 @@ Released: 2026-01-09T05:20:16Z
 ### v1.411.3
 Released: 2026-01-09T01:42:25Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -207,19 +213,13 @@ Released: 2026-01-08T22:54:14Z
 
 ## What's Changed
 
- *  Addressing a handful of medium and low level vulnerabilities 
+ * Resolve vulnerabilities
 
- * Fix webhook handler to bypass workflow for now 
+ * UI bug fixes and enhancements
 
- *  Update insurance checks
+ * Update insurance checks
 
- *  Adding NPC condition and hallmark phenos question 
-
- *  Feedback from file request demo 
-
- *  Address high and critical semgrep vulnerabilities 
-
- *  Fixing docker image for phenotyper builder 
+ * Docker changes
 
 
 ---
@@ -227,6 +227,9 @@ Released: 2026-01-08T22:54:14Z
 ### v1.411.1
 Released: 2026-01-07T06:04:12Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -236,7 +239,7 @@ Released: 2026-01-06T18:06:52Z
 
 ## What's Changed
 
- *  Disabling legacy fabric uploader service 
+ *  Disabling legacy service 
 
 
 
@@ -249,16 +252,11 @@ Released: 2026-01-06T00:31:54Z
 
  * CI/CD Updates
 
- * Fix undefined error on consent lookup 
+ * Bug Fixes
 
- * updating urllib3 and qs dependencies 
+ * Update packages
 
- * Update results delivery integrations
-
- * Updating urllib3 dependencies
-
- * Update permissions for rpa service
-
+ * Backend integration updates
 
 
 ---
