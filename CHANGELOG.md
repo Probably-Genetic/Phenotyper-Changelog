@@ -1,3 +1,151 @@
+# Changelog - Week of January 26, 2026
+
+## Recent Releases
+
+### v1.419.0
+Released: 2026-01-24T08:25:49Z
+
+## What's Changed
+
+ * Add check to see if workflow is running. Create if not 
+
+
+
+---
+
+### v1.418.0
+Released: 2026-01-23T23:30:35Z
+
+## What's Changed
+
+ * Increase broad activity timeout  
+
+ * tristanmatthias/pro 8789 check for insurance after hallmark phenotypes 
+
+ * Tristanmatthias/pro 8794 add selected hallmark phenotypes to form response as hpo 
+
+ * Fix div not a valid <p> descendant error 
+
+ * Chore/better s3 logging 
+
+ *  update fabric WGS analysis 
+
+ * tristanmatthias/pro 8877 move biopharmaavailability to its own api request 
+
+ * feat:  delete patient api endpoint 
+
+
+
+---
+
+### v1.417.3
+Released: 2026-01-23T00:39:11Z
+
+
+
+---
+
+### v1.417.2
+Released: 2026-01-22T23:32:11Z
+
+
+
+---
+
+### v1.417.1
+Released: 2026-01-22T21:13:59Z
+
+
+
+---
+
+### v1.417.0
+Released: 2026-01-21T23:34:38Z
+
+## What's Changed
+
+ * Redirect `/insurance` users to the normal route version 
+
+
+
+---
+
+### v1.416.0
+Released: 2026-01-21T19:46:41Z
+
+## What's Changed
+
+ * Update insurance eligiblity paths for flow 3 
+
+ *  Updating patient files to cascade delete 
+
+ * Pull out `errorMessage` from props going to dom component 
+
+ * chore(deps): bump actions/setup-node from 6.1.0 to 6.2.0 
+
+ * rollback status bites 
+
+ *  Stop front-end from emitting an error when file request returns 404 
+
+
+
+---
+
+### v1.415.1
+Released: 2026-01-21T06:28:47Z
+
+
+
+---
+
+### v1.415.0
+Released: 2026-01-16T21:55:35Z
+
+## What's Changed
+
+ *  Deleting legacy file uploader service 
+
+ *  Suppress non-500 errors 
+
+ *  Fix error with response being used when never initialized 
+
+ * fix:  Add insurance tier reasoning to clinical docs/PWN PDF 
+
+ * Fix for box returning too many items 
+
+ * feat:  expose patient biopharma eligibility to UI 
+
+
+
+---
+
+### v1.414.1
+Released: 2026-01-14T19:57:33Z
+
+
+
+---
+
+### v1.414.0
+Released: 2026-01-13T22:45:02Z
+
+## What's Changed
+
+ *  Adding metrics for dynamic file load time and type 
+
+ * fix:  added legal name clarifications 
+
+ * Migrate all of `pg-web` to pnpm - remove `nx` usage 
+
+ * Make zygosity optional for Fabric 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of January 12, 2026
 
 ## Recent Releases
