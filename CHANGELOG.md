@@ -7,8 +7,7 @@ Released: 2026-01-24T08:25:49Z
 
 ## What's Changed
 
- * Add check to see if workflow is running. Create if not 
-
+ * Internal updates
 
 
 ---
@@ -18,22 +17,11 @@ Released: 2026-01-23T23:30:35Z
 
 ## What's Changed
 
- * Increase broad activity timeout  
+ * Backend integration updates
 
- * tristanmatthias/pro 8789 check for insurance after hallmark phenotypes 
+ * Internal updates
 
- * Tristanmatthias/pro 8794 add selected hallmark phenotypes to form response as hpo 
-
- * Fix div not a valid <p> descendant error 
-
- * Chore/better s3 logging 
-
- *  update fabric WGS analysis 
-
- * tristanmatthias/pro 8877 move biopharmaavailability to its own api request 
-
- * feat:  delete patient api endpoint 
-
+ * UI bug fixes
 
 
 ---
@@ -41,6 +29,9 @@ Released: 2026-01-23T23:30:35Z
 ### v1.417.3
 Released: 2026-01-23T00:39:11Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -48,6 +39,9 @@ Released: 2026-01-23T00:39:11Z
 ### v1.417.2
 Released: 2026-01-22T23:32:11Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -55,6 +49,9 @@ Released: 2026-01-22T23:32:11Z
 ### v1.417.1
 Released: 2026-01-22T21:13:59Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -64,8 +61,7 @@ Released: 2026-01-21T23:34:38Z
 
 ## What's Changed
 
- * Redirect `/insurance` users to the normal route version 
-
+ * UI updates
 
 
 ---
@@ -75,17 +71,13 @@ Released: 2026-01-21T19:46:41Z
 
 ## What's Changed
 
- * Update insurance eligiblity paths for flow 3 
+ * Internal updates
 
- *  Updating patient files to cascade delete 
+ * Rollback UI changes
 
- * Pull out `errorMessage` from props going to dom component 
+ * UI updates
 
- * chore(deps): bump actions/setup-node from 6.1.0 to 6.2.0 
-
- * rollback status bites 
-
- *  Stop front-end from emitting an error when file request returns 404 
+ * Update package versions
 
 
 
@@ -94,6 +86,9 @@ Released: 2026-01-21T19:46:41Z
 ### v1.415.1
 Released: 2026-01-21T06:28:47Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -103,18 +98,11 @@ Released: 2026-01-16T21:55:35Z
 
 ## What's Changed
 
- *  Deleting legacy file uploader service 
+ * Bug fixes
 
- *  Suppress non-500 errors 
+ * Remove depricated services
 
- *  Fix error with response being used when never initialized 
-
- * fix:  Add insurance tier reasoning to clinical docs/PWN PDF 
-
- * Fix for box returning too many items 
-
- * feat:  expose patient biopharma eligibility to UI 
-
+ * UI updates
 
 
 ---
@@ -122,6 +110,9 @@ Released: 2026-01-16T21:55:35Z
 ### v1.414.1
 Released: 2026-01-14T19:57:33Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -131,14 +122,11 @@ Released: 2026-01-13T22:45:02Z
 
 ## What's Changed
 
- *  Adding metrics for dynamic file load time and type 
+ * Additional metrics
 
- * fix:  added legal name clarifications 
+ * Backend updates
 
- * Migrate all of `pg-web` to pnpm - remove `nx` usage 
-
- * Make zygosity optional for Fabric 
-
+ * Upgrade internal tooling
 
 
 ---
@@ -1249,7 +1237,6 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
-
 
 
 
