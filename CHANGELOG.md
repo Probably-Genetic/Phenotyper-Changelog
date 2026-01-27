@@ -1,3 +1,139 @@
+# Changelog - Week of January 26, 2026
+
+## Recent Releases
+
+### v1.419.0
+Released: 2026-01-24T08:25:49Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.418.0
+Released: 2026-01-23T23:30:35Z
+
+## What's Changed
+
+ * Backend integration updates
+
+ * Internal updates
+
+ * UI bug fixes
+
+
+---
+
+### v1.417.3
+Released: 2026-01-23T00:39:11Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.417.2
+Released: 2026-01-22T23:32:11Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.417.1
+Released: 2026-01-22T21:13:59Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.417.0
+Released: 2026-01-21T23:34:38Z
+
+## What's Changed
+
+ * UI updates
+
+
+---
+
+### v1.416.0
+Released: 2026-01-21T19:46:41Z
+
+## What's Changed
+
+ * Internal updates
+
+ * Rollback UI changes
+
+ * UI updates
+
+ * Update package versions
+
+
+
+---
+
+### v1.415.1
+Released: 2026-01-21T06:28:47Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.415.0
+Released: 2026-01-16T21:55:35Z
+
+## What's Changed
+
+ * Bug fixes
+
+ * Remove depricated services
+
+ * UI updates
+
+
+---
+
+### v1.414.1
+Released: 2026-01-14T19:57:33Z
+
+## What's Changed
+
+ * Internal updates
+
+
+---
+
+### v1.414.0
+Released: 2026-01-13T22:45:02Z
+
+## What's Changed
+
+ * Additional metrics
+
+ * Backend updates
+
+ * Upgrade internal tooling
+
+
+---
+
+
+---
+
 # Changelog - Week of January 12, 2026
 
 ## Recent Releases
@@ -7,7 +143,7 @@ Released: 2026-01-10T05:00:01Z
 
 ## What's Changed
 
- * Insurance related updates
+ * Insurance updates
 
 
 
@@ -18,7 +154,7 @@ Released: 2026-01-10T03:53:53Z
 
 ## What's Changed
 
- * Insurance related updates with PDFs
+ * Insurance updates
 
 
 
@@ -29,7 +165,7 @@ Released: 2026-01-09T22:59:09Z
 
 ## What's Changed
 
- * Improve automations for insurance
+ * Insurance updates
 
 
 
@@ -42,7 +178,7 @@ Released: 2026-01-09T21:17:11Z
 
  * Broad integration updates
 
- *  Dashboard Status Cards 
+ * Dashboard Status Cards 
  
  * Update Dockerfiles
 
@@ -55,6 +191,9 @@ Released: 2026-01-09T21:17:11Z
 ### v1.411.4
 Released: 2026-01-09T05:20:16Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -62,6 +201,9 @@ Released: 2026-01-09T05:20:16Z
 ### v1.411.3
 Released: 2026-01-09T01:42:25Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -71,19 +213,13 @@ Released: 2026-01-08T22:54:14Z
 
 ## What's Changed
 
- *  Addressing a handful of medium and low level vulnerabilities 
+ * Resolve vulnerabilities
 
- * Fix webhook handler to bypass workflow for now 
+ * UI bug fixes and enhancements
 
- *  Update insurance checks
+ * Update insurance checks
 
- *  Adding NPC condition and hallmark phenos question 
-
- *  Feedback from file request demo 
-
- *  Address high and critical semgrep vulnerabilities 
-
- *  Fixing docker image for phenotyper builder 
+ * Docker changes
 
 
 ---
@@ -91,6 +227,9 @@ Released: 2026-01-08T22:54:14Z
 ### v1.411.1
 Released: 2026-01-07T06:04:12Z
 
+## What's Changed
+
+ * Internal updates
 
 
 ---
@@ -100,7 +239,7 @@ Released: 2026-01-06T18:06:52Z
 
 ## What's Changed
 
- *  Disabling legacy fabric uploader service 
+ *  Disabling legacy service 
 
 
 
@@ -113,16 +252,11 @@ Released: 2026-01-06T00:31:54Z
 
  * CI/CD Updates
 
- * Fix undefined error on consent lookup 
+ * Bug Fixes
 
- * updating urllib3 and qs dependencies 
+ * Update packages
 
- * Update results delivery integrations
-
- * Updating urllib3 dependencies
-
- * Update permissions for rpa service
-
+ * Backend integration updates
 
 
 ---
@@ -1101,7 +1235,6 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
-
 
 
 
