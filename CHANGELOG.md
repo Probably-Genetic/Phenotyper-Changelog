@@ -7,17 +7,9 @@ Released: 2026-01-31T02:51:19Z
 
 ## What's Changed
 
- * Run pre-commit on only staged files (JUST HYDRA) 
-
- *  Patient switch component first pass 
-
- * Disable v2 user api on frontend until release 
-
- * tristanmatthias/pro 9033 mutual exclusion set other program to opted out when a flow 
-
- * feat:  add insurance interstitial 
-
-
+ * Internal tooling updates
+ * Front-end updates to prepare for multi patient per user support
+ * add insurance interstitial that conditionally appears after new user complete the intake processes
 
 ---
 
@@ -26,9 +18,7 @@ Released: 2026-01-30T19:02:37Z
 
 ## What's Changed
 
- *  Disabling stripe init 
-
-
+ *  Disabling stripe in front-end since it isn't used yet and is causing some errors to pop-up 
 
 ---
 
@@ -37,9 +27,7 @@ Released: 2026-01-30T17:17:37Z
 
 ## What's Changed
 
- * Fix EHR search 
-
-
+ * Fix bug in EHR search 
 
 ---
 
@@ -48,15 +36,8 @@ Released: 2026-01-29T19:47:50Z
 
 ## What's Changed
 
- * fix/add cascade delete patient consent 
-
- *  Identity stripe modal hooks 
-
- *  Identity get verifications hook 
-
- *  Adding model for NPC 
-
-
+ *  Adding support for stripe identity validation in front-end 
+ *  Adding support for new disease program 
 
 ---
 
@@ -67,15 +48,9 @@ Released: 2026-01-28T18:59:16Z
 
  * Fix PWN management command 
 
- *   Adding new models and api for creating identity verification 
-
- * Remove panel analysis from WGS tests 
-
- *  Api to get user identity verifications 
-
- *  Symptom checker 1-many existing APIs  
-
-
+ *  Adding new models and apis for creating identity verification 
+ *  Remove panel analysis from WGS tests 
+ *  Backend changes to support a user being able to manage multiple patients  
 
 ---
 
@@ -84,19 +59,10 @@ Released: 2026-01-27T18:00:46Z
 
 ## What's Changed
 
- * switch pg f to use pnpm 
-
- * Update pwn management command 
-
- * Fix shipping address info for broad create order 
-
- * chore(deps): bump actions/setup-python from 6.1.0 to 6.2.0 
-
- *  Maybe fix e.target issue + fix request aborted error 
-
- * Fix missing events on order for insurance + other insurance related  
-
-
+ * Switch to use pnpm 
+ * Update internal tooling
+ * Fix bug with supplying to proper shipping address to Broad institute
+ * Fix bugs in insurance workflow  
 
 ---
 
@@ -105,15 +71,8 @@ Released: 2026-01-26T20:10:36Z
 
 ## What's Changed
 
- * Add workflow is running check before signal 
-
- * Fix PWN results uploader admin 
-
- * Fixing changelog ask time to be 9am PST not UTC 
-
- * feat:  insurance-eligibility-redirect feature flag 
-
-
+ * Internal Updates and tooling bug fixes
+ * Fixing changelog ask time to be 9am PST not UTC  
 
 ---
 
@@ -1357,6 +1316,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
