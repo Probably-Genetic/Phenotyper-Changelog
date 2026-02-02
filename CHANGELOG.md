@@ -1,3 +1,84 @@
+# Changelog - Week of February 02, 2026
+
+## Recent Releases
+
+### v1.424.0
+Released: 2026-01-31T02:51:19Z
+
+## What's Changed
+
+ * Internal tooling updates
+ * Front-end updates to prepare for multi patient per user support
+ * add insurance interstitial that conditionally appears after new user complete the intake processes
+
+---
+
+### v1.423.2
+Released: 2026-01-30T19:02:37Z
+
+## What's Changed
+
+ *  Disabling stripe in front-end since it isn't used yet and is causing some errors to pop-up 
+
+---
+
+### v1.423.1
+Released: 2026-01-30T17:17:37Z
+
+## What's Changed
+
+ * Fix bug in EHR search 
+
+---
+
+### v1.423.0
+Released: 2026-01-29T19:47:50Z
+
+## What's Changed
+
+ *  Adding support for stripe identity validation in front-end 
+ *  Adding support for new disease program 
+
+---
+
+### v1.422.0
+Released: 2026-01-28T18:59:16Z
+
+## What's Changed
+
+ * Fix PWN management command 
+
+ *  Adding new models and apis for creating identity verification 
+ *  Remove panel analysis from WGS tests 
+ *  Backend changes to support a user being able to manage multiple patients  
+
+---
+
+### v1.421.0
+Released: 2026-01-27T18:00:46Z
+
+## What's Changed
+
+ * Switch to use pnpm 
+ * Update internal tooling
+ * Fix bug with supplying to proper shipping address to Broad institute
+ * Fix bugs in insurance workflow  
+
+---
+
+### v1.420.0
+Released: 2026-01-26T20:10:36Z
+
+## What's Changed
+
+ * Internal Updates and tooling bug fixes
+ * Fixing changelog ask time to be 9am PST not UTC  
+
+---
+
+
+---
+
 # Changelog - Week of January 26, 2026
 
 ## Recent Releases
@@ -1235,6 +1316,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
