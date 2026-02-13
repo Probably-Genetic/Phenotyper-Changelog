@@ -14,23 +14,19 @@ Released: 2026-02-04T22:14:33Z
 
 ## What's Changed
 
- * Fix insurance opt-out tracking 
+ * Fix insurance tracking 
 
  * Fix Sentry sourcemaps, optimize bundle sizes 
 
  *  Add patient to existing user backend 
 
- *  Ran update on everything 
+ *  Update dependencies
 
- * lchore] More updates! 
+ *  Sentry testing updates
 
- *  Stopping sentry from initalizing in unit tests 
+ *  Fix node tooling
 
- *  Fix pnpm workspace + package.json versioning 
-
- *  Reverting front-end update to fix some styling issues 
-
- * tristanmatthias/pro 9138 backfill patients that signed up for biopharma and opt them 
+ *  Reverting front-end update to fix some styling issues
 
 
 
@@ -1389,6 +1385,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
