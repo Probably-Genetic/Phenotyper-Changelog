@@ -1,3 +1,72 @@
+# Changelog - Week of February 09, 2026
+
+## Recent Releases
+
+### v1.427.1
+Released: 2026-02-05T17:28:34Z
+
+
+
+---
+
+### v1.427.0
+Released: 2026-02-04T22:14:33Z
+
+## What's Changed
+
+ * Fix insurance tracking 
+
+ * Fix Sentry sourcemaps, optimize bundle sizes 
+
+ *  Add patient to existing user backend 
+
+ *  Update dependencies
+
+ *  Sentry testing updates
+
+ *  Fix node tooling
+
+ *  Reverting front-end update to fix some styling issues
+
+
+
+---
+
+### v1.426.0
+Released: 2026-02-03T17:13:39Z
+
+## What's Changed
+
+ *  1-many patient switcher on dashboard 
+
+ *  Adding Danon Disease 
+
+
+
+---
+
+### v1.425.0
+Released: 2026-02-03T01:22:43Z
+
+## What's Changed
+
+ * Identity webhook in progress status 
+
+ * fix:  scroll to top on insurance interstitial 
+
+ *  Updating copy of identity validation cards 
+
+ *  Updating urllib3 
+
+ *  Bugfix: NPC Smart Filter not firing 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of February 02, 2026
 
 ## Recent Releases
@@ -1316,6 +1385,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
