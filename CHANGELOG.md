@@ -1,3 +1,105 @@
+# Changelog - Week of February 16, 2026
+
+## Recent Releases
+
+### v1.430.1
+Released: 2026-02-14T00:45:22Z
+
+## What's Changed
+
+ * Update docker actions 
+
+
+
+---
+
+### v1.430.0
+Released: 2026-02-13T22:45:24Z
+
+## What's Changed
+
+ *  Event handling upgrades 
+
+ *  Incentives analytics 
+
+ *  Adding api to retrive incentive payment history 
+
+ * feat: add Text component 
+
+ *  Adding FA smart filter qualified 
+
+
+
+---
+
+### v1.429.0
+Released: 2026-02-13T17:19:12Z
+
+## What's Changed
+
+ *  Swap Typeface 
+
+ *  Adding Friedreich Ataxia 
+
+ *  Adding new model for inentive payments 
+
+ * Add new colors to tailwind configs 
+
+
+
+---
+
+### v1.428.0
+Released: 2026-02-12T17:16:23Z
+
+## What's Changed
+
+ *  Add create patient frontend 
+
+ * Update e2e tests for interstitial 
+
+ *  Switch back to useQuery. Suspend doesnt support the enabled config 
+
+ *  User file upload event handling 
+
+ *  Updating front-end 
+
+ *  Only run typecheck on commited files (pre-commit) 
+
+ *  chore: Fix login redirect 
+
+ *  demo-pe is now demo-chat 
+
+ *  Identity metrics 
+
+ * Reduce tracing+perf to avoid Sentry overage 
+
+ * Update .trivyignore 
+
+ *  Connect all of the add patient pieces 
+
+ * Add timeouts and heartbeat on broad downloader 
+
+ *  Adding identity verification section component for account page 
+
+ *  Fix unexpected `None` on EHR 
+
+ * : Document Validation Model 
+
+ *  Adding amazon library with incentives integration 
+
+ *  Fix asyncio bug 
+
+## New Contributors
+
+ * @eng-probably-genetic made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/3964
+
+
+---
+
+
+---
+
 # Changelog - Week of February 09, 2026
 
 ## Recent Releases
