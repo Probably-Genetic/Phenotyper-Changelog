@@ -1,3 +1,128 @@
+# Changelog - Week of February 23, 2026
+
+## Recent Releases
+
+### v1.433.0
+Released: 2026-02-20T21:11:24Z
+
+## What's Changed
+
+ * Updating hydra tooling to better support async
+ * Updates to identity verification service
+ * Incentive updates
+ * Bugfixes for patient deletes
+ * New address lookup component
+
+---
+
+### v1.432.0
+Released: 2026-02-19T23:50:59Z
+
+## What's Changed
+
+ * Component UI/UX update for new questions and accessibility
+ * Removing trailing slash from identity forwarding symptom-checker api 
+ * New question API integration
+ * New events
+ * Bugfixes for identity and add patient features
+ * Sequencing updates
+ * chore(deps): bump aquasecurity/trivy-action from 0.33.1 to 0.34.0 
+ * Bugfix for hallmark phenotypes
+ * Collapsible dashboard menu on mobile 
+
+---
+
+### v1.431.2
+Released: 2026-02-19T21:54:44Z
+
+- Removing trailing slash from identity forwarding symptom-checker api — @probably-thomas  
+- Refactoring and improving errors in identity service — @probably-thomas  
+-  Identity fix ups 1 — @probably-thomas  
+-  Identity loading button — @probably-thomas  
+
+
+---
+
+### v1.431.1
+Released: 2026-02-18T04:17:57Z
+
+
+
+---
+
+### v1.431.0
+Released: 2026-02-17T21:31:08Z
+
+## What's Changed
+
+ *  Identity additional error handling 
+
+ *  Identity account page section 
+
+ *  Adding test data to test stripe identity in dev/staging 
+
+ *  Fix for patient age in chat summary 
+
+---
+
+### v1.430.1
+Released: 2026-02-14T00:45:22Z
+
+## What's Changed
+
+ * Update docker actions 
+
+
+
+---
+
+### v1.430.0
+Released: 2026-02-13T22:45:24Z
+
+## What's Changed
+
+ * Event handling upgrades 
+ * Incentives analytics 
+ * Incentive payment history updates
+ * New component updates
+
+---
+
+### v1.429.0
+Released: 2026-02-13T17:19:12Z
+
+## What's Changed
+
+ * UX/UI Design updates
+ * Adding new model for inentive payments 
+
+---
+
+### v1.428.0
+Released: 2026-02-12T17:16:23Z
+
+## What's Changed
+
+ * Updates to add multiple patients 
+ * Update E2E testing
+ * Frontend query logic updates
+ * User file upload event handling 
+ * Login fixes
+ *  Identity metrics 
+ * Sentry and internal tooling updates
+ * Adjust settings for temporal tasks 
+ *  Adding identity verification section component for account page 
+ *  Fix unexpected `None` on EHR 
+ * Incentives integration updates
+ * Async bugfixes
+
+## New Contributors
+
+ * @eng-probably-genetic made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/3964
+
+
+---
+
 # Changelog - Week of February 09, 2026
 
 ## Recent Releases
@@ -38,9 +163,6 @@ Released: 2026-02-03T17:13:39Z
 ## What's Changed
 
  *  1-many patient switcher on dashboard 
-
- *  Adding Danon Disease 
-
 
 
 ---
@@ -1385,6 +1507,8 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
+
 
 
 
