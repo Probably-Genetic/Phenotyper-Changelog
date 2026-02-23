@@ -7,19 +7,11 @@ Released: 2026-02-20T21:11:24Z
 
 ## What's Changed
 
- *  Updating hydra repl to support async db requests 
-
- *  Adding internal API for revoking identity verification 
-
- *  Refactor identity component and add additional states 
-
- *  Adding support for showing incentive history to user 
-
- * fix: add cascade delete to patient consent 
-
- * feat:  add AddressLookup component 
-
-
+ * Updating hydra tooling to better support async
+ * Updates to identity verification service
+ * Incentive updates
+ * Bugfixes for patient deletes
+ * New address lookup component
 
 ---
 
@@ -28,47 +20,15 @@ Released: 2026-02-19T23:50:59Z
 
 ## What's Changed
 
- *  Removing trailing slash from identity forwarding symptom-checker api 
-
- *  Add question components 
-
- * Backend-only changes for new flow questioner 
-
- *  Changelog readme 
-
- * Add event for pwn approved 
-
- * style:  Headline size updates 
-
- *  Refactoring and improving errors in identity service 
-
- *  Global Button Styling 
-
- * A few 1-many followups 
-
- *  Identity fix ups 1 
-
- *  Add danon disease to trainx 
-
- * SS: Only update PHI on fabric cases that exist and are open 
-
- *  Global Input styling 
-
+ * Component UI/UX update for new questions and accessibility
+ * Removing trailing slash from identity forwarding symptom-checker api 
+ * New question API integration
+ * New events
+ * Bugfixes for identity and add patient features
+ * Sequencing updates
  * chore(deps): bump aquasecurity/trivy-action from 0.33.1 to 0.34.0 
-
- * : Document Validation service and action 
-
- *  Adding readme to idnetity hydra app 
-
- *  Identity loading button 
-
- * fix:  hallmark phenotype HPO mapping 
-
- *  1 many followups 
-
+ * Bugfix for hallmark phenotypes
  * Collapsible dashboard menu on mobile 
-
-
 
 ---
 
@@ -103,8 +63,6 @@ Released: 2026-02-17T21:31:08Z
 
  *  Fix for patient age in chat summary 
 
-
-
 ---
 
 ### v1.430.1
@@ -123,17 +81,10 @@ Released: 2026-02-13T22:45:24Z
 
 ## What's Changed
 
- *  Event handling upgrades 
-
- *  Incentives analytics 
-
- *  Adding api to retrive incentive payment history 
-
- * feat: add Text component 
-
- *  Adding FA smart filter qualified 
-
-
+ * Event handling upgrades 
+ * Incentives analytics 
+ * Incentive payment history updates
+ * New component updates
 
 ---
 
@@ -142,15 +93,8 @@ Released: 2026-02-13T17:19:12Z
 
 ## What's Changed
 
- *  Swap Typeface 
-
- *  Adding Friedreich Ataxia 
-
- *  Adding new model for inentive payments 
-
- * Add new colors to tailwind configs 
-
-
+ * UX/UI Design updates
+ * Adding new model for inentive payments 
 
 ---
 
@@ -159,41 +103,18 @@ Released: 2026-02-12T17:16:23Z
 
 ## What's Changed
 
- *  Add create patient frontend 
-
- * Update e2e tests for interstitial 
-
- *  Switch back to useQuery. Suspend doesnt support the enabled config 
-
- *  User file upload event handling 
-
- *  Updating front-end 
-
- *  Only run typecheck on commited files (pre-commit) 
-
- *  chore: Fix login redirect 
-
- *  demo-pe is now demo-chat 
-
+ * Updates to add multiple patients 
+ * Update E2E testing
+ * Frontend query logic updates
+ * User file upload event handling 
+ * Login fixes
  *  Identity metrics 
-
- * Reduce tracing+perf to avoid Sentry overage 
-
- * Update .trivyignore 
-
- *  Connect all of the add patient pieces 
-
- * Add timeouts and heartbeat on broad downloader 
-
+ * Sentry and internal tooling updates
+ * Adjust settings for temporal tasks 
  *  Adding identity verification section component for account page 
-
  *  Fix unexpected `None` on EHR 
-
- * : Document Validation Model 
-
- *  Adding amazon library with incentives integration 
-
- *  Fix asyncio bug 
+ * Incentives integration updates
+ * Async bugfixes
 
 ## New Contributors
 
@@ -245,9 +166,6 @@ Released: 2026-02-03T17:13:39Z
 ## What's Changed
 
  *  1-many patient switcher on dashboard 
-
- *  Adding Danon Disease 
-
 
 
 ---
@@ -1592,6 +1510,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
