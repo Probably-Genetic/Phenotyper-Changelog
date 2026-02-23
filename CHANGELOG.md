@@ -123,9 +123,6 @@ Released: 2026-02-12T17:16:23Z
 
 ---
 
-
----
-
 # Changelog - Week of February 09, 2026
 
 ## Recent Releases
@@ -1510,6 +1507,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
