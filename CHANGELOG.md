@@ -1,3 +1,233 @@
+# Changelog - Week of March 09, 2026
+
+## Recent Releases
+
+### v1.443.1
+Released: 2026-03-06T20:48:43Z
+
+
+
+---
+
+### v1.443.0
+Released: 2026-03-04T19:52:03Z
+
+## What's Changed
+
+ * Add dummy task to clear sqs queue 
+
+ *  Adding incentive service id to incentive made metric 
+
+ *  adding SQLAlchemy state transition abstract model 
+
+
+
+---
+
+### v1.442.0
+Released: 2026-03-04T00:18:46Z
+
+## What's Changed
+
+ * Renaming variable to have unit 
+
+ *  Removing legacy code 
+
+ * Reduce phenotyper image size from 6.54GB -> 2.88GB 
+
+ * Revert Symptom-checker Dockerfile 
+
+ *  Update python multipart 
+
+ * Fix error with invalid tables in genetic result pdfs 
+
+ * Add keyboard navigation to sidebar, styling 
+
+ *  Adding mark qualified event 
+
+
+
+---
+
+### v1.441.0
+Released: 2026-03-02T18:52:11Z
+
+## What's Changed
+
+ * More WCAG intake udpates 
+
+ *  Specify sequencing platform for all fabric orders 
+
+ *  Adding timeout to django admin sessions 
+
+ * Fix missing line to allow for cron trigger 
+
+ * chore(deps): bump actions/upload-artifact from 6 to 7 
+
+ * Update s3 search script to search more things 
+
+ * WCAG intake updates 
+
+
+
+---
+
+### v1.440.0
+Released: 2026-02-28T01:40:54Z
+
+## What's Changed
+
+ * Add hpos to WES and WGS 
+
+
+
+---
+
+### v1.439.0
+Released: 2026-02-28T00:18:59Z
+
+## What's Changed
+
+ * New Github actions for auto E2E testing on merge and Docker image builds 
+
+ *  Fixing patient to user copy 
+
+ * GPE-429 Add GetStarted intro page before flow 
+
+ * Fix user state not getting resolved properly 
+
+ * Update critical nltk vuln 
+
+ * : Update input placeholder colors 
+
+ * : update insurance completion pricing experiment UI 
+
+ * Fix missing `/` in hydra call 
+
+
+
+---
+
+### v1.438.1
+Released: 2026-02-27T07:19:17Z
+
+
+
+---
+
+### v1.438.0
+Released: 2026-02-26T22:58:17Z
+
+## What's Changed
+
+ * Document Validation status card 
+
+ *  Update genetic history API so that it does not wipe out all changes, … 
+
+ * Fix state management in insurance + multi-patient, add/update E2E  
+
+ * Fix frontend ids getting cast to int 
+
+ *  Prevent updating order when already on report ready 
+
+
+
+---
+
+### v1.437.0
+Released: 2026-02-26T00:38:07Z
+
+## What's Changed
+
+ * Update remaining packages  
+
+ * Backend improvements to support Document Validation 
+
+ *  Update cryptography 
+
+ *  adding edit history to django admin (comliance) 
+
+
+
+---
+
+### v1.436.0
+Released: 2026-02-25T00:00:29Z
+
+## What's Changed
+
+ *  Django admin improvements, PWN uploader feedback 
+
+ * Fix signup and chat form response lookups for new users 
+
+ * Update cryptography lib  
+
+ * Debranch Alembic history 
+
+ *  Update pip 
+
+ * fix:  ensure all user data is deleted on delete (not samples) 
+
+ * cascade delete to document_validation_result 
+
+ * Update deps for werkeug vuln 
+
+ * : migrate intake progress bar to prime-dragon 
+
+ * : intake footer updates 
+
+ * : Update intake application review styling 
+
+ *  Incentive e2e tests 
+
+ * Remove top and bottom gradients, fix top z-index 
+
+
+
+---
+
+### v1.434.0
+Released: 2026-02-23T19:37:24Z
+
+## What's Changed
+
+ * : fix incorrect use of order_reference_id 
+
+ *  Add question context, adjust existing navigation context 
+
+ * : Document Validation endpoints 
+
+ *  Small UI fix from identity QA round 1 
+
+ * Autocomplete Styling 
+
+ *  Addressing PR comments 
+
+ *  Adding delete identity verification api and to patient delete 
+
+ * chore(deps): bump aquasecurity/trivy-action from 0.34.0 to 0.34.1 
+
+ *  turn off smart filter for AM offers 
+
+ * WCAG update jumbobutton styling 
+
+ *  Adding workflow to mark and pay incentives 
+
+ *  Adding e2e tests for identity verification 
+
+ * fix incorrect font size for legacy buttons 
+
+ * WCAG Update intake form 
+
+ *  Updating copy 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of February 23, 2026
 
 ## Recent Releases
