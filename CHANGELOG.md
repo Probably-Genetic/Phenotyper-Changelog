@@ -5,7 +5,7 @@
 ### v1.443.1
 Released: 2026-03-06T20:48:43Z
 
-
+ * Bug fixes
 
 ---
 
@@ -14,38 +14,24 @@ Released: 2026-03-04T19:52:03Z
 
 ## What's Changed
 
- * Add dummy task to clear sqs queue 
-
- *  Adding incentive service id to incentive made metric 
-
- *  adding SQLAlchemy state transition abstract model 
-
-
+ * Internal tooling updates
 
 ---
 
 ### v1.442.0
 Released: 2026-03-04T00:18:46Z
 
-## What's Changed
+## What's Changed 
 
- * Renaming variable to have unit 
+ * Removing legacy code 
 
- *  Removing legacy code 
+ * Reducing size of our docker builds 
 
- * Reduce phenotyper image size from 6.54GB -> 2.88GB 
+ * Update dependency packages to address external vulnerabilities 
 
- * Revert Symptom-checker Dockerfile 
+ * Fixing bug in PDF parsing 
 
- *  Update python multipart 
-
- * Fix error with invalid tables in genetic result pdfs 
-
- * Add keyboard navigation to sidebar, styling 
-
- *  Adding mark qualified event 
-
-
+ * Add keyboard navigation to dashboard sidebar 
 
 ---
 
@@ -54,21 +40,11 @@ Released: 2026-03-02T18:52:11Z
 
 ## What's Changed
 
- * More WCAG intake udpates 
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard  
 
- *  Specify sequencing platform for all fabric orders 
+ * Dependency updates
 
- *  Adding timeout to django admin sessions 
-
- * Fix missing line to allow for cron trigger 
-
- * chore(deps): bump actions/upload-artifact from 6 to 7 
-
- * Update s3 search script to search more things 
-
- * WCAG intake updates 
-
-
+ * Internal tooling updates 
 
 ---
 
@@ -77,9 +53,7 @@ Released: 2026-02-28T01:40:54Z
 
 ## What's Changed
 
- * Add hpos to WES and WGS 
-
-
+ * Internal Update 
 
 ---
 
@@ -88,22 +62,13 @@ Released: 2026-02-28T00:18:59Z
 
 ## What's Changed
 
- * New Github actions for auto E2E testing on merge and Docker image builds 
-
- *  Fixing patient to user copy 
-
- * GPE-429 Add GetStarted intro page before flow 
+ * Add get started intro page at the begining of intake 
 
  * Fix user state not getting resolved properly 
 
- * Update critical nltk vuln 
+ * Update dependencies to address external vulnerabilities 
 
- * : Update input placeholder colors 
-
- * : update insurance completion pricing experiment UI 
-
- * Fix missing `/` in hydra call 
-
+ * update insurance completion pricing experiment UI 
 
 
 ---
@@ -111,7 +76,7 @@ Released: 2026-02-28T00:18:59Z
 ### v1.438.1
 Released: 2026-02-27T07:19:17Z
 
-
+ * Internal updates
 
 ---
 
@@ -120,15 +85,13 @@ Released: 2026-02-26T22:58:17Z
 
 ## What's Changed
 
- * Document Validation status card 
+ * Adding UI component for Document Validation status card 
 
- *  Update genetic history API so that it does not wipe out all changes, … 
+ * Fixing bug where genetic history was sometimes deleted when new changes came in
 
- * Fix state management in insurance + multi-patient, add/update E2E  
+ * Fix state management in insurance to prepare for multi-patient per user support  
 
- * Fix frontend ids getting cast to int 
-
- *  Prevent updating order when already on report ready 
+ * Fix sequencing service bug
 
 
 
@@ -139,14 +102,9 @@ Released: 2026-02-26T00:38:07Z
 
 ## What's Changed
 
- * Update remaining packages  
+ * Update dependencies to address external vulnerabilities    
 
  * Backend improvements to support Document Validation 
-
- *  Update cryptography 
-
- *  adding edit history to django admin (comliance) 
-
 
 
 ---
@@ -156,32 +114,11 @@ Released: 2026-02-25T00:00:29Z
 
 ## What's Changed
 
- *  Django admin improvements, PWN uploader feedback 
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard 
 
- * Fix signup and chat form response lookups for new users 
+ * Bug fix to get the correct patient now that a single user can have multiple patients 
 
- * Update cryptography lib  
-
- * Debranch Alembic history 
-
- *  Update pip 
-
- * fix:  ensure all user data is deleted on delete (not samples) 
-
- * cascade delete to document_validation_result 
-
- * Update deps for werkeug vuln 
-
- * : migrate intake progress bar to prime-dragon 
-
- * : intake footer updates 
-
- * : Update intake application review styling 
-
- *  Incentive e2e tests 
-
- * Remove top and bottom gradients, fix top z-index 
-
+ * Update dependencies to address external vulnerabilities  
 
 
 ---
@@ -191,35 +128,11 @@ Released: 2026-02-23T19:37:24Z
 
 ## What's Changed
 
- * : fix incorrect use of order_reference_id 
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard
 
- *  Add question context, adjust existing navigation context 
+ * Small UI updates for the identity verification feature
 
- * : Document Validation endpoints 
-
- *  Small UI fix from identity QA round 1 
-
- * Autocomplete Styling 
-
- *  Addressing PR comments 
-
- *  Adding delete identity verification api and to patient delete 
-
- * chore(deps): bump aquasecurity/trivy-action from 0.34.0 to 0.34.1 
-
- *  turn off smart filter for AM offers 
-
- * WCAG update jumbobutton styling 
-
- *  Adding workflow to mark and pay incentives 
-
- *  Adding e2e tests for identity verification 
-
- * fix incorrect font size for legacy buttons 
-
- * WCAG Update intake form 
-
- *  Updating copy 
+ * Improving address autocommplete styling   
 
 
 
@@ -1737,6 +1650,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
