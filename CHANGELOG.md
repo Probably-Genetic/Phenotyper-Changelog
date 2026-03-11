@@ -1,3 +1,146 @@
+# Changelog - Week of March 09, 2026
+
+## Recent Releases
+
+### v1.443.1
+Released: 2026-03-06T20:48:43Z
+
+ * Bug fixes
+
+---
+
+### v1.443.0
+Released: 2026-03-04T19:52:03Z
+
+## What's Changed
+
+ * Internal tooling updates
+
+---
+
+### v1.442.0
+Released: 2026-03-04T00:18:46Z
+
+## What's Changed 
+
+ * Removing legacy code 
+
+ * Reducing size of our docker builds 
+
+ * Update dependency packages to address external vulnerabilities 
+
+ * Fixing bug in PDF parsing 
+
+ * Add keyboard navigation to dashboard sidebar 
+
+---
+
+### v1.441.0
+Released: 2026-03-02T18:52:11Z
+
+## What's Changed
+
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard  
+
+ * Dependency updates
+
+ * Internal tooling updates 
+
+---
+
+### v1.440.0
+Released: 2026-02-28T01:40:54Z
+
+## What's Changed
+
+ * Internal Update 
+
+---
+
+### v1.439.0
+Released: 2026-02-28T00:18:59Z
+
+## What's Changed
+
+ * Add get started intro page at the begining of intake 
+
+ * Fix user state not getting resolved properly 
+
+ * Update dependencies to address external vulnerabilities 
+
+ * update insurance completion pricing experiment UI 
+
+
+---
+
+### v1.438.1
+Released: 2026-02-27T07:19:17Z
+
+ * Internal updates
+
+---
+
+### v1.438.0
+Released: 2026-02-26T22:58:17Z
+
+## What's Changed
+
+ * Adding UI component for Document Validation status card 
+
+ * Fixing bug where genetic history was sometimes deleted when new changes came in
+
+ * Fix state management in insurance to prepare for multi-patient per user support  
+
+ * Fix sequencing service bug
+
+
+
+---
+
+### v1.437.0
+Released: 2026-02-26T00:38:07Z
+
+## What's Changed
+
+ * Update dependencies to address external vulnerabilities    
+
+ * Backend improvements to support Document Validation 
+
+
+---
+
+### v1.436.0
+Released: 2026-02-25T00:00:29Z
+
+## What's Changed
+
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard 
+
+ * Bug fix to get the correct patient now that a single user can have multiple patients 
+
+ * Update dependencies to address external vulnerabilities  
+
+
+---
+
+### v1.434.0
+Released: 2026-02-23T19:37:24Z
+
+## What's Changed
+
+ * Updates to front-end to follow Web Content Accessibility Guidelines (WCAG) standard
+
+ * Small UI updates for the identity verification feature
+
+ * Improving address autocommplete styling   
+
+
+
+---
+
+
+---
+
 # Changelog - Week of February 23, 2026
 
 ## Recent Releases
@@ -1507,6 +1650,7 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
+
 
 
 
