@@ -7,7 +7,7 @@ Released: 2026-03-12T23:27:23Z
 
 ## What's Changed
 
- *  Update SF and model versions 
+ *  Internal changes
 
 
 
@@ -18,8 +18,7 @@ Released: 2026-03-12T01:54:34Z
 
 ## What's Changed
 
- * Insurance hotfix for duo + trio 
-
+ * UI hotfix
 
 
 ---
@@ -29,15 +28,13 @@ Released: 2026-03-11T21:33:43Z
 
 ## What's Changed
 
- * feat(intake): add Angela Cabrera to physician referral dropdown 
+ * Fix Sequencing Service bug
 
- * Unstick FTD Orders 
+ * API updates
 
- *  EventHandling - Adding param for list of action errors to ignore (default = ``) 
+ * Database changes
 
- * Add self reported models to alembic 
-
- * additional user feedback + some new styling on the file upload 
+ * UI Updates
 
 
 
@@ -48,11 +45,9 @@ Released: 2026-03-11T00:20:11Z
 
 ## What's Changed
 
- * Physician Card Styling 
+ * UI updates
 
- * Disable Document Validation on file upload 
-
- *  Changing openai client in hydra to be async 
+ * API dependency changes
 
 
 
@@ -61,7 +56,7 @@ Released: 2026-03-11T00:20:11Z
 ### v1.444.1
 Released: 2026-03-10T23:45:15Z
 
-
+ * Internal Updates
 
 ---
 
@@ -70,11 +65,9 @@ Released: 2026-03-10T16:43:16Z
 
 ## What's Changed
 
- *  Adding optional reason and source to state transition table 
+ * Database updates
 
- * Adding apra eligible table and show identity api 
-
- *  Adding internal api to set arpa eligiblity status 
+ * Internal API changes
 
 
 
