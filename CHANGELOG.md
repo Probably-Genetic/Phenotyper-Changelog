@@ -1,3 +1,88 @@
+# Changelog - Week of March 16, 2026
+
+## Recent Releases
+
+### v1.446.0
+Released: 2026-03-12T23:27:23Z
+
+## What's Changed
+
+ *  Update SF and model versions 
+
+
+
+---
+
+### v1.445.1
+Released: 2026-03-12T01:54:34Z
+
+## What's Changed
+
+ * Insurance hotfix for duo + trio 
+
+
+
+---
+
+### v1.445.0
+Released: 2026-03-11T21:33:43Z
+
+## What's Changed
+
+ * feat(intake): add Angela Cabrera to physician referral dropdown 
+
+ * Unstick FTD Orders 
+
+ *  EventHandling - Adding param for list of action errors to ignore (default = ``) 
+
+ * Add self reported models to alembic 
+
+ * additional user feedback + some new styling on the file upload 
+
+
+
+---
+
+### v1.444.2
+Released: 2026-03-11T00:20:11Z
+
+## What's Changed
+
+ * Physician Card Styling 
+
+ * Disable Document Validation on file upload 
+
+ *  Changing openai client in hydra to be async 
+
+
+
+---
+
+### v1.444.1
+Released: 2026-03-10T23:45:15Z
+
+
+
+---
+
+### v1.444.0
+Released: 2026-03-10T16:43:16Z
+
+## What's Changed
+
+ *  Adding optional reason and source to state transition table 
+
+ * Adding apra eligible table and show identity api 
+
+ *  Adding internal api to set arpa eligiblity status 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of March 09, 2026
 
 ## Recent Releases
