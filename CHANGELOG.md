@@ -18,7 +18,7 @@ Released: 2026-03-12T01:54:34Z
 
 ## What's Changed
 
- * UI hotfix
+ * UI hotfix for infinite load on duo / trio testing
 
 
 ---
@@ -34,7 +34,7 @@ Released: 2026-03-11T21:33:43Z
 
  * Database changes
 
- * UI Updates
+ * User feedback on file deletion
 
 
 
