@@ -1,3 +1,124 @@
+# Changelog - Week of March 23, 2026
+
+## Recent Releases
+
+### v1.450.0
+Released: 2026-03-23T16:31:21Z
+
+## What's Changed
+
+ *  Add flake8 to precommit + config 
+
+ * chore(deps): bump docker/build-push-action from 6 to 7 
+
+ * chore(deps): bump aquasecurity/trivy-action from 0.34.1 to 0.35.0 
+
+ * chore(deps): bump codecov/codecov-action from 5.5.2 to 5.5.3 
+
+ *  /me api now includes flag if patient has valid genetic doc 
+
+ * chore(deps): bump pnpm/action-setup from 4 to 5 
+
+
+
+---
+
+### v1.449.0
+Released: 2026-03-19T21:32:54Z
+
+## What's Changed
+
+ * Check for informed consent 
+
+ *  Update patient consent 
+
+ * chore(deps): bump docker/metadata-action from 5 to 6 
+
+ * chore(deps): bump actions/setup-node from 6.2.0 to 6.3.0 
+
+ * chore(deps): bump dopplerhq/cli-action from 3 to 4 
+
+ * chore(deps): bump docker/setup-buildx-action from 3.12.0 to 4.0.0 
+
+ *  Product offerings scaffold & core types 
+
+ * Remove NPI number requirement, disable pdf tampering check 
+
+ * Update tests for conversation respond, E2E 
+
+ * fix: validate person name before creating PWN insurance order 
+
+
+
+---
+
+### v1.448.0
+Released: 2026-03-18T21:06:16Z
+
+## What's Changed
+
+ * Remove multi-patient feature flag frontend 
+
+ *  updating InterventionHistoryFreeTextQuestion copy 
+
+ *  Fix insurance import issue 
+
+
+
+---
+
+### v1.447.0
+Released: 2026-03-18T19:49:14Z
+
+## What's Changed
+
+ * Prime Dragon button sizes 
+
+ * Add muscle weakness to hallmark phenotypes 
+
+ * style: Update insurance consent alert copy and design to match mockups 
+
+ *  Adding support for soft launch milestone 
+
+ *  Filter rare diseases from chat messages 
+
+ * Fix CNV status for Broad orders 
+
+ *  Fixing import bug 
+
+ *  adding set coockie to dev/staging intake page 
+
+ *  Fix pdf library regression, rollback manual error handling 
+
+ * White status card backgrounds 
+
+ *  Removing identity and incentive feature flags 
+
+ *  Adding support for auto arpa-h eligible 
+
+ *  Switching document validation to GPT 5.4 
+
+ *  Chatpg condition filter list for aprah soft launch 
+
+ *  Mark apra soft launch eligible for payment 
+
+ *  Adding additional chat questions for arpa missing data 
+
+ *  Ensuring base disease ids are also included + adding log content 
+
+ * Add paid research copy to get started page 
+
+ * Remove multipatient FF remnants on backend 
+
+ * Allow Images for Document Validation 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of March 16, 2026
 
 ## Recent Releases
