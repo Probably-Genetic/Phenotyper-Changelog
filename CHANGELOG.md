@@ -7,13 +7,8 @@ Released: 2026-03-28T01:17:05Z
 
 ## What's Changed
 
- * Add consult_date to order traits so iterable knows 
-
- *  Adding padding to fix physician search 
-
- *  Really fix the datetime conversion error 
-
-
+ * Update Iterable variables
+ * Update physician search
 
 ---
 
@@ -24,8 +19,6 @@ Released: 2026-03-28T00:09:44Z
 
  *  Hotfix for PWN schedule event 
 
-
-
 ---
 
 ### v1.456.0
@@ -33,29 +26,13 @@ Released: 2026-03-27T22:13:16Z
 
 ## What's Changed
 
- *  Product offering DB models & migration 
-
- *  pg_e2e: patient flow happy path tests 
-
- * Fix Mobile get started page 
-
- *  ProductOffering abstract base class 
-
- *  ProductOfferingRegistry 
-
- *  ARPAHOffering v1 stub 
-
- *  ProductOfferingStateReducer 
-
- * Add datetime utils, timezone aware scheduling event data 
-
- * update intake flow header for mobile 
-
- * Intake updates for button + heading sizing 
-
- * Replace more instances of old user/me call 
-
-
+ * Eligibility scaffolding and updates
+ * New E2E feature integration updates
+ * Fix Mobile get started page
+ * Add datetime utils, timezone aware scheduling event data
+ * update intake flow header for mobile
+ * Intake updates for button + heading sizing
+ * Replace more instances of old user/me call
 
 ---
 
@@ -65,30 +42,13 @@ Released: 2026-03-26T21:03:28Z
 ## What's Changed
 
  * Use navigate instead of redirect 
-
- *  Fixing duplicated fn in oaklib 
-
- *  Removing oaklib client lib since it is no longer used 
-
- *  Removing boolean previously diagnosed page 
-
- * Format "get started" page 
-
- *  Fix bug where delting one diagnosis deletes all in selection 
-
- * Remove offerable from FTD, tag instead 
-
- * Update text component 
-
- *  Oaklib get metadata 
-
- * Button updates, styling fixes 
-
- * `Promise.resolve` instead of reject on user/me calls 
-
- * Disable screenshot on testing. Might fix. 
-
-
+ * Fixing duplicated fn in oaklib
+ * Internal oaklib package updates
+ * Format "get started" page
+ * Fix bug where delting one diagnosis deletes all in selection
+ * Update text component
+ * Button updates, styling fixes
+ * Disable screenshot on testing. Might fix.
 
 ---
 
@@ -99,8 +59,6 @@ Released: 2026-03-25T16:37:38Z
 
  * Hotfix update BROAD_VCF_FILE_NAME 
 
-
-
 ---
 
 ### v1.454.0
@@ -109,12 +67,7 @@ Released: 2026-03-25T00:26:02Z
 ## What's Changed
 
  * Add badge component 
-
- * SS - Fix for failing on missing concatenated file 
-
- * Update genetic history copy 
-
-
+ * Update genetic history copy
 
 ---
 
@@ -123,17 +76,11 @@ Released: 2026-03-24T20:59:35Z
 
 ## What's Changed
 
- *  Update e2e to match current frontend 
-
- *  Updating some styling on file upload page 
-
- *  Removing has_verified_genetic_test_history from patient type /me api 
-
- * Redirect duo-trio routing, don't navigate to it anymore 
-
- * Add another React dep for query to avoid race condition on conversation gate 
-
-
+ * Update e2e to match current frontend
+ * Updating some styling on file upload page
+ * Removing has_verified_genetic_test_history from patient type /me api
+ * Insurance pathway updates
+ * Add another React dep for query to avoid race condition on conversation gate
 
 ---
 
@@ -143,9 +90,7 @@ Released: 2026-03-24T17:54:29Z
 ## What's Changed
 
  * Doc Val prompt improvements 
-
- *  Hook for post submit navigation 
-
+ *  Hook for post submit navigation
 
 
 ---
@@ -156,20 +101,11 @@ Released: 2026-03-24T16:31:40Z
 ## What's Changed
 
  *  After review go to dashboard if has valid genetic doc 
-
- *  Fixing genetic test file upload page showing skip instead of continue 
-
- * Remove EDS from filter 
-
- * Fix missing / incorrectly styled back buttons 
-
- *  Flake8 GH action 
-
- *  Better organizing self reported tests in me api 
-
- * Remove conversation page blocker 
-
-
+ *  Fixing genetic test file upload page showing skip instead of continue
+ * Fix missing / incorrectly styled back buttons
+ *  Flake8 GH action
+ *  Better organizing self reported tests in me api
+ * Remove conversation page blocker
 
 ---
 
@@ -179,18 +115,11 @@ Released: 2026-03-23T16:31:21Z
 ## What's Changed
 
  *  Add flake8 to precommit + config 
-
- * chore(deps): bump docker/build-push-action from 6 to 7 
-
- * chore(deps): bump aquasecurity/trivy-action from 0.34.1 to 0.35.0 
-
- * chore(deps): bump codecov/codecov-action from 5.5.2 to 5.5.3 
-
- *  /me api now includes flag if patient has valid genetic doc 
-
- * chore(deps): bump pnpm/action-setup from 4 to 5 
-
-
+ * chore(deps): bump docker/build-push-action from 6 to 7
+ * chore(deps): bump aquasecurity/trivy-action from 0.34.1 to 0.35.0
+ * chore(deps): bump codecov/codecov-action from 5.5.2 to 5.5.3
+ *  /me api now includes flag if patient has valid genetic doc
+ * chore(deps): bump pnpm/action-setup from 4 to 5
 
 ---
 
@@ -200,26 +129,15 @@ Released: 2026-03-19T21:32:54Z
 ## What's Changed
 
  * Check for informed consent 
-
- *  Update patient consent 
-
- * chore(deps): bump docker/metadata-action from 5 to 6 
-
- * chore(deps): bump actions/setup-node from 6.2.0 to 6.3.0 
-
- * chore(deps): bump dopplerhq/cli-action from 3 to 4 
-
- * chore(deps): bump docker/setup-buildx-action from 3.12.0 to 4.0.0 
-
- *  Product offerings scaffold & core types 
-
- * Remove NPI number requirement, disable pdf tampering check 
-
- * Update tests for conversation respond, E2E 
-
- * fix: validate person name before creating PWN insurance order 
-
-
+ *  Update patient consent
+ * chore(deps): bump docker/metadata-action from 5 to 6
+ * chore(deps): bump actions/setup-node from 6.2.0 to 6.3.0
+ * chore(deps): bump dopplerhq/cli-action from 3 to 4
+ * chore(deps): bump docker/setup-buildx-action from 3.12.0 to 4.0.0
+ *  Product offerings scaffold & core types
+ * Remove NPI number requirement, disable pdf tampering check
+ * Update tests for conversation respond, E2E
+ * fix: validate person name before creating PWN insurance order
 
 ---
 
@@ -229,10 +147,8 @@ Released: 2026-03-18T21:06:16Z
 ## What's Changed
 
  * Remove multi-patient feature flag frontend 
-
- *  updating InterventionHistoryFreeTextQuestion copy 
-
- *  Fix insurance import issue 
+ *  updating InterventionHistoryFreeTextQuestion copy
+ *  Fix insurance import issue
 
 
 
@@ -244,46 +160,21 @@ Released: 2026-03-18T19:49:14Z
 ## What's Changed
 
  * Prime Dragon button sizes 
-
- * Add muscle weakness to hallmark phenotypes 
-
- * style: Update insurance consent alert copy and design to match mockups 
-
- *  Adding support for soft launch milestone 
-
- *  Filter rare diseases from chat messages 
-
- * Fix CNV status for Broad orders 
-
- *  Fixing import bug 
-
- *  adding set coockie to dev/staging intake page 
-
- *  Fix pdf library regression, rollback manual error handling 
-
- * White status card backgrounds 
-
- *  Removing identity and incentive feature flags 
-
- *  Adding support for auto arpa-h eligible 
-
- *  Switching document validation to GPT 5.4 
-
- *  Chatpg condition filter list for aprah soft launch 
-
- *  Mark apra soft launch eligible for payment 
-
- *  Adding additional chat questions for arpa missing data 
-
- *  Ensuring base disease ids are also included + adding log content 
-
- * Add paid research copy to get started page 
-
- * Remove multipatient FF remnants on backend 
-
- * Allow Images for Document Validation 
-
-
+ * Add muscle weakness to hallmark phenotypes
+ * style: Update insurance consent alert copy and design to match mockups
+ *  Adding support for soft launch milestone
+ *  Filter rare diseases from chat messages
+ * Fix CNV status for Broad orders
+ *  Fixing import bug
+ *  adding set coockie to dev/staging intake page
+ *  Fix pdf library regression, rollback manual error handling
+ * White status card backgrounds
+ *  Removing identity and incentive feature flags
+ *  Chatpg condition filter list for aprah soft launch
+ *  Mark apra soft launch eligible for payment
+ *  Ensuring base disease ids are also included + adding log content
+ * Add paid research copy to get started page
+ * Allow Images for Document Validation
 
 ---
 
