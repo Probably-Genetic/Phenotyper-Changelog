@@ -1,3 +1,147 @@
+# Changelog - Week of April 06, 2026
+
+## Recent Releases
+
+### v1.462.1
+Released: 2026-04-04T00:39:13Z
+
+
+
+---
+
+### v1.462.0
+Released: 2026-04-03T21:35:46Z
+
+## What's Changed
+
+ *  Migrate Autocomplete callsites to prime-dragon 
+
+ *  Delete document validation api 
+
+ * chore(deps): bump docker/login-action from 3 to 4 
+
+ *  Manual override — set & clear service methods 
+
+ *  Add events for duo/trio selection, fix husky 
+
+ *  Move validate doc api to internal 
+
+ *  Add more data to referral created events, linting 
+
+
+
+---
+
+### v1.461.0
+Released: 2026-04-02T22:48:07Z
+
+## What's Changed
+
+ * Insurance duo/trio recommended badge 
+
+ *  removing review page 
+
+ *  Migrate Textarea to prime-dragon 
+
+ * Fix: Textarea form submit broken after prime-dragon migration 
+
+ * Update more backend deps 
+
+ * Fix for PWN workflows not being found when appointments are cancelled  
+
+
+
+---
+
+### v1.460.0
+Released: 2026-04-01T23:58:53Z
+
+## What's Changed
+
+ * Hharris/pro 9724 prime dragon autocomplete 
+
+ * Add RadioGroup component to prime-dragon 
+
+ * Migrate Checkbox component to prime-dragon 
+
+ *  ProductOfferingStateService — Write Path 
+
+ *  ProductOfferingStateService — Read Path 
+
+ *  API endpoint — GET /v1/product-offerings/patients/{patient_id}/offering-state 
+
+ *  Clear user data on sign out and more symptom assessment gate handling 
+
+ * Re-enable duo-trio insurance page  
+
+ * More backend/frontend updates 
+
+ * Update Focus Styling 
+
+ *  Event wiring, Django integration, E2E tests 
+
+
+
+---
+
+### v1.459.0
+Released: 2026-04-01T18:09:22Z
+
+## What's Changed
+
+ *  Fix logged in notice email overflow 
+
+ *  Removing facial file upload from review page (file upload later) 
+
+ *  BiopharmaOffering concrete implementation 
+
+
+
+---
+
+### v1.458.0
+Released: 2026-03-31T20:08:40Z
+
+## What's Changed
+
+ * Dynamically Sized Buttons 
+
+ *  Changing color of manual enter link for physicians 
+
+ *  InsuranceOffering concrete implementation 
+
+ * chore(deps): bump codecov/codecov-action from 5.5.3 to 6.0.0 
+
+ *  Update Python deps 
+
+ *  FRTCR read-only SQLAlchemy model 
+
+ *  Formatting remaining flow footer buttons 
+
+ *  Changing progress bar to not be red 
+
+
+
+---
+
+### v1.457.0
+Released: 2026-03-30T21:48:15Z
+
+## What's Changed
+
+ *  suppress empty magic bytes error 
+
+ *  File upload route update 
+
+ *  Conversation filters all rare and genetic disease data 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of March 30, 2026
 
 ## Recent Releases
