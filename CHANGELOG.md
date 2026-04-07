@@ -14,19 +14,15 @@ Released: 2026-04-03T21:35:46Z
 
 ## What's Changed
 
- *  Migrate Autocomplete callsites to prime-dragon 
+ *  Updated Autocomplete to new location
 
- *  Delete document validation api 
+ *  Removed document validation functionality
 
- * chore(deps): bump docker/login-action from 3 to 4 
+ *  Added support for overriding patient status
 
- *  Manual override — set & clear service methods 
+ *  Extra support for duo/trio insurance testing
 
- *  Add events for duo/trio selection, fix husky 
-
- *  Move validate doc api to internal 
-
- *  Add more data to referral created events, linting 
+ *  Extra support for creating referrals
 
 
 
@@ -39,13 +35,11 @@ Released: 2026-04-02T22:48:07Z
 
  * Insurance duo/trio recommended badge 
 
- *  removing review page 
+ * Removed review page 
 
- *  Migrate Textarea to prime-dragon 
+ * Updated Textarea component
 
- * Fix: Textarea form submit broken after prime-dragon migration 
-
- * Update more backend deps 
+ * Update backend dependencies
 
  * Fix for PWN workflows not being found when appointments are cancelled  
 
@@ -89,11 +83,11 @@ Released: 2026-04-01T18:09:22Z
 
 ## What's Changed
 
- *  Fix logged in notice email overflow 
+ *  Fixed issue with logged in email notification
 
- *  Removing facial file upload from review page (file upload later) 
+ *  Removed facial file upload from review page
 
- *  BiopharmaOffering concrete implementation 
+ *  Improved offerings for biopharma programs
 
 
 
@@ -104,21 +98,17 @@ Released: 2026-03-31T20:08:40Z
 
 ## What's Changed
 
- * Dynamically Sized Buttons 
+ * Improved Button sizing
 
- *  Changing color of manual enter link for physicians 
+ * Changed color of link for physicians 
 
- *  InsuranceOffering concrete implementation 
+ * Improved offerings for insurace program0
 
- * chore(deps): bump codecov/codecov-action from 5.5.3 to 6.0.0 
+ * Improved testing
 
- *  Update Python deps 
+ * Updated upstream dependencies
 
- *  FRTCR read-only SQLAlchemy model 
-
- *  Formatting remaining flow footer buttons 
-
- *  Changing progress bar to not be red 
+ * Updated progress bar to match brand
 
 
 
@@ -129,11 +119,11 @@ Released: 2026-03-30T21:48:15Z
 
 ## What's Changed
 
- *  suppress empty magic bytes error 
+ * Stability improvments
 
- *  File upload route update 
+ * Improved file upload
 
- *  Conversation filters all rare and genetic disease data 
+ * Improved conversation for rare genetic diseases
 
 
 
