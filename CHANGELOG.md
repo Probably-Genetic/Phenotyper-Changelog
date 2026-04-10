@@ -14,9 +14,9 @@ Released: 2026-04-03T21:35:46Z
 
 ## What's Changed
 
- *  Updated Autocomplete to new location
+ *  Updated Autocomplete component
 
- *  Removed document validation functionality
+ *  Extended internal API
 
  *  Added support for overriding patient status
 
@@ -52,27 +52,23 @@ Released: 2026-04-01T23:58:53Z
 
 ## What's Changed
 
- * Hharris/pro 9724 prime dragon autocomplete 
+ * Updated Autocomplete component
 
- * Add RadioGroup component to prime-dragon 
+ * Updated Radio Group component
 
- * Migrate Checkbox component to prime-dragon 
+ * Updated Checkbox component
 
- *  ProductOfferingStateService — Write Path 
+ * Updates for product offerings
 
- *  ProductOfferingStateService — Read Path 
+ * Fix sign out issue
 
- *  API endpoint — GET /v1/product-offerings/patients/{patient_id}/offering-state 
+ * Re-enabled duo-trio insurance testing
 
- *  Clear user data on sign out and more symptom assessment gate handling 
+ * General stability updates 
 
- * Re-enable duo-trio insurance page  
+ * Update Focus styling for form components
 
- * More backend/frontend updates 
-
- * Update Focus Styling 
-
- *  Event wiring, Django integration, E2E tests 
+ * Updates for our event handler
 
 
 
@@ -102,7 +98,7 @@ Released: 2026-03-31T20:08:40Z
 
  * Changed color of link for physicians 
 
- * Improved offerings for insurace program0
+ * Improved offerings for insurace program
 
  * Improved testing
 
