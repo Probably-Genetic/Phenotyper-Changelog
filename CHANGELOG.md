@@ -7,7 +7,7 @@ Released: 2026-04-04T00:39:13Z
 
 ## What's Changed
 
- * Fix using too many fields to splat into properties
+ * Bug fixes
 
 ---
 
