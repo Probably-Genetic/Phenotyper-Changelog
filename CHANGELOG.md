@@ -1,3 +1,135 @@
+# Changelog - Week of April 06, 2026
+
+## Recent Releases
+
+### v1.462.1
+Released: 2026-04-04T00:39:13Z
+
+## What's Changed
+
+ * Fix using too many fields to splat into properties
+
+---
+
+### v1.462.0
+Released: 2026-04-03T21:35:46Z
+
+## What's Changed
+
+ *  Updated Autocomplete component
+
+ *  Extended internal API
+
+ *  Added support for overriding patient status
+
+ *  Extra support for duo/trio insurance testing
+
+ *  Extra support for creating referrals
+
+
+
+---
+
+### v1.461.0
+Released: 2026-04-02T22:48:07Z
+
+## What's Changed
+
+ * Insurance duo/trio recommended badge 
+
+ * Removed review page 
+
+ * Updated Textarea component
+
+ * Update backend dependencies
+
+ * Fix for PWN workflows not being found when appointments are cancelled  
+
+
+
+---
+
+### v1.460.0
+Released: 2026-04-01T23:58:53Z
+
+## What's Changed
+
+ * Updated Autocomplete component
+
+ * Updated Radio Group component
+
+ * Updated Checkbox component
+
+ * Updates for product offerings
+
+ * Fix sign out issue
+
+ * Re-enabled duo-trio insurance testing
+
+ * General stability updates 
+
+ * Update Focus styling for form components
+
+ * Updates for our event handler
+
+
+
+---
+
+### v1.459.0
+Released: 2026-04-01T18:09:22Z
+
+## What's Changed
+
+ *  Fixed issue with logged in email notification
+
+ *  Removed facial file upload from review page
+
+ *  Improved offerings for biopharma programs
+
+
+
+---
+
+### v1.458.0
+Released: 2026-03-31T20:08:40Z
+
+## What's Changed
+
+ * Improved Button sizing
+
+ * Changed color of link for physicians 
+
+ * Improved offerings for insurace program
+
+ * Improved testing
+
+ * Updated upstream dependencies
+
+ * Updated progress bar to match brand
+
+
+
+---
+
+### v1.457.0
+Released: 2026-03-30T21:48:15Z
+
+## What's Changed
+
+ * Stability improvments
+
+ * Improved file upload
+
+ * Improved conversation for rare genetic diseases
+
+
+
+---
+
+
+---
+
 # Changelog - Week of March 30, 2026
 
 ## Recent Releases
