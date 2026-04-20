@@ -1,3 +1,94 @@
+# Changelog - Week of April 13, 2026
+
+## Recent Releases
+
+### v1.466.1
+Released: 2026-04-10T23:43:57Z
+
+## What's Changed
+
+ *  Insurance flow improvements  
+
+
+
+---
+
+### v1.466.0
+Released: 2026-04-10T22:32:43Z
+
+## What's Changed
+ * E2E improvements
+ * Retool update
+
+---
+
+### v1.465.0
+Released: 2026-04-09T18:42:24Z
+
+## What's Changed
+
+ *  fix physician autocomplete required validation 
+
+ *  Disable persistent DB connections in local phenotyper dev 
+
+ * Reskin landing page 
+
+ *  Delete incentive payment if user become uneligible for arpah 
+
+ *  Updating address search on physician pop up and dashboard 
+
+ * Support `--profile` on the s3 search command 
+
+ * update dv prompt to exclude non-variant tests 
+
+
+
+---
+
+### v1.464.0
+Released: 2026-04-07T23:55:02Z
+
+## What's Changed
+
+ *  Adding event for arpah eligible change
+ *  Migration of some older frontend components
+ *  Fabric integration updates
+
+
+
+---
+
+### v1.463.2
+Released: 2026-04-07T17:09:43Z
+
+## What's Changed
+
+ *  Fixing supressed error name to exception 
+
+
+
+---
+
+### v1.463.1
+Released: 2026-04-07T16:43:38Z
+
+## What's Changed
+
+ * Bugfixes and consent updates
+
+---
+
+### v1.463.0
+Released: 2026-04-06T23:11:33Z
+
+## What's Changed
+
+ * Storybook updates
+ * Form functionality updates 
+ * Update E2E tests
+
+---
+
 # Changelog - Week of April 06, 2026
 
 ## Recent Releases
