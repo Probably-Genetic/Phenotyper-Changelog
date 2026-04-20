@@ -1,3 +1,73 @@
+# Changelog - Week of April 20, 2026
+
+## Recent Releases
+
+### v1.469.0
+Released: 2026-04-17T23:42:39Z
+
+## What's Changed
+
+ * Remove `axios-retry`, update to `vite` 8, more vulnerability updates 
+
+ * Dynamic Consent Hotfix 
+
+ *  ignore errors 
+
+ * feat: added new designs for duo/trio with experiment 
+
+ * fix: duo/trio guided choice copy updates 
+
+
+
+---
+
+### v1.468.0
+Released: 2026-04-15T18:08:24Z
+
+## What's Changed
+
+ *  New event to record submitted diagnosis 
+
+ *  Update frontend deps 
+
+ *  More python package updates for security 
+
+ * chore(deps): bump pnpm/action-setup from 5 to 6 
+
+ * chore(deps): bump actions/setup-python from 5 to 6 
+
+ * chore(deps): bump actions/upload-artifact from 4 to 7 
+
+ * chore(deps): bump actions/checkout from 4 to 6 
+
+ *  No sentry for existing doc and unvalidatable file errors 
+
+
+
+---
+
+### v1.467.0
+Released: 2026-04-14T22:41:40Z
+
+## What's Changed
+
+ *  Adding tracking events for identity verifiation 
+
+ * fix(e2e): harden atoms for landing page reskin + perf 
+
+ *  Update biotech portal counts to include all orders from sponsor 
+
+ *  don't call useGetPatientFileRequests if patientId not defined 
+
+ *  Improving visibility of workflow errors in sentry 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 13, 2026
 
 ## Recent Releases
