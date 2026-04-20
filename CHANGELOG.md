@@ -7,7 +7,7 @@ Released: 2026-04-10T23:43:57Z
 
 ## What's Changed
 
- *  Add insurance card for managing appointment, update styling in last page of insurance flow  
+ *  Insurance flow improvements  
 
 
 
@@ -17,30 +17,8 @@ Released: 2026-04-10T23:43:57Z
 Released: 2026-04-10T22:32:43Z
 
 ## What's Changed
-
- *  pg_e2e: CI gate on PRs 
-
- * fix: InitFormResponseInput patient name fields crash on Self relationship 
-
- *  Add Retool PWN reissue endpoint 
-
- *  internal download file api 
-
- *  Arpah posthog metrics 
-
- * Add frontend linting to pull request actions 
-
- *  Adding delete incentive payment api 
-
- *  Improving hydra events and some refactoring 
-
- *  Patient selector page for specific RAPID outreach 
-
- * Fix PWN account number handling when it's not a number 
-
- *  Turning off NPC auto offers 
-
-
+ * E2E improvements
+ * Retool update
 
 ---
 
@@ -72,17 +50,9 @@ Released: 2026-04-07T23:55:02Z
 
 ## What's Changed
 
- *  Migrate AddressLookup to prime-dragon 
-
- * center the tooltip on genetic intake pages 
-
- * Reorder make file 
-
- *  Arpah eligibility based on most recent form response 
-
- * Fix cnv fail not sending vcf to fabric 
-
- *  Adding event for arpah eligible change 
+ *  Adding event for arpah eligible change
+ *  Migration of some older frontend components
+ *  Fabric integration updates
 
 
 
@@ -104,11 +74,7 @@ Released: 2026-04-07T16:43:38Z
 
 ## What's Changed
 
- *  Patch incentive payment API 
-
- *  Qualify arpa properly with new consent policies 
-
-
+ * Bugfixes and consent updates
 
 ---
 
@@ -117,28 +83,9 @@ Released: 2026-04-06T23:11:33Z
 
 ## What's Changed
 
- *  Fixing storybook command to work with pnpm 
-
- *  fixing astrisk inline 
-
- * Validate intake form onBlur instead 
-
- * Potential fix: using too many fields to splat into properties 
-
- *  pg_e2e: insurance flow happy path tests 
-
- *  Suppressing user errors from file upload in sentry 
-
- *  Removing long transaction for analyzing patient files 
-
- * Update Informed Consent to IRB approved version 
-
- * Add back boolean diagnoses page, lint 
-
-
-
----
-
+ * Storybook updates
+ * Form functionality updates 
+ * Update E2E tests
 
 ---
 
