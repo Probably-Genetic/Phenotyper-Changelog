@@ -1,3 +1,61 @@
+# Changelog - Week of April 20, 2026
+
+## Recent Releases
+
+### v1.469.0
+Released: 2026-04-17T23:42:39Z
+
+## What's Changed
+
+ * Frontend vulnerability updates 
+
+ * Consent hotfix 
+
+ * Remove unneeded logging
+
+ * Update UI on duo/trio page
+
+
+---
+
+### v1.468.0
+Released: 2026-04-15T18:08:24Z
+
+## What's Changed
+
+ *  New events created
+
+ *  Update frontend deps 
+
+ *  Backend security updates
+
+ *  Remove unneeded logging
+
+
+
+---
+
+### v1.467.0
+Released: 2026-04-14T22:41:40Z
+
+## What's Changed
+
+ * Improved logging visibility
+
+ * Added new tracking metrics
+ 
+ * Fix e2e tests
+
+ *  Update biotech portal sponser orders
+
+ *  UI fixes
+
+
+---
+
+
+---
+
 # Changelog - Week of April 13, 2026
 
 ## Recent Releases
