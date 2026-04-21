@@ -7,16 +7,13 @@ Released: 2026-04-17T23:42:39Z
 
 ## What's Changed
 
- * Remove `axios-retry`, update to `vite` 8, more vulnerability updates 
+ * Frontend vulnerability updates 
 
- * Dynamic Consent Hotfix 
+ * Consent hotfix 
 
- *  ignore errors 
+ * Remove unneeded logging
 
- * feat: added new designs for duo/trio with experiment 
-
- * fix: duo/trio guided choice copy updates 
-
+ * Update UI on duo/trio page
 
 
 ---
@@ -26,21 +23,13 @@ Released: 2026-04-15T18:08:24Z
 
 ## What's Changed
 
- *  New event to record submitted diagnosis 
+ *  New events created
 
  *  Update frontend deps 
 
- *  More python package updates for security 
+ *  Backend security updates
 
- * chore(deps): bump pnpm/action-setup from 5 to 6 
-
- * chore(deps): bump actions/setup-python from 5 to 6 
-
- * chore(deps): bump actions/upload-artifact from 4 to 7 
-
- * chore(deps): bump actions/checkout from 4 to 6 
-
- *  No sentry for existing doc and unvalidatable file errors 
+ *  Remove unneeded logging
 
 
 
@@ -51,16 +40,15 @@ Released: 2026-04-14T22:41:40Z
 
 ## What's Changed
 
- *  Adding tracking events for identity verifiation 
+ * Improved logging visibility
 
- * fix(e2e): harden atoms for landing page reskin + perf 
+ * Added new tracking metrics
+ 
+ * Fix e2e tests
 
- *  Update biotech portal counts to include all orders from sponsor 
+ *  Update biotech portal sponser orders
 
- *  don't call useGetPatientFileRequests if patientId not defined 
-
- *  Improving visibility of workflow errors in sentry 
-
+ *  UI fixes
 
 
 ---
