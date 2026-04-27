@@ -1,3 +1,68 @@
+# Changelog - Week of April 27, 2026
+
+## Recent Releases
+
+### v1.472.0
+Released: 2026-04-23T19:03:21Z
+
+## What's Changed
+
+ * Revert search 
+
+ * improve logging on failed concats 
+
+
+
+---
+
+### v1.471.1
+Released: 2026-04-22T23:20:30Z
+
+## What's Changed
+
+ * Update python packages 
+
+ * Upload files before concat 
+
+
+
+---
+
+### v1.471.0
+Released: 2026-04-21T21:52:23Z
+
+## What's Changed
+
+ *  Silence retries error for `get_location_data_for_form_response` 
+
+ * feat: duo/trio auto-enroll experiment 
+
+ *  Update posthog to fix critical vuln, other dep updates 
+
+ * chore(deps): bump dopplerhq/cli-action from 3 to 4 
+
+
+
+---
+
+### v1.470.0
+Released: 2026-04-21T16:18:37Z
+
+## What's Changed
+
+ * migrate elasticsearch to opensearch 
+
+ * Enable STR analysis in Fabric 
+
+ * Change upload button text to 'file' 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 20, 2026
 
 ## Recent Releases
