@@ -1,3 +1,60 @@
+# Changelog - Week of April 27, 2026
+
+## Recent Releases
+
+### v1.472.0
+Released: 2026-04-23T19:03:21Z
+
+## What's Changed
+
+ * Internal update
+
+
+
+---
+
+### v1.471.1
+Released: 2026-04-22T23:20:30Z
+
+## What's Changed
+
+ * Internal update
+
+ * Improved reliability of file uploads
+
+
+
+---
+
+### v1.471.0
+Released: 2026-04-21T21:52:23Z
+
+## What's Changed
+
+ * Internal update
+
+ * Updated support support for duo and trio testing
+
+
+
+---
+
+### v1.470.0
+Released: 2026-04-21T16:18:37Z
+
+## What's Changed
+
+ * Internal update
+
+ * Updated upload button label to "file"
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 20, 2026
 
 ## Recent Releases
