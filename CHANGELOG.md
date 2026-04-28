@@ -7,9 +7,7 @@ Released: 2026-04-23T19:03:21Z
 
 ## What's Changed
 
- * Revert search 
-
- * improve logging on failed concats 
+ * Internal update
 
 
 
@@ -20,9 +18,9 @@ Released: 2026-04-22T23:20:30Z
 
 ## What's Changed
 
- * Update python packages 
+ * Internal update
 
- * Upload files before concat 
+ * Improved reliability of file uploads
 
 
 
@@ -33,13 +31,9 @@ Released: 2026-04-21T21:52:23Z
 
 ## What's Changed
 
- *  Silence retries error for `get_location_data_for_form_response` 
+ * Internal update
 
- * feat: duo/trio auto-enroll experiment 
-
- *  Update posthog to fix critical vuln, other dep updates 
-
- * chore(deps): bump dopplerhq/cli-action from 3 to 4 
+ * Updated support support for duo and trio testing
 
 
 
@@ -50,11 +44,9 @@ Released: 2026-04-21T16:18:37Z
 
 ## What's Changed
 
- * migrate elasticsearch to opensearch 
+ * Internal update
 
- * Enable STR analysis in Fabric 
-
- * Change upload button text to 'file' 
+ * Updated upload button label to "file"
 
 
 
