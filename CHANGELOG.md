@@ -1,3 +1,60 @@
+# Changelog - Week of May 04, 2026
+
+## Recent Releases
+
+### v1.474.0
+Released: 2026-05-01T21:58:54Z
+
+## What's Changed
+
+ * delete unused signature_audit_log table 
+
+ * chore: fix outdated references in README and pg CLI 
+
+ * Create PwnAppointment model, save appointments on webhook 
+
+ * minimum release age for pnpm packages 
+
+ *  Deleting review and account pages 
+
+ * Update biotech portal order filter and calendar 
+
+ * Fix typing issue for biotech portal 
+
+ * Fix scheduler guard, polling, and submission logic 
+
+ * Fix lint/build errors 
+
+ *  Send PWN appointment scheduled emails in Phenotyper, attach ics files 
+
+ * Add embedded-scheduler feature flag for A/B testing 
+
+
+
+---
+
+### v1.473.0
+Released: 2026-04-28T19:02:43Z
+
+## What's Changed
+
+ * Posthog generic event backend 
+
+ * chore(deps): bump actions/setup-node from 6.3.0 to 6.4.0 
+
+ * chore(deps): bump aquasecurity/trivy-action from 0.35.0 to 0.36.0 
+
+ * Rename submit button on dynamic file uploader 
+
+ *  Biotech portal date filter 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 27, 2026
 
 ## Recent Releases
