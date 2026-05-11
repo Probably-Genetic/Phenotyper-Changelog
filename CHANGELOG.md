@@ -1,3 +1,143 @@
+# Changelog - Week of May 11, 2026
+
+## Recent Releases
+
+### v1.479.0
+Released: 2026-05-11T17:02:16Z
+
+## What's Changed
+
+ * Fix PWN scheduler auth and skip bookings for internal users 
+
+ *  Dependency updates for dependabot issues 
+
+
+
+---
+
+### v1.478.0
+Released: 2026-05-08T18:12:57Z
+
+## What's Changed
+
+ *  Auto offer no test for past 12 month 
+
+ * Potentially fix temporal issue 
+
+ * Fix tracked pages forcing a redirect when users go directly to to the URL 
+
+
+
+---
+
+### v1.477.0
+Released: 2026-05-07T05:29:41Z
+
+## What's Changed
+
+ * Revert " Updating smart filters 2026-05-05 (#4369)" 
+
+
+
+---
+
+### v1.476.0
+Released: 2026-05-07T01:34:34Z
+
+## What's Changed
+
+ * Remove consent preview 
+
+ *  Ensuring smart filters only runs when hpos have been extracted 
+
+ *  Delete legacy smart filters tables 
+
+ * Frontend for Posthog tracking 
+
+ *  Updating smart filters 2026-05-05 
+
+ * Update copy and limit hallmark phenotype AoO questions 
+
+ * Update age of onset UI 
+
+ *  Adding support for multi HPO requirement 
+
+ * Revert " Delete legacy smart filters tables" 
+
+
+
+---
+
+### v1.475.0
+Released: 2026-05-05T18:42:03Z
+
+## What's Changed
+
+ * Base CLAUDE.md and AGENTS.md 
+
+ * Update `pip` dependency in affected projects 
+
+ * Add `isRequired` support for prime react labels, error states, lint 
+
+ * Insurance Eligiblity Smart Filter revamp 
+
+
+
+---
+
+### v1.474.0
+Released: 2026-05-01T21:58:54Z
+
+## What's Changed
+
+ * delete unused signature_audit_log table 
+
+ * chore: fix outdated references in README and pg CLI 
+
+ * Create PwnAppointment model, save appointments on webhook 
+
+ * minimum release age for pnpm packages 
+
+ *  Deleting review and account pages 
+
+ * Update biotech portal order filter and calendar 
+
+ * Fix typing issue for biotech portal 
+
+ * Fix scheduler guard, polling, and submission logic 
+
+ * Fix lint/build errors 
+
+ *  Send PWN appointment scheduled emails in Phenotyper, attach ics files 
+
+ * Add embedded-scheduler feature flag for A/B testing 
+
+
+
+---
+
+### v1.473.0
+Released: 2026-04-28T19:02:43Z
+
+## What's Changed
+
+ * Posthog generic event backend 
+
+ * chore(deps): bump actions/setup-node from 6.3.0 to 6.4.0 
+
+ * chore(deps): bump aquasecurity/trivy-action from 0.35.0 to 0.36.0 
+
+ * Rename submit button on dynamic file uploader 
+
+ *  Biotech portal date filter 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 27, 2026
 
 ## Recent Releases
