@@ -7,9 +7,9 @@ Released: 2026-05-15T19:09:17Z
 
 ## What's Changed
 
- * Fix date filter error 
+ * Fixed a date filter error in the patient handoff document
 
- * Update pwn handoff document 
+ * Improved layout and organization of the patient handoff document — reorganized symptom categories, updated formatting, and refined patient information ordering
 
 
 
@@ -20,11 +20,11 @@ Released: 2026-05-14T23:33:22Z
 
 ## What's Changed
 
- * update duo trio copy 
+ * Updated copy for duo and trio testing options
 
- * Add backfill command for hpo migration 
+ * Corrected symptom mappings for affected patient conversations
 
- * Update logic for hiding biopharma related card and insurance card 
+ * Improved dashboard to show more relevant status cards based on the patient's testing pathway
 
 
 
@@ -35,13 +35,11 @@ Released: 2026-05-13T18:00:47Z
 
 ## What's Changed
 
- * Fix control users stuck on 'Authorization complete' with no PWN link 
+ * Fixed an issue where some patients completing consent were not being routed correctly to schedule their appointment
 
- * Add options to insurance SF run command 
+ * Improved eligibility evaluation accuracy
 
- * Don't report certain axios errors to Sentry 
-
- * Add `./pg release` command to create github drafts 
+ * Internal reliability improvements
 
 
 
@@ -52,7 +50,7 @@ Released: 2026-05-13T02:09:53Z
 
 ## What's Changed
 
- * Fix PWN scheduler race condition causing 500s 
+ * Fixed a race condition that could cause errors when patients navigated to the appointment scheduling page
 
 
 
@@ -63,7 +61,7 @@ Released: 2026-05-12T22:59:57Z
 
 ## What's Changed
 
- * Update filter optimization since insurance SF changed 
+ * Internal update
 
 
 
@@ -74,17 +72,11 @@ Released: 2026-05-12T19:03:05Z
 
 ## What's Changed
 
- * Add broad workflow id 
+ * Fixed an issue where patients navigating directly to a URL could be unexpectedly redirected
 
- * Make tracking HTTP request async 
+ * Fixed a missing consent checkbox on the insurance pathway missing data page
 
- * Add missing cleanup to e2e 
-
- * Create more useful Sentry errors on frontend 
-
- * Hide dashboard status card 
-
- * Fix/consent missing info 
+ * Internal reliability and error monitoring improvements
 
 
 
@@ -95,7 +87,7 @@ Released: 2026-05-11T22:00:42Z
 
 ## What's Changed
 
- * Add PostHog instrumentation to scheduler funnel 
+ * Internal update
 
 
 
@@ -106,9 +98,9 @@ Released: 2026-05-11T17:02:16Z
 
 ## What's Changed
 
- * Fix PWN scheduler auth and skip bookings for internal users 
+ * Fixed appointment scheduling authentication and improved handling for internal test accounts
 
- *  Dependency updates for dependabot issues 
+ * Dependency security updates
 
 
 
@@ -119,11 +111,11 @@ Released: 2026-05-08T18:12:57Z
 
 ## What's Changed
 
- *  Auto offer no test for past 12 month 
+ * Patients who have had whole exome or whole genome sequencing in the past 12 months are now automatically offered an appropriate next step without needing additional testing
 
- * Potentially fix temporal issue 
+ * Fixed an issue where navigating directly to a page via URL could cause an unexpected redirect
 
- * Fix tracked pages forcing a redirect when users go directly to to the URL 
+ * Internal reliability improvement
 
 
 
@@ -134,7 +126,7 @@ Released: 2026-05-07T05:29:41Z
 
 ## What's Changed
 
- * Revert " Updating smart filters 2026-05-05 (#4369)" 
+ * Internal update
 
 
 
@@ -145,23 +137,15 @@ Released: 2026-05-07T01:34:34Z
 
 ## What's Changed
 
- * Remove consent preview 
+ * Consent terms are now linked as a PDF rather than displayed inline, reducing visual clutter and making it easier to spot form errors
 
- *  Ensuring smart filters only runs when hpos have been extracted 
+ * Improved accuracy of eligibility evaluation — eligibility is now determined only after symptom extraction is fully complete
 
- *  Delete legacy smart filters tables 
+ * Streamlined the age of onset questions — only the most relevant hallmark phenotypes are shown (up to 5), reducing the number of questions patients need to answer
 
- * Frontend for Posthog tracking 
+ * Simplified the age of onset page by removing the rarely-used "age of resolution" field
 
- *  Updating smart filters 2026-05-05 
-
- * Update copy and limit hallmark phenotype AoO questions 
-
- * Update age of onset UI 
-
- *  Adding support for multi HPO requirement 
-
- * Revert " Delete legacy smart filters tables" 
+ * Updated insurance eligibility logic to support conditions requiring multiple specific symptoms
 
 
 
@@ -172,13 +156,9 @@ Released: 2026-05-05T18:42:03Z
 
 ## What's Changed
 
- * Base CLAUDE.md and AGENTS.md 
+ * Revamped insurance eligibility evaluation with improved logic and better-organized condition tiers
 
- * Update `pip` dependency in affected projects 
-
- * Add `isRequired` support for prime react labels, error states, lint 
-
- * Insurance Eligiblity Smart Filter revamp 
+ * Internal updates
 
 
 
@@ -189,27 +169,11 @@ Released: 2026-05-01T21:58:54Z
 
 ## What's Changed
 
- * delete unused signature_audit_log table 
+ * Appointment confirmation emails now include a calendar invite (.ics) that automatically integrates with Gmail, Outlook, and other calendar apps
 
- * chore: fix outdated references in README and pg CLI 
+ * Improved reliability of the appointment scheduling flow
 
- * Create PwnAppointment model, save appointments on webhook 
-
- * minimum release age for pnpm packages 
-
- *  Deleting review and account pages 
-
- * Update biotech portal order filter and calendar 
-
- * Fix typing issue for biotech portal 
-
- * Fix scheduler guard, polling, and submission logic 
-
- * Fix lint/build errors 
-
- *  Send PWN appointment scheduled emails in Phenotyper, attach ics files 
-
- * Add embedded-scheduler feature flag for A/B testing 
+ * Internal updates and cleanup
 
 
 
@@ -220,15 +184,9 @@ Released: 2026-04-28T19:02:43Z
 
 ## What's Changed
 
- * Posthog generic event backend 
+ * Renamed "Submit" button to "Continue" on the file upload page for clearer guidance
 
- * chore(deps): bump actions/setup-node from 6.3.0 to 6.4.0 
-
- * chore(deps): bump aquasecurity/trivy-action from 0.35.0 to 0.36.0 
-
- * Rename submit button on dynamic file uploader 
-
- *  Biotech portal date filter 
+ * Internal updates
 
 
 
