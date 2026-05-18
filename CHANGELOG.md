@@ -1,3 +1,200 @@
+# Changelog - Week of May 18, 2026
+
+## Recent Releases
+
+### v1.486.0
+Released: 2026-05-15T19:09:17Z
+
+## What's Changed
+
+ * Fixed a date filter error in the patient handoff document
+
+ * Improved layout and organization of the patient handoff document — reorganized symptom categories, updated formatting, and refined patient information ordering
+
+
+
+---
+
+### v1.485.0
+Released: 2026-05-14T23:33:22Z
+
+## What's Changed
+
+ * Updated copy for duo and trio testing options
+
+ * Corrected symptom mappings for affected patient conversations
+
+ * Improved dashboard to show more relevant status cards based on the patient's testing pathway
+
+
+
+---
+
+### v1.484.0
+Released: 2026-05-13T18:00:47Z
+
+## What's Changed
+
+ * Fixed an issue where some patients completing consent were not being routed correctly to schedule their appointment
+
+ * Improved eligibility evaluation accuracy
+
+ * Internal reliability improvements
+
+
+
+---
+
+### v1.483.0
+Released: 2026-05-13T02:09:53Z
+
+## What's Changed
+
+ * Fixed a race condition that could cause errors when patients navigated to the appointment scheduling page
+
+
+
+---
+
+### v1.482.0
+Released: 2026-05-12T22:59:57Z
+
+## What's Changed
+
+ * Internal update
+
+
+
+---
+
+### v1.481.0
+Released: 2026-05-12T19:03:05Z
+
+## What's Changed
+
+ * Fixed an issue where patients navigating directly to a URL could be unexpectedly redirected
+
+ * Fixed a missing consent checkbox on the insurance pathway missing data page
+
+ * Internal reliability and error monitoring improvements
+
+
+
+---
+
+### v1.480.0
+Released: 2026-05-11T22:00:42Z
+
+## What's Changed
+
+ * Internal update
+
+
+
+---
+
+### v1.479.0
+Released: 2026-05-11T17:02:16Z
+
+## What's Changed
+
+ * Fixed appointment scheduling authentication and improved handling for internal test accounts
+
+ * Dependency security updates
+
+
+
+---
+
+### v1.478.0
+Released: 2026-05-08T18:12:57Z
+
+## What's Changed
+
+ * Patients who have had whole exome or whole genome sequencing in the past 12 months do not qualify for testing
+
+ * Fixed an issue where navigating directly to a page via URL could cause an unexpected redirect
+
+ * Internal reliability improvement
+
+
+
+---
+
+### v1.477.0
+Released: 2026-05-07T05:29:41Z
+
+## What's Changed
+
+ * Internal update
+
+
+
+---
+
+### v1.476.0
+Released: 2026-05-07T01:34:34Z
+
+## What's Changed
+
+ * Consent terms are now linked as a PDF rather than displayed inline, reducing visual clutter and making it easier to spot form errors
+
+ * Improved accuracy of eligibility evaluation — eligibility is now determined only after symptom extraction is fully complete
+
+ * Streamlined the age of onset questions in chat — only the most relevant symptoms are shown (up to 5), reducing the number of questions patients need to answer
+
+ * Simplified the age of onset page by removing the rarely-used "age of resolution" field
+
+ * Updated insurance eligibility logic to support conditions requiring multiple specific symptoms
+
+
+
+---
+
+### v1.475.0
+Released: 2026-05-05T18:42:03Z
+
+## What's Changed
+
+ * Revamped insurance eligibility evaluation with improved logic and better-organized condition tiers
+
+ * Internal updates
+
+
+
+---
+
+### v1.474.0
+Released: 2026-05-01T21:58:54Z
+
+## What's Changed
+
+ * Appointment confirmation emails now include a calendar invite (.ics) that automatically integrates with Gmail, Outlook, and other calendar apps
+
+ * Improved reliability of the appointment scheduling flow
+
+ * Internal updates and cleanup
+
+
+
+---
+
+### v1.473.0
+Released: 2026-04-28T19:02:43Z
+
+## What's Changed
+
+ * Renamed "Submit" button to "Continue" on the file upload page for clearer guidance
+
+ * Internal updates
+
+
+
+---
+
+
+---
+
 # Changelog - Week of April 27, 2026
 
 ## Recent Releases
