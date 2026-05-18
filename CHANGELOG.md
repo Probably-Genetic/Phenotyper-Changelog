@@ -111,7 +111,7 @@ Released: 2026-05-08T18:12:57Z
 
 ## What's Changed
 
- * Patients who have had whole exome or whole genome sequencing in the past 12 months are now automatically offered an appropriate next step without needing additional testing
+ * Patients who have had whole exome or whole genome sequencing in the past 12 months do not qualify for testing
 
  * Fixed an issue where navigating directly to a page via URL could cause an unexpected redirect
 
@@ -141,7 +141,7 @@ Released: 2026-05-07T01:34:34Z
 
  * Improved accuracy of eligibility evaluation — eligibility is now determined only after symptom extraction is fully complete
 
- * Streamlined the age of onset questions — only the most relevant hallmark phenotypes are shown (up to 5), reducing the number of questions patients need to answer
+ * Streamlined the age of onset questions in chat — only the most relevant symptoms are shown (up to 5), reducing the number of questions patients need to answer
 
  * Simplified the age of onset page by removing the rarely-used "age of resolution" field
 
