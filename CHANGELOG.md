@@ -1,3 +1,147 @@
+# Changelog - Week of May 25, 2026
+
+## Recent Releases
+
+### v1.492.0
+Released: 2026-05-22T23:17:19Z
+
+## What's Changed
+
+ * Update user/form response state to be less race-condition-y 
+
+ *  Adding metrics for patient synthesis generation and verifiation 
+
+ *  Improving verify prompt 
+
+
+
+---
+
+### v1.491.1
+Released: 2026-05-22T18:30:12Z
+
+## What's Changed
+
+ * Fix PWN scheduler auth and booking parsing 
+
+ *  Fixing bug where confidence value is being returned as null 
+
+
+
+---
+
+### v1.491.0
+Released: 2026-05-22T17:19:53Z
+
+## What's Changed
+
+ *  synthesis verification 
+
+ *  Adding patient synthesis triggers 
+
+ *  Fix error with PWN rejecting long notes 
+
+ * Add fingerprinting to PWN errors so they don't get collapsed to a single error 
+
+ * Fix import error on frontend when there's stale browser cache 
+
+ * Fix missing import, lint 
+
+ * Revert #4412 
+
+ *  update patient document pdf to use new synthesis sections 
+
+
+
+---
+
+### v1.490.0
+Released: 2026-05-21T22:14:45Z
+
+## What's Changed
+
+ * No more e2e test on merge for now 
+
+ * Pro 10324 backend only 
+
+ *  Adding api to trigger patient synthesis generation 
+
+ * Add user id and email in payload so we can posthog identify on frontend 
+
+ * Update to insurance questions 
+
+
+
+---
+
+### v1.489.0
+Released: 2026-05-21T15:47:58Z
+
+## What's Changed
+
+ * Reduce scheduled appointment email reminder timer from 30 mins to 5 mins 
+
+ *  Create patient summary synthesis 
+
+ *  adding synthesizer for patient family history 
+
+ *  Adding connection to form response for insurance info 
+
+ *  medical necessity synthesizer 
+
+
+
+---
+
+### v1.488.0
+Released: 2026-05-20T17:39:22Z
+
+## What's Changed
+
+ *  Adding agents file to hydra 
+
+ *  Fallback to patient submitted NPI 
+
+ * Symptom select mobile style updates 
+
+ * Update ethnicities dropdown styling 
+
+ * Validate on blur 
+
+ * Add validation warnings on few-questions, remove prop types warnings 
+
+ * Abstract breakpoint type 
+
+
+
+---
+
+### v1.487.0
+Released: 2026-05-18T22:34:49Z
+
+## What's Changed
+
+ * Reducing number of _generated_ questions from 14 -> 10  (total questions to 16) 
+
+ * Change to warning so sentry doesnt get called 
+
+ *  Be more defensive with physicians being null 
+
+ * Fix patient_id not showing on consent refresh 
+
+ *  Avoid running when no patient_id 
+
+ *  Fixing issue with processing unsupported files (like tif) 
+
+ *  Better handling for already responded questions 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of May 18, 2026
 
 ## Recent Releases
