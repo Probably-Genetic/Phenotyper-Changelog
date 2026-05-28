@@ -1,3 +1,130 @@
+# Changelog - Week of May 25, 2026
+
+## Recent Releases
+
+### v1.492.0
+Released: 2026-05-22T23:17:19Z
+
+## What's Changed
+
+ * Fixed race condition in form response state
+
+ * Added monitoring for patient synthesis generation and verification
+
+ * Improved verification prompt
+
+
+
+---
+
+### v1.491.1
+Released: 2026-05-22T18:30:12Z
+
+## What's Changed
+
+ * Fixed lab scheduler authentication and appointment booking
+
+ * Fixed bug where confidence value is returned as null
+
+
+
+---
+
+### v1.491.0
+Released: 2026-05-22T17:19:53Z
+
+## What's Changed
+
+ * Added synthesis verification
+
+ * Added patient synthesis triggers
+
+ * Fixed error when submitting long clinical notes
+
+ * Fixed import error on frontend when there's stale browser cache
+
+ * Updated patient document PDF to use new synthesis sections
+
+
+
+---
+
+### v1.490.0
+Released: 2026-05-21T22:14:45Z
+
+## What's Changed
+
+ * Added API to trigger patient synthesis generation
+
+ * Updated insurance questions
+
+
+
+---
+
+### v1.489.0
+Released: 2026-05-21T15:47:58Z
+
+## What's Changed
+
+ * Reduced scheduled appointment email reminder timer from 30 mins to 5 mins
+
+ * Added patient summary synthesis
+
+ * Added family history synthesis
+
+ * Connected insurance information to form responses
+
+ * Added medical necessity synthesis
+
+
+
+---
+
+### v1.488.0
+Released: 2026-05-20T17:39:22Z
+
+## What's Changed
+
+ * Updated agents configuration
+
+ * Added fallback to patient-submitted NPI
+
+ * Updated symptom select mobile styling
+
+ * Updated ethnicities dropdown styling
+
+ * Added validation on blur
+
+ * Added validation warnings on few-questions page
+
+ * Abstracted breakpoint type
+
+
+
+---
+
+### v1.487.0
+Released: 2026-05-18T22:34:49Z
+
+## What's Changed
+
+ * Reduced AI-generated questions from 14 to 10 (16 total)
+
+ * Reduced non-critical error noise
+
+ * Improved handling of missing physician data
+
+ * Fixed patient ID not showing on consent refresh
+
+ * Fixed processing of unsupported file formats
+
+ * Improved handling of previously answered questions
+
+
+
+---
+
 # Changelog - Week of May 18, 2026
 
 ## Recent Releases
@@ -2446,28 +2573,3 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
