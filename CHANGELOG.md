@@ -7,11 +7,11 @@ Released: 2026-05-22T23:17:19Z
 
 ## What's Changed
 
- * Update user/form response state to be less race-condition-y 
+ * Fixed race condition in form response state
 
- *  Adding metrics for patient synthesis generation and verifiation 
+ * Added monitoring for patient synthesis generation and verification
 
- *  Improving verify prompt 
+ * Improved verification prompt
 
 
 
@@ -22,9 +22,9 @@ Released: 2026-05-22T18:30:12Z
 
 ## What's Changed
 
- * Fix PWN scheduler auth and booking parsing 
+ * Fixed lab scheduler authentication and appointment booking
 
- *  Fixing bug where confidence value is being returned as null 
+ * Fixed bug where confidence value is returned as null
 
 
 
@@ -35,21 +35,15 @@ Released: 2026-05-22T17:19:53Z
 
 ## What's Changed
 
- *  synthesis verification 
+ * Added synthesis verification
 
- *  Adding patient synthesis triggers 
+ * Added patient synthesis triggers
 
- *  Fix error with PWN rejecting long notes 
+ * Fixed error when submitting long clinical notes
 
- * Add fingerprinting to PWN errors so they don't get collapsed to a single error 
+ * Fixed import error on frontend when there's stale browser cache
 
- * Fix import error on frontend when there's stale browser cache 
-
- * Fix missing import, lint 
-
- * Revert #4412 
-
- *  update patient document pdf to use new synthesis sections 
+ * Updated patient document PDF to use new synthesis sections
 
 
 
@@ -60,15 +54,9 @@ Released: 2026-05-21T22:14:45Z
 
 ## What's Changed
 
- * No more e2e test on merge for now 
+ * Added API to trigger patient synthesis generation
 
- * Pro 10324 backend only 
-
- *  Adding api to trigger patient synthesis generation 
-
- * Add user id and email in payload so we can posthog identify on frontend 
-
- * Update to insurance questions 
+ * Updated insurance questions
 
 
 
@@ -79,15 +67,15 @@ Released: 2026-05-21T15:47:58Z
 
 ## What's Changed
 
- * Reduce scheduled appointment email reminder timer from 30 mins to 5 mins 
+ * Reduced scheduled appointment email reminder timer from 30 mins to 5 mins
 
- *  Create patient summary synthesis 
+ * Added patient summary synthesis
 
- *  adding synthesizer for patient family history 
+ * Added family history synthesis
 
- *  Adding connection to form response for insurance info 
+ * Connected insurance information to form responses
 
- *  medical necessity synthesizer 
+ * Added medical necessity synthesis
 
 
 
@@ -98,19 +86,19 @@ Released: 2026-05-20T17:39:22Z
 
 ## What's Changed
 
- *  Adding agents file to hydra 
+ * Updated agents configuration
 
- *  Fallback to patient submitted NPI 
+ * Added fallback to patient-submitted NPI
 
- * Symptom select mobile style updates 
+ * Updated symptom select mobile styling
 
- * Update ethnicities dropdown styling 
+ * Updated ethnicities dropdown styling
 
- * Validate on blur 
+ * Added validation on blur
 
- * Add validation warnings on few-questions, remove prop types warnings 
+ * Added validation warnings on few-questions page
 
- * Abstract breakpoint type 
+ * Abstracted breakpoint type
 
 
 
@@ -121,23 +109,18 @@ Released: 2026-05-18T22:34:49Z
 
 ## What's Changed
 
- * Reducing number of _generated_ questions from 14 -> 10  (total questions to 16) 
+ * Reduced AI-generated questions from 14 to 10 (16 total)
 
- * Change to warning so sentry doesnt get called 
+ * Reduced non-critical error noise
 
- *  Be more defensive with physicians being null 
+ * Improved handling of missing physician data
 
- * Fix patient_id not showing on consent refresh 
+ * Fixed patient ID not showing on consent refresh
 
- *  Avoid running when no patient_id 
+ * Fixed processing of unsupported file formats
 
- *  Fixing issue with processing unsupported files (like tif) 
+ * Improved handling of previously answered questions
 
- *  Better handling for already responded questions 
-
-
-
----
 
 
 ---
@@ -2590,28 +2573,3 @@ Released: 2025-09-22T17:02:18Z
 ## What's Changed
 
  * Improve security scanning
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
