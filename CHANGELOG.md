@@ -1,3 +1,92 @@
+# Changelog - Week of June 01, 2026
+
+## Recent Releases
+
+### v1.497.0
+Released: 2026-05-28T22:47:27Z
+
+## What's Changed
+
+ *  Remove patient medical data table 
+
+ *  insurance reimbursement only for people with insurance 
+
+ * Add resource-based tuner and reduce Temporal worker concurrency 
+
+ * Chore/update packages 
+
+
+
+---
+
+### v1.496.0
+Released: 2026-05-28T16:45:04Z
+
+## What's Changed
+
+ *  fixing missing diagnosis name 
+
+ *  Remove the question counter 
+
+
+
+---
+
+### v1.495.0
+Released: 2026-05-27T21:16:15Z
+
+## What's Changed
+
+ *  Transition to us patient id instead of medical data table 
+
+
+
+---
+
+### v1.494.0
+Released: 2026-05-27T18:41:47Z
+
+## What's Changed
+
+ * Breakpoint TextVariant 
+
+ * : Submit patient insurance to PWN at booking time 
+
+ * Patch the new workflow change so other workflows dont break 
+
+ * Correctly assign fallback physician information 
+
+ * Rosetta patients DQ'ed from GC 
+
+
+
+---
+
+### v1.493.0
+Released: 2026-05-26T20:14:14Z
+
+## What's Changed
+
+ * Fix PWN Referral orders stuck in pending-questionnaire 
+
+ * Make Psomagen kit-mailed activity idempotent 
+
+ * Make create_order_model idempotent and allow retries 
+
+ * Filter unknown HPO terms in Fabric WGS analysis 
+
+ *  Limit question responses to ~150 characters max 
+
+## New Contributors
+
+ * @ivyfriedman-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/4428
+
+
+---
+
+
+---
+
 # Changelog - Week of May 25, 2026
 
 ## Recent Releases
