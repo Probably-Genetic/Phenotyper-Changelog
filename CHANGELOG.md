@@ -1,3 +1,88 @@
+# Changelog - Week of June 01, 2026
+
+## Recent Releases
+
+### v1.497.0
+Released: 2026-05-28T22:47:27Z
+
+## What's Changed
+
+ *  Remove patient medical data table 
+
+ *  Improvements to insurance reimbursement
+
+ *  General improvements and updates to our back-end system
+
+
+
+---
+
+### v1.496.0
+Released: 2026-05-28T16:45:04Z
+
+## What's Changed
+
+ *  Small bug fixes
+
+
+
+---
+
+### v1.495.0
+Released: 2026-05-27T21:16:15Z
+
+## What's Changed
+
+ *  Improvements to our internal database tables
+
+
+
+---
+
+### v1.494.0
+Released: 2026-05-27T18:41:47Z
+
+## What's Changed
+
+ * Small UI improvements
+
+ * Improvments for submitting insurance information to our PWN partner
+
+ * Improvements for our workflow system
+
+ * Fix for physician system
+
+ * Updates for Rosetta patients and genetic counsellors
+
+
+
+---
+
+### v1.493.0
+Released: 2026-05-26T20:14:14Z
+
+## What's Changed
+
+ * Fix for referrals getting stuck
+
+ * Fix for Psomagen kit-mailing
+
+ * Improvements to our internal database tables
+
+ * Updates for HPO terms in Fabric analysis 
+
+ * Shortened questions to ~150 characters max 
+
+## New Contributors
+
+ * Introducing @ivyfriedman-pg!
+
+
+---
+
+
+---
+
 # Changelog - Week of May 25, 2026
 
 ## Recent Releases
