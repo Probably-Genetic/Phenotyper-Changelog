@@ -9,11 +9,9 @@ Released: 2026-05-28T22:47:27Z
 
  *  Remove patient medical data table 
 
- *  insurance reimbursement only for people with insurance 
+ *  Improvements to insurance reimbursement
 
- * Add resource-based tuner and reduce Temporal worker concurrency 
-
- * Chore/update packages 
+ *  General improvements and updates to our back-end system
 
 
 
@@ -24,9 +22,7 @@ Released: 2026-05-28T16:45:04Z
 
 ## What's Changed
 
- *  fixing missing diagnosis name 
-
- *  Remove the question counter 
+ *  Small bug fixes
 
 
 
@@ -37,7 +33,7 @@ Released: 2026-05-27T21:16:15Z
 
 ## What's Changed
 
- *  Transition to us patient id instead of medical data table 
+ *  Improvements to our internal database tables
 
 
 
@@ -48,15 +44,15 @@ Released: 2026-05-27T18:41:47Z
 
 ## What's Changed
 
- * Breakpoint TextVariant 
+ * Small UI improvements
 
- * : Submit patient insurance to PWN at booking time 
+ * Improvments for submitting insurance information to our PWN partner
 
- * Patch the new workflow change so other workflows dont break 
+ * Improvements for our workflow system
 
- * Correctly assign fallback physician information 
+ * Fix for physician system
 
- * Rosetta patients DQ'ed from GC 
+ * Updates for Rosetta patients and genetic counsellors
 
 
 
@@ -67,19 +63,19 @@ Released: 2026-05-26T20:14:14Z
 
 ## What's Changed
 
- * Fix PWN Referral orders stuck in pending-questionnaire 
+ * Fix for referrals getting stuck
 
- * Make Psomagen kit-mailed activity idempotent 
+ * Fix for Psomagen kit-mailing
 
- * Make create_order_model idempotent and allow retries 
+ * Improvements to our internal database tables
 
- * Filter unknown HPO terms in Fabric WGS analysis 
+ * Updates for HPO terms in Fabric analysis 
 
- *  Limit question responses to ~150 characters max 
+ * Shortened questions to ~150 characters max 
 
 ## New Contributors
 
- * @ivyfriedman-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/4428
+ * Introducing @ivyfriedman-pg!
 
 
 ---
