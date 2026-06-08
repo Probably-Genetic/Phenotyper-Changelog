@@ -1,3 +1,92 @@
+# Changelog - Week of June 08, 2026
+
+## Recent Releases
+
+### v1.501.0
+Released: 2026-06-06T00:17:35Z
+
+## What's Changed
+
+ * Comparitor share option for duo/trio orders 
+
+
+
+---
+
+### v1.500.0
+Released: 2026-06-05T21:52:34Z
+
+## What's Changed
+
+ * Use referral-scoped availability + handle PWN 422 invalid_consult/expert 
+
+ * Dont send emails on appts in the past 
+
+ * : Cap insurance card upload at 5 MB 
+
+ * : Connect smart filter to Hydra product-offering eligibility 
+
+
+
+---
+
+### v1.499.0
+Released: 2026-06-05T07:25:36Z
+
+## What's Changed
+
+ * : Cross-service: SequencingServiceClient.get_pwn_referral_id 
+
+ * Family reported diagnoses backend 
+
+ *  update writers to write to both SelectedHpo and PatientHPO 
+
+ *  /  / : PWN embedded scheduler V2 (backend + unified-referral mint + UI) 
+
+ * : Accept Canadian addresses on few-questions 
+
+ *  Read smart filter HPO criteria from patient_hpo 
+
+ * Revert " Read smart filter HPO criteria from patient_hpo" 
+
+ * : prime-dragon — chain external onBlur/onFocus instead of swallowing them 
+
+
+
+---
+
+### v1.498.0
+Released: 2026-06-02T23:04:05Z
+
+## What's Changed
+
+ *  Add patient_hpo_data table 
+
+ * Add Drawer component 
+
+ * Fix analytics call causing timeouts and gunicorn crashes 
+
+ * chore(deps): bump codecov/codecov-action from 6.0.0 to 6.0.1 
+
+ * chore(deps): bump docker/setup-buildx-action from 4.0.0 to 4.1.0 
+
+ * Update more deps 
+
+ * : Add PWN Scheduler API client (py/libs/pwn) 
+
+ *  Remove thank you message from ChatPG 
+
+ * Update pwn-approved conditions. Do not do on insurance 
+
+ * : Add Order.pwn_referral_id + populate at creation + backfill 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of June 01, 2026
 
 ## Recent Releases
