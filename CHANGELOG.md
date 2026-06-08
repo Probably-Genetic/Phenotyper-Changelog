@@ -1,3 +1,72 @@
+# Changelog - Week of June 08, 2026
+
+## Recent Releases
+
+### v1.501.0
+Released: 2026-06-06T00:17:35Z
+
+## What's Changed
+
+ * Internal Updates 
+
+
+
+---
+
+### v1.500.0
+Released: 2026-06-05T21:52:34Z
+
+## What's Changed
+
+ * Dont send emails for past appointments 
+
+ * Cap insurance card upload at 5 MB 
+
+ * Internal Updates
+
+
+
+---
+
+### v1.499.0
+Released: 2026-06-05T07:25:36Z
+
+## What's Changed
+
+ * Enable updated insurance embedded scheduler 
+
+ * Accept Canadian addresses during intake flow 
+
+ * Internal Updates 
+
+
+
+---
+
+### v1.498.0
+Released: 2026-06-02T23:04:05Z
+
+## What's Changed
+
+ * Fix analytics call causing timeouts and gunicorn crashes
+
+ * Update more dependencies 
+
+ * Creating APIs for custom insurance scheduling
+
+ * Remove confusing thank you message from ChatPG conversation completion
+
+ * Add tracking suppprt for pwn reffereals
+
+ * Internal Updates
+
+
+
+---
+
+
+---
+
 # Changelog - Week of June 01, 2026
 
 ## Recent Releases
