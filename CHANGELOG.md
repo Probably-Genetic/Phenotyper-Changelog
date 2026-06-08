@@ -7,7 +7,7 @@ Released: 2026-06-06T00:17:35Z
 
 ## What's Changed
 
- * Comparitor share option for duo/trio orders 
+ * Internal Updates 
 
 
 
@@ -18,13 +18,11 @@ Released: 2026-06-05T21:52:34Z
 
 ## What's Changed
 
- * Use referral-scoped availability + handle PWN 422 invalid_consult/expert 
+ * Dont send emails for past appointments 
 
- * Dont send emails on appts in the past 
+ * Cap insurance card upload at 5 MB 
 
- * : Cap insurance card upload at 5 MB 
-
- * : Connect smart filter to Hydra product-offering eligibility 
+ * Internal Updates
 
 
 
@@ -35,21 +33,11 @@ Released: 2026-06-05T07:25:36Z
 
 ## What's Changed
 
- * : Cross-service: SequencingServiceClient.get_pwn_referral_id 
+ * Enable updated insurance embedded scheduler 
 
- * Family reported diagnoses backend 
+ * Accept Canadian addresses during intake flow 
 
- *  update writers to write to both SelectedHpo and PatientHPO 
-
- *  /  / : PWN embedded scheduler V2 (backend + unified-referral mint + UI) 
-
- * : Accept Canadian addresses on few-questions 
-
- *  Read smart filter HPO criteria from patient_hpo 
-
- * Revert " Read smart filter HPO criteria from patient_hpo" 
-
- * : prime-dragon — chain external onBlur/onFocus instead of swallowing them 
+ * Internal Updates 
 
 
 
@@ -60,25 +48,17 @@ Released: 2026-06-02T23:04:05Z
 
 ## What's Changed
 
- *  Add patient_hpo_data table 
+ * Fix analytics call causing timeouts and gunicorn crashes
 
- * Add Drawer component 
+ * Update more dependencies 
 
- * Fix analytics call causing timeouts and gunicorn crashes 
+ * Creating APIs for custom insurance scheduling
 
- * chore(deps): bump codecov/codecov-action from 6.0.0 to 6.0.1 
+ * Remove confusing thank you message from ChatPG conversation completion
 
- * chore(deps): bump docker/setup-buildx-action from 4.0.0 to 4.1.0 
+ * Add tracking suppprt for pwn reffereals
 
- * Update more deps 
-
- * : Add PWN Scheduler API client (py/libs/pwn) 
-
- *  Remove thank you message from ChatPG 
-
- * Update pwn-approved conditions. Do not do on insurance 
-
- * : Add Order.pwn_referral_id + populate at creation + backfill 
+ * Internal Updates
 
 
 
