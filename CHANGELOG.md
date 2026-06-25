@@ -1,3 +1,88 @@
+# Changelog - Week of June 22, 2026
+
+## Recent Releases
+
+### v1.509.0
+Released: 2026-06-18T16:54:46Z
+
+## What's Changed
+
+ * Fix sentence case
+ * Add eligibility check via product offerings
+ * Gate insurance reimbursement on supported states
+ * Fix multi-patient insurance interstitial and dashboard patient-switch bugs
+
+---
+
+### v1.508.0
+Released: 2026-06-16T15:52:03Z
+
+## What's Changed
+
+ * Disable the smart filter for the skeletal profile
+
+---
+
+### v1.507.0
+Released: 2026-06-15T16:19:12Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.506.0
+Released: 2026-06-12T21:19:29Z
+
+## What's Changed
+
+ * Fix object source and EHR source relationship
+ * Internal updates
+
+---
+
+### v1.505.0
+Released: 2026-06-11T17:07:07Z
+
+## What's Changed
+
+ * Improve sequencing service fallback into start and select
+ * Internal updates
+
+---
+
+### v1.504.0
+Released: 2026-06-11T05:12:51Z
+
+## What's Changed
+
+ * Add insurance referral profile
+ * Internal updates
+
+---
+
+### v1.503.0
+Released: 2026-06-10T23:19:26Z
+
+## What's Changed
+
+ * Pre-generate patient document on form submission
+ * Add eligibility calls to frontend
+ * Internal updates
+
+---
+
+### v1.502.0
+Released: 2026-06-09T19:44:39Z
+
+## What's Changed
+
+ * Filter lab tests out of genetic history endpoint
+ * Internal updates
+
+---
+
 # Changelog - Week of June 08, 2026
 
 ## Recent Releases
