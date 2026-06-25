@@ -7,15 +7,10 @@ Released: 2026-06-18T16:54:46Z
 
 ## What's Changed
 
- * Fix sentence case 
-
- * Add eligiblity check via product offerings near form:end 
-
- * : Gate insurance reimbursement on PWN-supported state 
-
- *  Fix multi-patient insurance interstitial and dashboard patient-switch bugs 
-
-
+ * Fix sentence case
+ * Add eligibility check via product offerings
+ * Gate insurance reimbursement on supported states
+ * Fix multi-patient insurance interstitial and dashboard patient-switch bugs
 
 ---
 
@@ -24,9 +19,7 @@ Released: 2026-06-16T15:52:03Z
 
 ## What's Changed
 
- *  Disable the smart filter for the skeletal profile 
-
-
+ * Disable the smart filter for the skeletal profile
 
 ---
 
@@ -35,7 +28,7 @@ Released: 2026-06-15T16:19:12Z
 
 ## What's Changed
 
-
+ * Internal updates
 
 ---
 
@@ -44,19 +37,8 @@ Released: 2026-06-12T21:19:29Z
 
 ## What's Changed
 
- *  Fxing object source and ehr source relationship 
-
- * Add initial allauth things 
-
- * updating retool readme to be more clear and less bloated 
-
- * Update SS to handle new broad workflow 
-
- * Add --since flag to backfill_pwn_referral_id 
-
- * Handle new Gene-Module ID format in pwn-contact-event webhook 
-
-
+ * Fix object source and EHR source relationship
+ * Internal updates
 
 ---
 
@@ -65,11 +47,8 @@ Released: 2026-06-11T17:07:07Z
 
 ## What's Changed
 
- * : Plumb sequencing-service fallback into /start/ and /select/ 
-
- *  Adding backfill for insurance referral profile 
-
-
+ * Improve sequencing service fallback into start and select
+ * Internal updates
 
 ---
 
@@ -78,11 +57,8 @@ Released: 2026-06-11T05:12:51Z
 
 ## What's Changed
 
- *  Adding insurance referral profile 
-
- *  Fix HYDRA-5G, update unit tests 
-
-
+ * Add insurance referral profile
+ * Internal updates
 
 ---
 
@@ -91,25 +67,9 @@ Released: 2026-06-10T23:19:26Z
 
 ## What's Changed
 
- *  Read smart filter HPO criteria from patient_hpo 
-
- *  Update hydra patient synthesis to use PatientHPO 
-
- * : Pre-generate patient document on form submission 
-
- * : Refactor PWN client to use webhooks for referral events 
-
- *  create patient_ehr_source table 
-
- * merge migrations 
-
- *  Update REST serializers & views from SelectedHpo to patie… 
-
- *  update misc selectedhpo readers 
-
- * Add eligiblity calls to frontend 
-
-
+ * Pre-generate patient document on form submission
+ * Add eligibility calls to frontend
+ * Internal updates
 
 ---
 
@@ -118,24 +78,8 @@ Released: 2026-06-09T19:44:39Z
 
 ## What's Changed
 
- *  Add backfill_selected_hpo_to_patient_hpo management command 
-
- * : Biogen FA already-diagnosed smart filter + backfill 
-
- *  Removing fk to form response in patient file metadata table 
-
- * chore(deps): bump codecov/codecov-action from 6.0.1 to 7.0.0 
-
- * Remove try/catch. Temporal handles this 
-
- * Filter lab tests out of genetic_history endpoint 
-
- *  Add report ready date column to biotech portal 
-
-
-
----
-
+ * Filter lab tests out of genetic history endpoint
+ * Internal updates
 
 ---
 
