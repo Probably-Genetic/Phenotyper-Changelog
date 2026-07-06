@@ -1,3 +1,203 @@
+# Changelog - Week of July 06, 2026
+
+## Recent Releases
+
+### v1.519.0
+Released: null
+
+## What's Changed
+
+ *  update insurance eligibility 
+
+ *  Fix patient object content text spelling 
+
+ *  FewQuestions: When clicking "Continue", display errors and scroll up to first one 
+
+ *  Insurance interstitial not shown if patient doesn't have insurance 
+
+ * : Stack insurance card CTAs full-width on mobile 
+
+ *  Fix missing document validation route  
+
+ *  Ensuring reducer insurance eligible takes into account is possible 
+
+ * : Show "Upload image" label on insurance card upload for mobile 
+
+ *  Adding previous genetic testing check to insurance possible 
+
+ *  Updating insurance end-to-end tests 
+
+ *  Updating HPO mappings 
+
+ *  Insurance possible for only people in US 
+
+---
+
+### v1.517.0
+Released: 2026-06-29T18:09:23Z
+
+## What's Changed
+
+ *  Adding soft launch text shown to users after getting incentive payout 
+
+ *  CVR Improvement: add manual address input option to address entry 
+
+ *  fixing smart_filter_id column issue in staging in POI table 
+
+ * Fix SSO analytics 
+
+ * chore(pg-web): upgrade jsdom 22 -> 27 for tests 
+
+ * : Attach fbclid + dedupe pwn:pre_test_consult_schedule 
+
+ * : Redirect logged-out users to login (and back) instead of hanging/homepage 
+
+ *  Fix 1upHealth bruno tests 
+
+ * Reduce SSO Logging 
+
+ * Fix `isPending` being true even when query is disabled via feature flag (file upload page) 
+
+
+
+---
+
+### v1.510.0
+Released: 2026-06-22T21:47:18Z
+
+## What's Changed
+
+ * : Update copy on insurance authorization intro page 
+
+ * : Update copy on appointment set-up page 
+
+ * Fix: clear form_response_id on PWN order rejection 
+
+ * : Stop using patient-provided HPOs in insurance smart filters 
+
+ * chore(deps): bump actions/checkout from 6 to 7 
+
+ * Accept pending-questionnaire in can_order_be_approved (fix dropped PWN approvals) 
+
+
+
+---
+
+### v1.518.0
+Released: 2026-06-30T18:02:15Z
+
+## What's Changed
+
+ * chore(deps): bump actions/cache from 5 to 6 
+
+ *  Adding biogen incentive milestones and program 
+
+ * eligibility: Add engagement update on referral create + Add E2E testing 
+
+ *  Manual entry UX improvements for Physician entry in Few Questions form 
+
+ *  validate Physician on blur 
+
+ * Add missing posthog event 
+
+
+
+---
+
+### v1.516.1
+Released: 2026-06-27T01:05:22Z
+
+@hharris-pg fix analytics (https://github.com/Probably-Genetic/Phenotyper/pull/4580)
+
+
+---
+
+### v1.516.0
+Released: 2026-06-26T18:28:47Z
+
+## What's Changed
+
+ *  Reverting conversation only insurance check 
+
+
+
+---
+
+### v1.515.0
+Released: 2026-06-26T16:41:32Z
+
+## What's Changed
+
+ * chore: minor tweaks to READMEs based on my onboarding 
+
+ * SSO Frontend + Backend Combo PR 
+
+## New Contributors
+
+ * @jleven made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/4571
+
+
+---
+
+### v1.514.0
+Released: 2026-06-25T23:02:38Z
+
+## What's Changed
+
+ * : Add backfill command to populate PatientHPO age of onset… 
+
+ * Fix: HeroUI and Tailwind-related libs not getting hoisted 
+
+
+
+---
+
+### v1.513.0
+Released: 2026-06-24T22:59:54Z
+
+## What's Changed
+
+ *  adding new insurance filter for congenital heart disease 
+
+ * Adding profile info to insurance events 
+
+ * Update npm packages 
+
+
+
+---
+
+### v1.512.0
+Released: 2026-06-23T22:57:02Z
+
+## What's Changed
+
+ *  clean up some remaining selectedhpo writers 
+
+ * : Remove insurance check after hallmark phenotype 
+
+ * Update python dependencies 
+
+ * : Update insurance smart filters to use explicit HPO allowlists 
+
+
+
+---
+
+### v1.511.0
+Released: 2026-06-22T22:30:13Z
+
+## What's Changed
+
+ * Revert "chore(deps): bump actions/checkout from 6 to 7" 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of June 22, 2026
 
 ## Recent Releases
