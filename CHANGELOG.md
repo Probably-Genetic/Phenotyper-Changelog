@@ -1,3 +1,131 @@
+# Changelog - Week of July 06, 2026
+
+## Recent Releases
+
+### v1.519.0
+Released: (pending)
+
+## What's Changed
+
+ * Update insurance eligibility
+ * Limit insurance eligibility to patients in the US
+ * Factor previous genetic testing into insurance eligibility
+ * Don't show the insurance interstitial when a patient has no insurance
+ * Stack insurance card buttons full-width on mobile
+ * Show an "Upload image" label on the insurance card upload on mobile
+ * Few Questions: show validation errors and scroll to the first one when you click Continue
+ * Fix a missing document validation route
+ * Fix spelling in patient-facing content
+ * Internal updates
+
+---
+
+### v1.518.0
+Released: 2026-06-30T18:02:15Z
+
+## What's Changed
+
+ * Improve manual physician entry in the Few Questions form
+ * Validate the physician field when you move away from it
+ * Internal updates
+
+---
+
+### v1.517.0
+Released: 2026-06-29T18:09:23Z
+
+## What's Changed
+
+ * Add a manual address entry option to the address step
+ * Show soft-launch messaging after an incentive payout
+ * Redirect logged-out users to sign-in (and back) instead of hanging on the homepage
+ * Fix the file upload page loading indefinitely when disabled by a feature flag
+ * Internal updates
+
+---
+
+### v1.516.1
+Released: 2026-06-27T01:05:22Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.516.0
+Released: 2026-06-26T18:28:47Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.515.0
+Released: 2026-06-26T16:41:32Z
+
+## What's Changed
+
+ * Add single sign-on (SSO) support
+ * Internal updates
+
+## New Contributors
+
+ * Introducing @jleven!
+
+---
+
+### v1.514.0
+Released: 2026-06-25T23:02:38Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.513.0
+Released: 2026-06-24T22:59:54Z
+
+## What's Changed
+
+ * Add a new insurance filter for congenital heart disease
+ * Internal updates
+
+---
+
+### v1.512.0
+Released: 2026-06-23T22:57:02Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.511.0
+Released: 2026-06-22T22:30:13Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.510.0
+Released: 2026-06-22T21:47:18Z
+
+## What's Changed
+
+ * Update copy on the insurance authorization intro page
+ * Update copy on the appointment set-up page
+ * Stop using patient-provided symptoms in insurance smart filters
+ * Fix orders being dropped while a questionnaire is still pending
+ * Internal updates
+
+---
+
 # Changelog - Week of June 22, 2026
 
 ## Recent Releases
