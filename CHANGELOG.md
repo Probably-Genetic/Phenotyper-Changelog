@@ -25,7 +25,6 @@ Released: 2026-06-30T18:02:15Z
 
 ## What's Changed
 
- * Add new incentive milestones and program
  * Improve manual physician entry in the Few Questions form
  * Validate the physician field when you move away from it
  * Internal updates
@@ -59,7 +58,6 @@ Released: 2026-06-26T18:28:47Z
 
 ## What's Changed
 
- * Revert the conversation-only insurance eligibility check
  * Internal updates
 
 ---
@@ -102,8 +100,6 @@ Released: 2026-06-23T22:57:02Z
 
 ## What's Changed
 
- * Remove the insurance check after a hallmark phenotype
- * Update insurance smart filters to use explicit allowlists
  * Internal updates
 
 ---
