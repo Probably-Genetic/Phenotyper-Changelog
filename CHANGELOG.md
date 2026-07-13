@@ -1,3 +1,65 @@
+# Changelog - Week of July 13, 2026
+
+## Recent Releases
+
+### v1.521.0
+Released: 2026-07-10T22:32:52Z
+
+## What's Changed
+
+ * Gate leftover SSO functionality 
+
+ * : Fix infinite sign-in redirect loop on forbidden deep links 
+
+ * Add phone collection to account create 
+
+ * Fix React DOM reconciliation error in symptom-assessment form 
+
+ * Fix missing info bug 
+
+ * Physician drawer 
+
+
+
+---
+
+### v1.520.0
+Released: 2026-07-09T02:42:40Z
+
+## What's Changed
+
+ * Update (p)npm packages 
+
+ * Revert "Update pwn-approved conditions. Do not do on insurance" 
+
+ * : Add transient-failure retry to PWN Scheduler client 
+
+ * Force update deps that are still high/critical 
+
+ *  Adding new product_offering evaluated event 
+
+ * : Small update to insurance interstitial copy 
+
+ * : Resize insurance card images before PWN health_plan submit 
+
+ * Fix text carryover on conversation 
+
+ * : Match PWN insurance UI — toggle copy + default to "Pay with insurance" 
+
+
+
+---
+
+### v1.519.1
+Released: 2026-07-07T05:59:21Z
+
+
+
+---
+
+
+---
+
 # Changelog - Week of July 06, 2026
 
 ## Recent Releases
