@@ -7,18 +7,15 @@ Released: 2026-07-10T22:32:52Z
 
 ## What's Changed
 
- * Gate leftover SSO functionality 
+ * Remove SSO Feature for further testing
 
- * : Fix infinite sign-in redirect loop on forbidden deep links 
+ * Fix infinite sign-in redirect loop on forbidden deep links 
 
  * Add phone collection to account create 
 
- * Fix React DOM reconciliation error in symptom-assessment form 
+ * Fix issue where users are getting stuck at the missing info page 
 
- * Fix missing info bug 
-
- * Physician drawer 
-
+ * Resizing and positioning manual physician input modal to fit better on mobile
 
 
 ---
@@ -28,23 +25,13 @@ Released: 2026-07-09T02:42:40Z
 
 ## What's Changed
 
- * Update (p)npm packages 
+ * Updating dependencies
 
- * Revert "Update pwn-approved conditions. Do not do on insurance" 
-
- * : Add transient-failure retry to PWN Scheduler client 
-
- * Force update deps that are still high/critical 
-
- *  Adding new product_offering evaluated event 
-
- * : Small update to insurance interstitial copy 
-
- * : Resize insurance card images before PWN health_plan submit 
+ * Properly resizing insurance card images before sending to PWN 
 
  * Fix text carryover on conversation 
 
- * : Match PWN insurance UI — toggle copy + default to "Pay with insurance" 
+ * Update insurance pathway copy
 
 
 
@@ -54,8 +41,7 @@ Released: 2026-07-09T02:42:40Z
 Released: 2026-07-07T05:59:21Z
 
 
-
----
+ * Internal Updates
 
 
 ---
