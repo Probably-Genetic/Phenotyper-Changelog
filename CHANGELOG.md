@@ -1,3 +1,51 @@
+# Changelog - Week of July 13, 2026
+
+## Recent Releases
+
+### v1.521.0
+Released: 2026-07-10T22:32:52Z
+
+## What's Changed
+
+ * Remove SSO Feature for further testing
+
+ * Fix infinite sign-in redirect loop on forbidden deep links 
+
+ * Add phone collection to account create 
+
+ * Fix issue where users are getting stuck at the missing info page 
+
+ * Resizing and positioning manual physician input modal to fit better on mobile
+
+
+---
+
+### v1.520.0
+Released: 2026-07-09T02:42:40Z
+
+## What's Changed
+
+ * Updating dependencies
+
+ * Properly resizing insurance card images before sending to PWN 
+
+ * Fix text carryover on conversation 
+
+ * Update insurance pathway copy
+
+
+
+---
+
+### v1.519.1
+Released: 2026-07-07T05:59:21Z
+
+
+ * Internal Updates
+
+
+---
+
 # Changelog - Week of July 06, 2026
 
 ## Recent Releases
