@@ -1,3 +1,86 @@
+# Changelog - Week of July 20, 2026                                                                                                                                                                         
+                                                                                                                                                                                                            
+## Recent Releases                                                                                                                                                                                          
+                                                                                                                                                                                                            
+### v1.527.1                                                                                                                                                                                                
+Released: 2026-07-19T01:29:00Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Save feature flag to local storage                                                                                                                                                                       
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.527.0                                                                                                                                                                                                
+Released: 2026-07-18T23:43:30Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Refactor dashboard status cards                                                                                                                                                                          
+ * Delayed Intake Survey Pages                                                                                                                                                                              
+ * Analytics for Delayed Intake                                                                                                                                                                             
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.526.0                                                                                                                                                                                                
+Released: 2026-07-18T02:20:40Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Release of new insurance predictor                                                                                                                                                                       
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.525.0                                                                                                                                                                                                
+Released: 2026-07-17T23:30:44Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Keep insurance schedule button enabled once slots load                                                                                                                                                   
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.524.0                                                                                                                                                                                                
+Released: 2026-07-16T18:56:08Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Change insurance copy to Policy Number (Member ID)                                                                                                                                                       
+ * Improve server-side error handling                                                                                                                                                                       
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.523.0                                                                                                                                                                                                
+Released: 2026-07-15T23:11:49Z                                                                                                                                                                              
+                                                                                                                                                                                                            
+## What's Changed                                                                                                                                                                                           
+ * Phone validation improvements                                                                                                                                                                            
+ * Continue assessment feature                                                                                                                                                                              
+ * Untouched phone validation on few questions page                                                                                                                                                         
+ * Basic entry router                                                                                                                                                                                       
+                                                                                                                                                                                                            
+---                                                                                                                                                                                                         
+                                                                                                                                                                                                            
+### v1.522.2                                                                                                                                                                                                
+Released: 2026-07-14T20:42:23Z                                                                                                                                                                              
+
+## What's Changed
+ * Fix frontend and backend phone validation
+
+---
+
+### v1.522.1
+Released: 2026-07-14T00:06:49Z
+
+## What's Changed
+ * Fix phone number feature flag
+
+---
+
+### v1.522.0
+Released: 2026-07-13T22:11:49Z
+
+## What's Changed
+ * Fix chat error message
+ * Disable auto-offer for several programs
+
+---
+
 # Changelog - Week of July 13, 2026
 
 ## Recent Releases
