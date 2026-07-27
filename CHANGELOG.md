@@ -1,3 +1,97 @@
+# Changelog - Week of July 27, 2026
+
+## Recent Releases
+
+### v1.530.0
+Released: 2026-07-24T23:59:18Z
+
+## What's Changed
+
+ * Last few question insurance dropdown 
+
+ * Extend pg e|e2e 
+
+ *  Trigger insurance check one diagnosis update 
+
+ * Chore/py deps 
+
+ * Remove phone FF 
+
+ *  update reissue insurance to work with ambry workflow 
+
+ * Update npm deps 
+
+ * Update file upload page heading size 
+
+ *  Add eligibility via hydra/product offerings route for retool 
+
+ * Use sentry error boundary on InsuranceLayout 
+
+
+
+---
+
+### v1.529.0
+Released: 2026-07-22T23:02:17Z
+
+## What's Changed
+
+ * Feat/connect referral create ambry 
+
+
+
+---
+
+### v1.528.0
+Released: 2026-07-22T18:18:07Z
+
+## What's Changed
+
+ * Fix button click handler in GetStarted component 
+
+ * chore: force posthog to capture console logs 
+
+ * Add e2e tests for happy path, new `pg e2e` command 
+
+ * Add human CODEOWNERS for all repository files 
+
+ * Update PR template 
+
+ * Allan/pro 11214 create new testing lab column for insurance referrals 
+
+ *  FewQuestion fixes 
+
+ *  Add InsuranceReferral lab name support to events.py analy… 
+
+ * Revert " Add InsuranceReferral lab name support to events.py analy…" 
+
+ * Comment out paths in CODEOWNERS 
+
+ *  Allow manual field entry for physician address 
+
+ *  Insurance scheduler: recover /select/ false-failures 
+
+ * Scheduler UI: explicit Sentry + PostHog telemetry across the insurance flow 
+
+ *  update PWN documentation bundle to include lab routing + test name 
+
+ * Make ethnicity required 
+
+ * Update kidney disease hallmark pheno 
+
+ * Delayed intake follow ups 
+
+ * Carry query params until we create the account 
+
+ *  Implement complete Ambry PWN workflow with activities 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of July 20, 2026                                                                                                                                                                         
                                                                                                                                                                                                             
 ## Recent Releases                                                                                                                                                                                          
