@@ -1,3 +1,227 @@
+# Changelog - Week of August 03, 2026
+
+## Recent Releases
+
+### v1.537.0
+Released: 2026-07-31T23:38:01Z
+
+## What's Changed
+
+ *  reduce required fields on manual physician entry 
+
+ *  remove lab tests page from intake flow and dashboard sidebar 
+
+ * Remove family history question 
+
+ * Split top level hallmark phenos AB Test 
+
+
+
+---
+
+### v1.536.0
+Released: 2026-07-30T00:49:33Z
+
+## What's Changed
+
+ *  Fix/insurance card offerings 
+
+ *  Adding testing lab to insurance qualify events 
+
+ * feat: select initial time in scheduler 
+
+ *  Updating the prompt for insurance predictor to v2 
+
+ * fix: small ui changes for scheduler select 
+
+
+
+---
+
+### v1.535.0
+Released: 2026-07-29T17:41:51Z
+
+## What's Changed
+
+ * : MVP fix for appointment management 
+
+ * fix: small cosmetic changes to scheduler 
+
+ * Swap Age of Onset and Family History Questions 
+
+ *  Update HIPAA doc 
+
+
+
+---
+
+### v1.534.0
+Released: 2026-07-28T20:51:03Z
+
+## What's Changed
+
+ * : Book-first insurance flow (functional page swap) 
+
+ * : Insurance flow — design & cosmetic polish 
+
+ * Bump fast-uri and postcss to patch Trivy HIGH advisories 
+
+ * : Stop blocking non-PG 400 urls in Sentry on FE 
+
+ * Recompute eligibility on insurance missing info submit 
+
+
+
+---
+
+### v1.533.1
+Released: 2026-07-28T16:26:50Z
+
+## What's Changed
+
+ *  Forgot to add tier_7 to front-end 
+
+
+
+---
+
+### v1.533.0
+Released: 2026-07-27T23:56:50Z
+
+## What's Changed
+
+ *  Adding APOL1 marketing smart filter 
+
+ * : Amend PWN referral documents asynchronously 
+
+ *  only use patient diagnosis for smart filters 
+
+ * Skip age question if user has answer in searchParams 
+
+ *  Removing tier 0 llm predictor (replaced with tier 7 predictor) 
+
+ * Generated question 5 AB test 
+
+ *  Thomas/rename seizure insurance tier names 
+
+
+
+---
+
+### v1.532.0
+Released: 2026-07-27T19:54:53Z
+
+## What's Changed
+
+ * Remove mention of lab name in reasoning 
+
+ * Removing pre-qualified 
+
+
+
+---
+
+### v1.531.0
+Released: 2026-07-27T18:16:19Z
+
+## What's Changed
+
+ *  Adding llm insurance predictor to smart filters 
+
+
+
+---
+
+### v1.530.0
+Released: 2026-07-24T23:59:18Z
+
+## What's Changed
+
+ * Last few question insurance dropdown 
+
+ * Extend pg e|e2e 
+
+ *  Trigger insurance check one diagnosis update 
+
+ * Chore/py deps 
+
+ * Remove phone FF 
+
+ *  update reissue insurance to work with ambry workflow 
+
+ * Update npm deps 
+
+ * Update file upload page heading size 
+
+ *  Add eligibility via hydra/product offerings route for retool 
+
+ * Use sentry error boundary on InsuranceLayout 
+
+
+
+---
+
+### v1.529.0
+Released: 2026-07-22T23:02:17Z
+
+## What's Changed
+
+ * Feat/connect referral create ambry 
+
+
+
+---
+
+### v1.528.0
+Released: 2026-07-22T18:18:07Z
+
+## What's Changed
+
+ * Fix button click handler in GetStarted component 
+
+ * chore: force posthog to capture console logs 
+
+ * Add e2e tests for happy path, new `pg e2e` command 
+
+ * Add human CODEOWNERS for all repository files 
+
+ * Update PR template 
+
+ * Allan/pro 11214 create new testing lab column for insurance referrals 
+
+ *  FewQuestion fixes 
+
+ *  Add InsuranceReferral lab name support to events.py analy… 
+
+ * Revert " Add InsuranceReferral lab name support to events.py analy…" 
+
+ * Comment out paths in CODEOWNERS 
+
+ *  Allow manual field entry for physician address 
+
+ *  Insurance scheduler: recover /select/ false-failures 
+
+ * Scheduler UI: explicit Sentry + PostHog telemetry across the insurance flow 
+
+ *  update PWN documentation bundle to include lab routing + test name 
+
+ * Make ethnicity required 
+
+ * Update kidney disease hallmark pheno 
+
+ * Delayed intake follow ups 
+
+ * Carry query params until we create the account 
+
+ *  Implement complete Ambry PWN workflow with activities 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of July 20, 2026                                                                                                                                                                         
                                                                                                                                                                                                             
 ## Recent Releases                                                                                                                                                                                          
