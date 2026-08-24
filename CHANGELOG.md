@@ -1,3 +1,522 @@
+# Changelog - Week of August 24, 2026
+
+## Recent Releases
+
+### v1.550.0
+Released: 2026-08-12T22:41:42Z
+
+## What's Changed
+
+ * : Include join link and conference type in PWN mailgun emails 
+
+
+
+---
+
+### v1.556.0
+Released: 2026-08-21T21:16:55Z
+
+## What's Changed
+
+ * : Add order-documents S3 storage and Box-to-S3 backfill command skeleton 
+
+ * Add AGENTS.md documentation guidance 
+
+ * Create how-to folder structure and reorganize setup files 
+
+ * Chore/clean deps 
+
+ * : Stop replaying stale PWN consult statuses on every webhook 
+
+ *  Classify PWN referral-not-schedulable causes and auto-reissue 
+
+ *  Recover PWN booking-timeout failures instead of desyncing local state 
+
+ *  Invalidate the stale cached pwn_referral_id on reissue 
+
+ *  Bound the indefinite reissue-wait spinner 
+
+ *  Tag reissue mint failures so the frontend never redirects to PWN 
+
+ * : Add static.probablygenetic.com alias to the static assets distribution 
+
+ * make terraforming a little chiller 
+
+ * Add Stripe identity verification runbook and how-to guides 
+
+ * Bring back pycurl, remove createcache table 
+
+
+
+---
+
+### v1.555.0
+Released: 2026-08-20T18:29:58Z
+
+## What's Changed
+
+ *  minimal CI stack for the insurance E2E suite 
+
+ *  clean up runbooks front end 
+
+ *  Adding template for runbooks to docs 
+
+ * Fix migration conflict 
+
+ * Fix SS migration 
+
+
+
+---
+
+### v1.554.0
+Released: 2026-08-19T23:14:53Z
+
+## What's Changed
+
+ *  pg_e2e: framework + shared atoms for main's insurance redesign 
+
+ *  Refactor few questions consent 
+
+ * : Make calendar events 1 hour long 
+
+ * : Send appointment confirmation email immediately after booking 
+
+ *  Fix missing join_link on pwn:pre_test_consult_schedule 
+
+ *  pg_e2e: insurance page atoms (missing-data/duo-trio + embedded scheduler) 
+
+ * pg_e2e: remove stale full-flow insurance tests (fix `pg e2e` collection) 
+
+ * Update packages to resolve nanoid/sqlparse vuln 
+
+ *  pg_e2e tests: flow1 + flow2 dashboard paths 
+
+ *  pg_e2e tests: flow2 live-redirect + full embedded-scheduler booking 
+
+ *  pg_e2e tests: GM + PWN scheduler paths + workflow variants 
+
+ * : Offer Google/Outlook/Apple choice in Add to calendar 
+
+ *  pg_e2e tests: hallmark eligibility matrix (#4798) 
+
+ *  pg_e2e tests: syngap, full-flow, assessment + misc 
+
+ * : Add modality information to appointment .ics events 
+
+ *  re-orgnize docs before making runbook changes 
+
+
+
+---
+
+### v1.553.0
+Released: 2026-08-18T20:01:20Z
+
+## What's Changed
+
+ * trivy: update nanoid 
+
+ * Remove label from send event 
+
+ *  Removing ftd auto-offer 
+
+ * Track SMS marketing consent via Person post_save signal 
+
+ *  UpdateFabricReportsWorkflow should skip any invalid status code from Fabric 
+
+ *  pwn: retry transient PWN 429 rate-limits on idempotent reads 
+
+ *  - Fix card disappearing for report-ready users 
+
+ * Allow for consent (previous hydra model) to be sent on few questions endpoint 
+
+ *  e2e: phenotyper test-support endpoints for the insurance suite 
+
+ *  Fix blank appointment page after reschedule 
+
+
+
+---
+
+### v1.552.2
+Released: 2026-08-17T23:24:22Z
+
+
+
+---
+
+### v1.552.1
+Released: 2026-08-15T15:34:33Z
+
+
+
+---
+
+### v1.552.0
+Released: 2026-08-13T22:55:30Z
+
+## What's Changed
+
+ * Empty message error feedback in conversation 
+
+ *  Fixing e2e and updating PR template 
+
+ * swap insurance consult modality default to phone 
+
+ *  Self-recovering legacy form response processes 
+
+ * Fix incorrect consent being submitted 
+
+
+
+---
+
+### v1.551.0
+Released: 2026-08-13T17:58:50Z
+
+## What's Changed
+
+ * Add conversation locking mechanism for conversation to prevent multiple answers to a single question 
+
+ * Add management commands to find and fix broken conversations 
+
+ * Allan/pro 11663 resolving few questions loading slowly 
+
+ *  Increasing timeout for post submit eligiblitiy loading page 
+
+
+
+---
+
+### v1.549.1
+Released: 2026-08-12T20:28:49Z
+
+## What's Changed
+
+ * Removed delayed intake override 
+
+
+
+---
+
+### v1.549.0
+Released: 2026-08-12T19:00:51Z
+
+## What's Changed
+
+ * : Send uploaded genetic test reports to the PWN scheduler referral 
+
+ * : Insurance entry design updates 
+
+
+
+---
+
+### v1.548.1
+Released: 2026-08-12T05:24:35Z
+
+## What's Changed
+
+ *  Removing check for product offering feature flag on polling 
+
+
+
+---
+
+### v1.548.0
+Released: 2026-08-12T04:18:19Z
+
+## What's Changed
+
+ *  - Frontend changes 
+
+
+
+---
+
+### v1.547.0
+Released: 2026-08-12T03:46:54Z
+
+## What's Changed
+
+ *  - Backend changes 
+
+
+
+---
+
+### v1.546.0
+Released: 2026-08-12T03:17:04Z
+
+## What's Changed
+
+ * Update hallmark phenos to prioritize insurance relevance 
+
+ * allow easier opening of the draft PR page 
+
+ *  don't freak out when the ics endpoint returns an ics file 
+
+
+
+---
+
+### v1.545.0
+Released: 2026-08-11T21:37:56Z
+
+## What's Changed
+
+ *  add Add to Calendar button to appointment scheduling 
+
+ * Fix trivy-flagged security vulnerabilities 
+
+ * send staging notifications to the staging channel 
+
+ * Move every insurance redirect into one router 
+
+ * : handle patient-facing data for missed/past appointments 
+
+ * : dedupe pwn:pre_test_consult_cancel on webhook redelivery 
+
+
+
+---
+
+### v1.544.0
+Released: 2026-08-11T17:51:39Z
+
+## What's Changed
+
+ * Fix stale question on conversation 
+
+ *  fix reschedule styling  
+
+ * Age of onset error states 
+
+ * Prevent double-sending on frontend + more idempotency on backend 
+
+ * Merge the insurance entry pages into one 
+
+ * Retire the embedded-scheduler experiment 
+
+
+
+---
+
+### v1.543.0
+Released: 2026-08-08T02:42:16Z
+
+## What's Changed
+
+ *  backfill diagnosis info in prod 
+
+ * : Split the insurance form off the booking confirmation 
+
+ * : Force-resend contact event signal on Ambry consult reschedule 
+
+ *  add ambry workflow signal to force rerun of (teeny fix) 
+
+
+
+---
+
+### v1.542.0
+Released: 2026-08-07T23:32:48Z
+
+## What's Changed
+
+ * : Backend for PWN appointment-ics lookup and scheduler status 
+
+ * : Implement appointment page under /dashboard/appointment with dashboard layout and sidebar link 
+
+ *  build cancel/reschedule actions on the appointment page 
+
+
+
+---
+
+### v1.541.0
+Released: 2026-08-07T01:37:28Z
+
+## What's Changed
+
+ *  Include cancel/join links + conference_type on pwn:pre_test_consult_schedule 
+
+
+
+---
+
+### v1.540.1
+Released: 2026-08-06T23:45:57Z
+
+## What's Changed
+
+
+
+---
+
+### v1.540.0
+Released: 2026-08-06T21:46:22Z
+
+## What's Changed
+
+ * Remove skip-intervention-history AB test 
+
+ * Update backend to allow for optional physician data 
+
+ *  backend post cancel extend get status cancellation email 
+
+ * Frontend for physician move 
+
+ * Physician Move E2E tests 
+
+ * Fix insurance-physician page flow 
+
+ *  Adding new predictor to LLM library for autism severity 
+
+ * Add ./pg file-upload to simulate the file upload pipeline locally 
+
+ *  Run autism severity predictor after chat with other insurance predictor 
+
+ * Allan/pro 11483 move universal file upload page 
+
+ *  update ambry sf routing to include moderate to profound routing 
+
+ *  send autism growth event when anyone with autism comes through 
+
+ *  Short circuit autism severity routing if autism level diagnosis present 
+
+ * Emit event on physician update 
+
+ * Conversation feedback: eyebrow text 
+
+
+
+---
+
+### v1.539.2
+Released: 2026-08-06T01:31:59Z
+
+
+
+---
+
+### v1.539.1
+Released: 2026-08-05T22:38:49Z
+
+
+
+---
+
+### v1.539.0
+Released: 2026-08-04T18:26:20Z
+
+## What's Changed
+
+ * : Stop clipping the post-GC booking CTA on mobile 
+
+ * DisallowedHost: Invalid HTTP_HOST header: 'containers'. You may need to add 'containers' to ALLOWED_HOSTS. 
+
+
+
+---
+
+### v1.538.0
+Released: 2026-08-03T22:56:29Z
+
+## What's Changed
+
+ * Chore/update npm/python packages 
+
+ * Update E2E for lab-tests and hallmark pheno changes 
+
+ * Diagnosis history copy update 
+
+ * Missed a lib using an outdated package 
+
+ *  add SchedulerClient.cancel_consult() 
+
+ *  Migrating legacy document validation results 
+
+
+
+---
+
+### v1.537.0
+Released: 2026-07-31T23:38:01Z
+
+## What's Changed
+
+ *  reduce required fields on manual physician entry 
+
+ *  remove lab tests page from intake flow and dashboard sidebar 
+
+ * Remove family history question 
+
+ * Split top level hallmark phenos AB Test 
+
+
+
+---
+
+### v1.536.0
+Released: 2026-07-30T00:49:33Z
+
+## What's Changed
+
+ *  Fix/insurance card offerings 
+
+ *  Adding testing lab to insurance qualify events 
+
+ * feat: select initial time in scheduler 
+
+ *  Updating the prompt for insurance predictor to v2 
+
+ * fix: small ui changes for scheduler select 
+
+
+
+---
+
+### v1.535.0
+Released: 2026-07-29T17:41:51Z
+
+## What's Changed
+
+ * : MVP fix for appointment management 
+
+ * fix: small cosmetic changes to scheduler 
+
+ * Swap Age of Onset and Family History Questions 
+
+ *  Update HIPAA doc 
+
+
+
+---
+
+### v1.534.0
+Released: 2026-07-28T20:51:03Z
+
+## What's Changed
+
+ * : Book-first insurance flow (functional page swap) 
+
+ * : Insurance flow — design & cosmetic polish 
+
+ * Bump fast-uri and postcss to patch Trivy HIGH advisories 
+
+ * : Stop blocking non-PG 400 urls in Sentry on FE 
+
+ * Recompute eligibility on insurance missing info submit 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of July 20, 2026                                                                                                                                                                         
                                                                                                                                                                                                             
 ## Recent Releases                                                                                                                                                                                          
