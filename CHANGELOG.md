@@ -7,9 +7,7 @@ Released: 2026-08-12T22:41:42Z
 
 ## What's Changed
 
- * : Include join link and conference type in PWN mailgun emails 
-
-
+* Include join link and conference type in telehealth emails
 
 ---
 
@@ -18,35 +16,20 @@ Released: 2026-08-21T21:16:55Z
 
 ## What's Changed
 
- * : Add order-documents S3 storage and Box-to-S3 backfill command skeleton 
-
- * Add AGENTS.md documentation guidance 
-
- * Create how-to folder structure and reorganize setup files 
-
- * Chore/clean deps 
-
- * : Stop replaying stale PWN consult statuses on every webhook 
-
- *  Classify PWN referral-not-schedulable causes and auto-reissue 
-
- *  Recover PWN booking-timeout failures instead of desyncing local state 
-
- *  Invalidate the stale cached pwn_referral_id on reissue 
-
- *  Bound the indefinite reissue-wait spinner 
-
- *  Tag reissue mint failures so the frontend never redirects to PWN 
-
- * : Add static.probablygenetic.com alias to the static assets distribution 
-
- * make terraforming a little chiller 
-
- * Add Stripe identity verification runbook and how-to guides 
-
- * Bring back pycurl, remove createcache table 
-
-
+* Add order-documents S3 storage and document migration command skeleton
+* Add internal documentation guidance
+* Create how-to folder structure and reorganize setup files
+* Clean dependencies
+* Stop replaying stale consult statuses on every webhook
+* Classify referral-not-schedulable causes and auto-reissue
+* Recover booking-timeout failures instead of desyncing local state
+* Invalidate the stale cached referral ID on reissue
+* Bound the indefinite reissue-wait spinner
+* Tag reissue mint failures so the frontend never redirects to telehealth partner
+* Add static assets alias to the static assets distribution
+* Improve infrastructure deployment scripts
+* Add identity verification runbook and how-to guides
+* Bring back pycurl, remove createcache table
 
 ---
 
@@ -55,17 +38,11 @@ Released: 2026-08-20T18:29:58Z
 
 ## What's Changed
 
- *  minimal CI stack for the insurance E2E suite 
-
- *  clean up runbooks front end 
-
- *  Adding template for runbooks to docs 
-
- * Fix migration conflict 
-
- * Fix SS migration 
-
-
+* Add minimal CI stack for the insurance end-to-end test suite
+* Clean up runbooks front end
+* Add template for runbooks to docs
+* Fix migration conflict
+* Fix backend database migration
 
 ---
 
@@ -74,39 +51,22 @@ Released: 2026-08-19T23:14:53Z
 
 ## What's Changed
 
- *  pg_e2e: framework + shared atoms for main's insurance redesign 
-
- *  Refactor few questions consent 
-
- * : Make calendar events 1 hour long 
-
- * : Send appointment confirmation email immediately after booking 
-
- *  Fix missing join_link on pwn:pre_test_consult_schedule 
-
- *  pg_e2e: insurance page atoms (missing-data/duo-trio + embedded scheduler) 
-
- * pg_e2e: remove stale full-flow insurance tests (fix `pg e2e` collection) 
-
- * Update packages to resolve nanoid/sqlparse vuln 
-
- *  pg_e2e tests: flow1 + flow2 dashboard paths 
-
- *  pg_e2e tests: flow2 live-redirect + full embedded-scheduler booking 
-
- *  pg_e2e tests: GM + PWN scheduler paths + workflow variants 
-
- * : Offer Google/Outlook/Apple choice in Add to calendar 
-
- *  pg_e2e tests: hallmark eligibility matrix (#4798) 
-
- *  pg_e2e tests: syngap, full-flow, assessment + misc 
-
- * : Add modality information to appointment .ics events 
-
- *  re-orgnize docs before making runbook changes 
-
-
+* Update end-to-end test framework and shared components for insurance redesign
+* Refactor few questions consent
+* Make calendar events 1 hour long
+* Send appointment confirmation email immediately after booking
+* Fix missing join link on pre-test consult schedule webhook
+* Update end-to-end tests for insurance pages and embedded scheduler
+* Remove stale full-flow insurance end-to-end tests
+* Update packages to resolve security vulnerabilities
+* Update end-to-end tests for dashboard paths
+* Update end-to-end tests for live-redirect and full embedded-scheduler booking
+* Update end-to-end tests for scheduler paths and workflow variants
+* Offer Google/Outlook/Apple choice in Add to calendar
+* Update end-to-end tests for eligibility matrix
+* Update end-to-end tests for full-flow and assessments
+* Add modality information to appointment .ics events
+* Re-organize docs before making runbook changes
 
 ---
 
@@ -115,41 +75,26 @@ Released: 2026-08-18T20:01:20Z
 
 ## What's Changed
 
- * trivy: update nanoid 
-
- * Remove label from send event 
-
- *  Removing ftd auto-offer 
-
- * Track SMS marketing consent via Person post_save signal 
-
- *  UpdateFabricReportsWorkflow should skip any invalid status code from Fabric 
-
- *  pwn: retry transient PWN 429 rate-limits on idempotent reads 
-
- *  - Fix card disappearing for report-ready users 
-
- * Allow for consent (previous hydra model) to be sent on few questions endpoint 
-
- *  e2e: phenotyper test-support endpoints for the insurance suite 
-
- *  Fix blank appointment page after reschedule 
-
-
+* Update security dependencies
+* Remove label from send event
+* Remove automated offering
+* Track SMS marketing consent via Person post-save signal
+* Report workflow should skip any invalid status code from reporting partner API
+* Retry transient telehealth partner rate-limits on idempotent reads
+* Fix card disappearing for report-ready users
+* Allow for consent to be sent on few questions endpoint
+* Add test-support endpoints for the insurance suite
+* Fix blank appointment page after reschedule
 
 ---
 
 ### v1.552.2
 Released: 2026-08-17T23:24:22Z
 
-
-
 ---
 
 ### v1.552.1
 Released: 2026-08-15T15:34:33Z
-
-
 
 ---
 
@@ -158,17 +103,11 @@ Released: 2026-08-13T22:55:30Z
 
 ## What's Changed
 
- * Empty message error feedback in conversation 
-
- *  Fixing e2e and updating PR template 
-
- * swap insurance consult modality default to phone 
-
- *  Self-recovering legacy form response processes 
-
- * Fix incorrect consent being submitted 
-
-
+* Add empty message error feedback in conversation
+* Fix end-to-end tests and update PR template
+* Swap insurance consult modality default to phone
+* Self-recovering legacy form response processes
+* Fix incorrect consent being submitted
 
 ---
 
@@ -177,15 +116,10 @@ Released: 2026-08-13T17:58:50Z
 
 ## What's Changed
 
- * Add conversation locking mechanism for conversation to prevent multiple answers to a single question 
-
- * Add management commands to find and fix broken conversations 
-
- * Allan/pro 11663 resolving few questions loading slowly 
-
- *  Increasing timeout for post submit eligiblitiy loading page 
-
-
+* Add conversation locking mechanism to prevent multiple answers to a single question
+* Add management commands to find and fix broken conversations
+* Resolve few questions loading slowly
+* Increase timeout for post-submit eligibility loading page
 
 ---
 
@@ -194,9 +128,7 @@ Released: 2026-08-12T20:28:49Z
 
 ## What's Changed
 
- * Removed delayed intake override 
-
-
+* Remove delayed intake override
 
 ---
 
@@ -205,11 +137,8 @@ Released: 2026-08-12T19:00:51Z
 
 ## What's Changed
 
- * : Send uploaded genetic test reports to the PWN scheduler referral 
-
- * : Insurance entry design updates 
-
-
+* Send uploaded genetic test reports to the telehealth scheduler referral
+* Insurance entry design updates
 
 ---
 
@@ -218,9 +147,7 @@ Released: 2026-08-12T05:24:35Z
 
 ## What's Changed
 
- *  Removing check for product offering feature flag on polling 
-
-
+* Remove check for product offering feature flag on polling
 
 ---
 
@@ -229,9 +156,7 @@ Released: 2026-08-12T04:18:19Z
 
 ## What's Changed
 
- *  - Frontend changes 
-
-
+* Frontend changes
 
 ---
 
@@ -240,9 +165,7 @@ Released: 2026-08-12T03:46:54Z
 
 ## What's Changed
 
- *  - Backend changes 
-
-
+* Backend changes
 
 ---
 
@@ -251,13 +174,9 @@ Released: 2026-08-12T03:17:04Z
 
 ## What's Changed
 
- * Update hallmark phenos to prioritize insurance relevance 
-
- * allow easier opening of the draft PR page 
-
- *  don't freak out when the ics endpoint returns an ics file 
-
-
+* Update hallmark phenotypes to prioritize insurance relevance
+* Allow easier opening of the draft PR page
+* Handle unexpected responses when the calendar endpoint returns an ics file
 
 ---
 
@@ -266,19 +185,12 @@ Released: 2026-08-11T21:37:56Z
 
 ## What's Changed
 
- *  add Add to Calendar button to appointment scheduling 
-
- * Fix trivy-flagged security vulnerabilities 
-
- * send staging notifications to the staging channel 
-
- * Move every insurance redirect into one router 
-
- * : handle patient-facing data for missed/past appointments 
-
- * : dedupe pwn:pre_test_consult_cancel on webhook redelivery 
-
-
+* Add "Add to Calendar" button to appointment scheduling
+* Fix security vulnerabilities
+* Send staging notifications to the staging channel
+* Move every insurance redirect into one router
+* Handle patient-facing data for missed/past appointments
+* Deduplicate consult cancel webhooks on redelivery
 
 ---
 
@@ -287,19 +199,12 @@ Released: 2026-08-11T17:51:39Z
 
 ## What's Changed
 
- * Fix stale question on conversation 
-
- *  fix reschedule styling  
-
- * Age of onset error states 
-
- * Prevent double-sending on frontend + more idempotency on backend 
-
- * Merge the insurance entry pages into one 
-
- * Retire the embedded-scheduler experiment 
-
-
+* Fix stale question on conversation
+* Fix reschedule styling
+* Age of onset error states
+* Prevent double-sending on frontend and improve backend idempotency
+* Merge the insurance entry pages into one
+* Retire the embedded-scheduler experiment
 
 ---
 
@@ -308,15 +213,10 @@ Released: 2026-08-08T02:42:16Z
 
 ## What's Changed
 
- *  backfill diagnosis info in prod 
-
- * : Split the insurance form off the booking confirmation 
-
- * : Force-resend contact event signal on Ambry consult reschedule 
-
- *  add ambry workflow signal to force rerun of (teeny fix) 
-
-
+* Backfill diagnosis info in production
+* Split the insurance form off the booking confirmation
+* Force-resend contact event signal on lab partner consult reschedule
+* Add lab workflow signal to force rerun
 
 ---
 
@@ -325,13 +225,9 @@ Released: 2026-08-07T23:32:48Z
 
 ## What's Changed
 
- * : Backend for PWN appointment-ics lookup and scheduler status 
-
- * : Implement appointment page under /dashboard/appointment with dashboard layout and sidebar link 
-
- *  build cancel/reschedule actions on the appointment page 
-
-
+* Add backend for appointment calendar lookup and scheduler status
+* Implement appointment page under dashboard layout and sidebar link
+* Build cancel/reschedule actions on the appointment page
 
 ---
 
@@ -340,18 +236,12 @@ Released: 2026-08-07T01:37:28Z
 
 ## What's Changed
 
- *  Include cancel/join links + conference_type on pwn:pre_test_consult_schedule 
-
-
+* Include cancel/join links and conference type on consult schedule webhooks
 
 ---
 
 ### v1.540.1
 Released: 2026-08-06T23:45:57Z
-
-## What's Changed
-
-
 
 ---
 
@@ -360,51 +250,31 @@ Released: 2026-08-06T21:46:22Z
 
 ## What's Changed
 
- * Remove skip-intervention-history AB test 
-
- * Update backend to allow for optional physician data 
-
- *  backend post cancel extend get status cancellation email 
-
- * Frontend for physician move 
-
- * Physician Move E2E tests 
-
- * Fix insurance-physician page flow 
-
- *  Adding new predictor to LLM library for autism severity 
-
- * Add ./pg file-upload to simulate the file upload pipeline locally 
-
- *  Run autism severity predictor after chat with other insurance predictor 
-
- * Allan/pro 11483 move universal file upload page 
-
- *  update ambry sf routing to include moderate to profound routing 
-
- *  send autism growth event when anyone with autism comes through 
-
- *  Short circuit autism severity routing if autism level diagnosis present 
-
- * Emit event on physician update 
-
- * Conversation feedback: eyebrow text 
-
-
+* Remove skip-intervention-history AB test
+* Update backend to allow for optional physician data
+* Extend get status cancellation email
+* Frontend for physician move
+* Add end-to-end tests for physician move
+* Fix insurance-physician page flow
+* Add new predictor to LLM library for autism severity
+* Add script to simulate the file upload pipeline locally
+* Run autism severity predictor after chat with other insurance predictor
+* Move universal file upload page
+* Update lab routing to include moderate to profound routing
+* Send autism growth event when anyone with autism comes through
+* Short circuit autism severity routing if autism level diagnosis present
+* Emit event on physician update
+* Conversation feedback: eyebrow text
 
 ---
 
 ### v1.539.2
 Released: 2026-08-06T01:31:59Z
 
-
-
 ---
 
 ### v1.539.1
 Released: 2026-08-05T22:38:49Z
-
-
 
 ---
 
@@ -413,11 +283,8 @@ Released: 2026-08-04T18:26:20Z
 
 ## What's Changed
 
- * : Stop clipping the post-GC booking CTA on mobile 
-
- * DisallowedHost: Invalid HTTP_HOST header: 'containers'. You may need to add 'containers' to ALLOWED_HOSTS. 
-
-
+* Stop clipping the post-booking call-to-action on mobile
+* Fix DisallowedHost header error for internal containers
 
 ---
 
@@ -426,19 +293,12 @@ Released: 2026-08-03T22:56:29Z
 
 ## What's Changed
 
- * Chore/update npm/python packages 
-
- * Update E2E for lab-tests and hallmark pheno changes 
-
- * Diagnosis history copy update 
-
- * Missed a lib using an outdated package 
-
- *  add SchedulerClient.cancel_consult() 
-
- *  Migrating legacy document validation results 
-
-
+* Update frontend and backend packages
+* Update end-to-end tests for lab tests and hallmark phenotype changes
+* Diagnosis history copy update
+* Fix outdated package in shared library
+* Add scheduler client cancel consult method
+* Migrate legacy document validation results
 
 ---
 
@@ -447,15 +307,10 @@ Released: 2026-07-31T23:38:01Z
 
 ## What's Changed
 
- *  reduce required fields on manual physician entry 
-
- *  remove lab tests page from intake flow and dashboard sidebar 
-
- * Remove family history question 
-
- * Split top level hallmark phenos AB Test 
-
-
+* Reduce required fields on manual physician entry
+* Remove lab tests page from intake flow and dashboard sidebar
+* Remove family history question
+* Split top level hallmark phenotypes AB Test
 
 ---
 
@@ -464,17 +319,11 @@ Released: 2026-07-30T00:49:33Z
 
 ## What's Changed
 
- *  Fix/insurance card offerings 
-
- *  Adding testing lab to insurance qualify events 
-
- * feat: select initial time in scheduler 
-
- *  Updating the prompt for insurance predictor to v2 
-
- * fix: small ui changes for scheduler select 
-
-
+* Fix insurance card offerings
+* Add testing lab to insurance qualify events
+* Select initial time in scheduler
+* Update the prompt for insurance predictor to v2
+* Small UI changes for scheduler select
 
 ---
 
@@ -483,15 +332,10 @@ Released: 2026-07-29T17:41:51Z
 
 ## What's Changed
 
- * : MVP fix for appointment management 
-
- * fix: small cosmetic changes to scheduler 
-
- * Swap Age of Onset and Family History Questions 
-
- *  Update HIPAA doc 
-
-
+* MVP fix for appointment management
+* Small cosmetic changes to scheduler
+* Swap Age of Onset and Family History Questions
+* Update HIPAA documentation
 
 ---
 
@@ -500,20 +344,11 @@ Released: 2026-07-28T20:51:03Z
 
 ## What's Changed
 
- * : Book-first insurance flow (functional page swap) 
-
- * : Insurance flow — design & cosmetic polish 
-
- * Bump fast-uri and postcss to patch Trivy HIGH advisories 
-
- * : Stop blocking non-PG 400 urls in Sentry on FE 
-
- * Recompute eligibility on insurance missing info submit 
-
-
-
----
-
+* Book-first insurance flow (functional page swap)
+* Insurance flow — design & cosmetic polish
+* Update packages to patch security advisories
+* Stop blocking internal error URLs in frontend analytics
+* Recompute eligibility on insurance missing info submit
 
 ---
 
