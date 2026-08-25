@@ -1,3 +1,357 @@
+# Changelog - Week of August 24, 2026
+
+## Recent Releases
+
+### v1.550.0
+Released: 2026-08-12T22:41:42Z
+
+## What's Changed
+
+* Include join link and conference type in telehealth emails
+
+---
+
+### v1.556.0
+Released: 2026-08-21T21:16:55Z
+
+## What's Changed
+
+* Add order-documents S3 storage and document migration command skeleton
+* Add internal documentation guidance
+* Create how-to folder structure and reorganize setup files
+* Clean dependencies
+* Stop replaying stale consult statuses on every webhook
+* Classify referral-not-schedulable causes and auto-reissue
+* Recover booking-timeout failures instead of desyncing local state
+* Invalidate the stale cached referral ID on reissue
+* Bound the indefinite reissue-wait spinner
+* Tag reissue mint failures so the frontend never redirects to telehealth partner
+* Add static assets alias to the static assets distribution
+* Improve infrastructure deployment scripts
+* Add identity verification runbook and how-to guides
+* Bring back pycurl, remove createcache table
+
+---
+
+### v1.555.0
+Released: 2026-08-20T18:29:58Z
+
+## What's Changed
+
+* Add minimal CI stack for the insurance end-to-end test suite
+* Clean up runbooks front end
+* Add template for runbooks to docs
+* Fix migration conflict
+* Fix backend database migration
+
+---
+
+### v1.554.0
+Released: 2026-08-19T23:14:53Z
+
+## What's Changed
+
+* Update end-to-end test framework and shared components for insurance redesign
+* Refactor few questions consent
+* Make calendar events 1 hour long
+* Send appointment confirmation email immediately after booking
+* Fix missing join link on pre-test consult schedule webhook
+* Update end-to-end tests for insurance pages and embedded scheduler
+* Remove stale full-flow insurance end-to-end tests
+* Update packages to resolve security vulnerabilities
+* Update end-to-end tests for dashboard paths
+* Update end-to-end tests for live-redirect and full embedded-scheduler booking
+* Update end-to-end tests for scheduler paths and workflow variants
+* Offer Google/Outlook/Apple choice in Add to calendar
+* Update end-to-end tests for eligibility matrix
+* Update end-to-end tests for full-flow and assessments
+* Add modality information to appointment .ics events
+* Re-organize docs before making runbook changes
+
+---
+
+### v1.553.0
+Released: 2026-08-18T20:01:20Z
+
+## What's Changed
+
+* Update security dependencies
+* Remove label from send event
+* Remove automated offering
+* Track SMS marketing consent via Person post-save signal
+* Report workflow should skip any invalid status code from reporting partner API
+* Retry transient telehealth partner rate-limits on idempotent reads
+* Fix card disappearing for report-ready users
+* Allow for consent to be sent on few questions endpoint
+* Add test-support endpoints for the insurance suite
+* Fix blank appointment page after reschedule
+
+---
+
+### v1.552.2
+Released: 2026-08-17T23:24:22Z
+
+---
+
+### v1.552.1
+Released: 2026-08-15T15:34:33Z
+
+---
+
+### v1.552.0
+Released: 2026-08-13T22:55:30Z
+
+## What's Changed
+
+* Add empty message error feedback in conversation
+* Fix end-to-end tests and update PR template
+* Swap insurance consult modality default to phone
+* Self-recovering legacy form response processes
+* Fix incorrect consent being submitted
+
+---
+
+### v1.551.0
+Released: 2026-08-13T17:58:50Z
+
+## What's Changed
+
+* Add conversation locking mechanism to prevent multiple answers to a single question
+* Add management commands to find and fix broken conversations
+* Resolve few questions loading slowly
+* Increase timeout for post-submit eligibility loading page
+
+---
+
+### v1.549.1
+Released: 2026-08-12T20:28:49Z
+
+## What's Changed
+
+* Remove delayed intake override
+
+---
+
+### v1.549.0
+Released: 2026-08-12T19:00:51Z
+
+## What's Changed
+
+* Send uploaded genetic test reports to the telehealth scheduler referral
+* Insurance entry design updates
+
+---
+
+### v1.548.1
+Released: 2026-08-12T05:24:35Z
+
+## What's Changed
+
+* Remove check for product offering feature flag on polling
+
+---
+
+### v1.548.0
+Released: 2026-08-12T04:18:19Z
+
+## What's Changed
+
+* Frontend changes
+
+---
+
+### v1.547.0
+Released: 2026-08-12T03:46:54Z
+
+## What's Changed
+
+* Backend changes
+
+---
+
+### v1.546.0
+Released: 2026-08-12T03:17:04Z
+
+## What's Changed
+
+* Update hallmark phenotypes to prioritize insurance relevance
+* Allow easier opening of the draft PR page
+* Handle unexpected responses when the calendar endpoint returns an ics file
+
+---
+
+### v1.545.0
+Released: 2026-08-11T21:37:56Z
+
+## What's Changed
+
+* Add "Add to Calendar" button to appointment scheduling
+* Fix security vulnerabilities
+* Send staging notifications to the staging channel
+* Move every insurance redirect into one router
+* Handle patient-facing data for missed/past appointments
+* Deduplicate consult cancel webhooks on redelivery
+
+---
+
+### v1.544.0
+Released: 2026-08-11T17:51:39Z
+
+## What's Changed
+
+* Fix stale question on conversation
+* Fix reschedule styling
+* Age of onset error states
+* Prevent double-sending on frontend and improve backend idempotency
+* Merge the insurance entry pages into one
+* Retire the embedded-scheduler experiment
+
+---
+
+### v1.543.0
+Released: 2026-08-08T02:42:16Z
+
+## What's Changed
+
+* Backfill diagnosis info in production
+* Split the insurance form off the booking confirmation
+* Force-resend contact event signal on lab partner consult reschedule
+* Add lab workflow signal to force rerun
+
+---
+
+### v1.542.0
+Released: 2026-08-07T23:32:48Z
+
+## What's Changed
+
+* Add backend for appointment calendar lookup and scheduler status
+* Implement appointment page under dashboard layout and sidebar link
+* Build cancel/reschedule actions on the appointment page
+
+---
+
+### v1.541.0
+Released: 2026-08-07T01:37:28Z
+
+## What's Changed
+
+* Include cancel/join links and conference type on consult schedule webhooks
+
+---
+
+### v1.540.1
+Released: 2026-08-06T23:45:57Z
+
+---
+
+### v1.540.0
+Released: 2026-08-06T21:46:22Z
+
+## What's Changed
+
+* Remove skip-intervention-history AB test
+* Update backend to allow for optional physician data
+* Extend get status cancellation email
+* Frontend for physician move
+* Add end-to-end tests for physician move
+* Fix insurance-physician page flow
+* Add new predictor to LLM library for autism severity
+* Add script to simulate the file upload pipeline locally
+* Run autism severity predictor after chat with other insurance predictor
+* Move universal file upload page
+* Update lab routing to include moderate to profound routing
+* Send autism growth event when anyone with autism comes through
+* Short circuit autism severity routing if autism level diagnosis present
+* Emit event on physician update
+* Conversation feedback: eyebrow text
+
+---
+
+### v1.539.2
+Released: 2026-08-06T01:31:59Z
+
+---
+
+### v1.539.1
+Released: 2026-08-05T22:38:49Z
+
+---
+
+### v1.539.0
+Released: 2026-08-04T18:26:20Z
+
+## What's Changed
+
+* Stop clipping the post-booking call-to-action on mobile
+* Fix DisallowedHost header error for internal containers
+
+---
+
+### v1.538.0
+Released: 2026-08-03T22:56:29Z
+
+## What's Changed
+
+* Update frontend and backend packages
+* Update end-to-end tests for lab tests and hallmark phenotype changes
+* Diagnosis history copy update
+* Fix outdated package in shared library
+* Add scheduler client cancel consult method
+* Migrate legacy document validation results
+
+---
+
+### v1.537.0
+Released: 2026-07-31T23:38:01Z
+
+## What's Changed
+
+* Reduce required fields on manual physician entry
+* Remove lab tests page from intake flow and dashboard sidebar
+* Remove family history question
+* Split top level hallmark phenotypes AB Test
+
+---
+
+### v1.536.0
+Released: 2026-07-30T00:49:33Z
+
+## What's Changed
+
+* Fix insurance card offerings
+* Add testing lab to insurance qualify events
+* Select initial time in scheduler
+* Update the prompt for insurance predictor to v2
+* Small UI changes for scheduler select
+
+---
+
+### v1.535.0
+Released: 2026-07-29T17:41:51Z
+
+## What's Changed
+
+* MVP fix for appointment management
+* Small cosmetic changes to scheduler
+* Swap Age of Onset and Family History Questions
+* Update HIPAA documentation
+
+---
+
+### v1.534.0
+Released: 2026-07-28T20:51:03Z
+
+## What's Changed
+
+* Book-first insurance flow (functional page swap)
+* Insurance flow — design & cosmetic polish
+* Update packages to patch security advisories
+* Stop blocking internal error URLs in frontend analytics
+* Recompute eligibility on insurance missing info submit
+
+---
+
 # Changelog - Week of July 20, 2026                                                                                                                                                                         
                                                                                                                                                                                                             
 ## Recent Releases                                                                                                                                                                                          
