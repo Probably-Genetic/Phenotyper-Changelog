@@ -1,3 +1,327 @@
+# Changelog - Week of August 31, 2026
+
+## Recent Releases
+
+### v1.561.0
+Released: 2026-08-28T20:52:25Z
+
+## What's Changed
+
+ * : Resolve pwn_referral_id when the Referral open webhook beats order creation 
+
+ * Health plan routing 1/7: schema 
+
+ * Allan/pro 11976 remove copy family members joining appointment from product 
+
+
+
+---
+
+### v1.560.0
+Released: 2026-08-27T22:55:21Z
+
+## What's Changed
+
+ * Docs/doc overview 
+
+ * Chore/py package updates 
+
+ * automatically update linear when we release 
+
+ * : Skip document validation for files it can't read, or that have already been validated 
+
+ *  Workflow not running is expected, stop creating Sentry errors and error logs 
+
+ * Update UserProfileMenu skinning 
+
+ * Fix failing e2e 
+
+ *  Add consent values to event to track in posthog 
+
+ * Fix non-idempotent endpoint 
+
+ * Skip conversation fires conversation end 
+
+ * updates for new users 
+
+
+
+---
+
+### v1.559.0
+Released: 2026-08-27T00:02:14Z
+
+## What's Changed
+
+ *  Add spectacular (swagger docs) and initial steps for API response standardization 
+
+ * Allan/pro 11834 frontend openapi generation 
+
+ *  Adding symptom-checker api for cancel order 
+
+ *  Adding sequencing-service api for cancel order 
+
+ * Adding api to repair smart filter workflows 
+
+ * ) Add join-call card to dashboard appointment status card  
+
+ * handling sqs blockage 
+
+ * Fix Dockerfile 
+
+ * Adding delete user docs 
+
+ * Docs/create vcf download links 
+
+ * : Implement Core Frontend API Wrappers 
+
+ * : Land explicit AllowAny on remaining open views 
+
+ * Adding documenttion on smart filter repair 
+
+ * Adding cancel pwn order how-to 
+
+ * Creating incentive program and milestone for insurance feedback 
+
+ * Adding docs on accessing django admin 
+
+ * Docs/cancel & reorder genetic test 
+
+ *  move worker heartbeat alerts to #tech-alerts-prod 
+
+ * Clean up work from docs project 
+
+ * Creating new django admin reupload phi to fabric button 
+
+ * Adding markdown rumbl linter 
+
+
+
+---
+
+### v1.558.0
+Released: 2026-08-25T22:11:30Z
+
+## What's Changed
+
+ * Add migration checks before tests so we know we should do it 
+
+ * Adding new skill to help check that files are properly indexed in docs 
+
+ * add migrations for unmanaged tables 
+
+ * Ignore the auth app for any migration changes. It's a first-party app 
+
+ * Always safe to retry 429 (rate limited) 
+
+ * Remove default appointment 
+
+
+
+---
+
+### v1.557.0
+Released: 2026-08-24T21:53:49Z
+
+## What's Changed
+
+ * : Add pg-order-documents S3 bucket with versioning 
+
+ * Cloudwatch sentry forwarder docs 
+
+ * Space reschedule before schedule and carry appointment_id on consult events 
+
+ * chore(deps): bump dopplerhq/cli-action from 3 to 4 
+
+ * chore(deps): bump docker/setup-buildx-action from 3 to 4 
+
+ * Migrating more docs 
+
+ *  Add generic SFTP polling activity 
+
+
+
+---
+
+### v1.556.0
+Released: 2026-08-21T21:16:55Z
+
+## What's Changed
+
+ * : Add order-documents S3 storage and Box-to-S3 backfill command skeleton 
+
+ * Add AGENTS.md documentation guidance 
+
+ * Create how-to folder structure and reorganize setup files 
+
+ * Chore/clean deps 
+
+ * : Stop replaying stale PWN consult statuses on every webhook 
+
+ *  Classify PWN referral-not-schedulable causes and auto-reissue 
+
+ *  Recover PWN booking-timeout failures instead of desyncing local state 
+
+ *  Invalidate the stale cached pwn_referral_id on reissue 
+
+ *  Bound the indefinite reissue-wait spinner 
+
+ *  Tag reissue mint failures so the frontend never redirects to PWN 
+
+ * : Add static.probablygenetic.com alias to the static assets distribution 
+
+ * make terraforming a little chiller 
+
+ * Add Stripe identity verification runbook and how-to guides 
+
+ * Bring back pycurl, remove createcache table 
+
+
+
+---
+
+### v1.555.0
+Released: 2026-08-20T18:29:58Z
+
+## What's Changed
+
+ *  minimal CI stack for the insurance E2E suite 
+
+ *  clean up runbooks front end 
+
+ *  Adding template for runbooks to docs 
+
+ * Fix migration conflict 
+
+ * Fix SS migration 
+
+
+
+---
+
+### v1.554.0
+Released: 2026-08-19T23:14:53Z
+
+## What's Changed
+
+ *  pg_e2e: framework + shared atoms for main's insurance redesign 
+
+ *  Refactor few questions consent 
+
+ * : Make calendar events 1 hour long 
+
+ * : Send appointment confirmation email immediately after booking 
+
+ *  Fix missing join_link on pwn:pre_test_consult_schedule 
+
+ *  pg_e2e: insurance page atoms (missing-data/duo-trio + embedded scheduler) 
+
+ * pg_e2e: remove stale full-flow insurance tests (fix `pg e2e` collection) 
+
+ * Update packages to resolve nanoid/sqlparse vuln 
+
+ *  pg_e2e tests: flow1 + flow2 dashboard paths 
+
+ *  pg_e2e tests: flow2 live-redirect + full embedded-scheduler booking 
+
+ *  pg_e2e tests: GM + PWN scheduler paths + workflow variants 
+
+ * : Offer Google/Outlook/Apple choice in Add to calendar 
+
+ *  pg_e2e tests: hallmark eligibility matrix (#4798) 
+
+ *  pg_e2e tests: syngap, full-flow, assessment + misc 
+
+ * : Add modality information to appointment .ics events 
+
+ *  re-orgnize docs before making runbook changes 
+
+
+
+---
+
+### v1.553.0
+Released: 2026-08-18T20:01:20Z
+
+## What's Changed
+
+ * trivy: update nanoid 
+
+ * Remove label from send event 
+
+ *  Removing ftd auto-offer 
+
+ * Track SMS marketing consent via Person post_save signal 
+
+ *  UpdateFabricReportsWorkflow should skip any invalid status code from Fabric 
+
+ *  pwn: retry transient PWN 429 rate-limits on idempotent reads 
+
+ *  - Fix card disappearing for report-ready users 
+
+ * Allow for consent (previous hydra model) to be sent on few questions endpoint 
+
+ *  e2e: phenotyper test-support endpoints for the insurance suite 
+
+ *  Fix blank appointment page after reschedule 
+
+
+
+---
+
+### v1.552.2
+Released: 2026-08-17T23:24:22Z
+
+
+
+---
+
+### v1.552.1
+Released: 2026-08-15T15:34:33Z
+
+
+
+---
+
+### v1.552.0
+Released: 2026-08-13T22:55:30Z
+
+## What's Changed
+
+ * Empty message error feedback in conversation 
+
+ *  Fixing e2e and updating PR template 
+
+ * swap insurance consult modality default to phone 
+
+ *  Self-recovering legacy form response processes 
+
+ * Fix incorrect consent being submitted 
+
+
+
+---
+
+### v1.551.0
+Released: 2026-08-13T17:58:50Z
+
+## What's Changed
+
+ * Add conversation locking mechanism for conversation to prevent multiple answers to a single question 
+
+ * Add management commands to find and fix broken conversations 
+
+ * Allan/pro 11663 resolving few questions loading slowly 
+
+ *  Increasing timeout for post submit eligiblitiy loading page 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of August 24, 2026
 
 ## Recent Releases
