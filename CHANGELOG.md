@@ -1,3 +1,123 @@
+# Changelog - Week of September 14, 2026
+
+## Recent Releases
+
+### v1.571.0
+Released: null
+
+## What's Changed
+
+ * Fix issue with Ambry workflow where PDFs were not parsing correctly
+
+---
+
+### v1.570.0
+Released: 2026-09-11T16:21:26Z
+
+## What's Changed
+
+ * Added a new appointment dashboard
+
+ * Fixed an issue where the verification challenge wouldn't reset after a form error
+
+ * Rolled out split-phenotypes to all users
+
+ * Internal Update
+
+---
+
+### v1.569.1
+Released: 2026-09-10T23:43:04Z
+
+- Internal Update
+
+---
+
+### v1.569.0
+Released: 2026-09-10T20:18:30Z
+
+## What's Changed
+
+ * Add links between Sequencing Service and Symptom Checker in django admin
+
+ * Fixed an issue affecting in-progress patient offerings
+
+ * Update hooks and components in appointment dashboard
+
+ * Support processing and submitting results from Ambry
+
+ * Internal Update
+
+## New Contributors
+
+ * @jessica-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/5035
+
+
+---
+
+### v1.568.0
+Released: 2026-09-09T18:25:12Z
+
+## What's Changed
+
+ * Appointments are now automatically marked as no-shows when a patient doesn't attend
+
+
+
+---
+
+### v1.567.1
+Released: 2026-09-09T17:56:43Z
+
+## What's Changed
+
+ * Internal Update
+
+ * Fixed the report status card so it hides once your report is ready
+
+
+
+---
+
+### v1.567.0
+Released: 2026-09-09T16:19:47Z
+
+## What's Changed
+
+ * Internal Update
+
+ * Improved reliability of saving insurance information after a network interruption
+
+ * Fixed an issue where uploading an insurance card photo could fail
+
+
+
+---
+
+### v1.566.0
+Released: 2026-09-08T23:10:13Z
+
+## What's Changed
+
+ * Improved error messages on flow pages and fixed an issue with stale review information
+
+ * Added dashboard links and joining details to appointment calendar invites
+
+ * Clarify alerts to users when saving insurance information fails
+
+ * Added validation to ensure phone numbers follow US formatting rules
+
+ * Added support for Global Privacy Control (GPC) signals to automatically opt out of marketing tracking
+
+ * Internal Update
+
+
+
+---
+
+
+---
+
 # Changelog - Week of September 07, 2026
 
 ## Recent Releases
