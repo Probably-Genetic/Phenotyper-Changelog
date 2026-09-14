@@ -1,3 +1,203 @@
+# Changelog - Week of September 07, 2026
+
+## Recent Releases
+
+### v1.565.0
+Released: 2026-09-05T01:35:50Z
+
+## What's Changed
+
+ * Internal Update
+
+---
+
+### v1.564.0
+Released: 2026-09-05T01:01:14Z
+
+## What's Changed
+
+ * Internal Updates
+ * Update dependencies
+
+---
+
+### v1.563.0
+Released: 2026-09-04T18:37:21Z
+
+## What's Changed
+
+ * Internal updates
+ * Update internal testing
+ * update sms consent copy for intake
+ * Improve insurance routing based on if your insurance provider is in network
+
+
+---
+
+### v1.562.1
+Released: 2026-09-04T05:57:57Z
+
+* Internal updates
+
+---
+
+### v1.562.0
+Released: 2026-09-01T22:06:49Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.561.0
+Released: 2026-08-28T20:52:25Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.560.0
+Released: 2026-08-27T22:55:21Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.559.0
+Released: 2026-08-27T00:02:14Z
+
+## What's Changed
+
+ * Internal updates
+
+---
+
+### v1.558.0
+Released: 2026-08-25T22:11:30Z
+
+## What's Changed
+
+ * Remove default insurance appointment selection, users must now select time for insurance consultation
+
+
+---
+
+### v1.557.0
+Released: 2026-08-24T21:53:49Z
+
+## What's Changed
+
+ * Internal Updates
+
+---
+
+### v1.556.0
+Released: 2026-08-21T21:16:55Z
+
+## What's Changed
+
+ * Improve reliability of getting available consultation time slots from PWN
+
+
+---
+
+### v1.555.0
+Released: 2026-08-20T18:29:58Z
+
+## What's Changed
+
+ *  Internal updates
+
+---
+
+### v1.554.0
+Released: 2026-08-19T23:14:53Z
+
+## What's Changed 
+
+ * Update insurance calendar event to be 1 hour long
+
+ * Send appointment confirmation email immediately after booking 
+
+ * Add the option to add insurance appointment to Google, Outlook, or Apple calendar
+
+ * Add information about how insurance consultation with occur, either over the phone or video call
+
+
+
+---
+
+### v1.553.0
+Released: 2026-08-18T20:01:20Z
+
+## What's Changed
+
+ * Internal updates
+ * Fix dashboard report ready card disappearing for some patients who were already went through intake
+ * Fix issue where a blank appointment page was showing when trying to reschedule an appointment with PWN 
+
+
+
+---
+
+### v1.552.2
+Released: 2026-08-17T23:24:22Z
+
+- Internal updates
+
+---
+
+### v1.552.1
+Released: 2026-08-15T15:34:33Z
+
+- Internal updates
+
+---
+
+### v1.552.0
+Released: 2026-08-13T22:55:30Z
+
+## What's Changed
+
+ * Empty message error feedback in conversation 
+
+ *  Fixing e2e and updating PR template 
+
+ * swap insurance consult modality default to phone 
+
+ *  Self-recovering legacy form response processes 
+
+ * Fix incorrect consent being submitted 
+
+
+
+---
+
+### v1.551.0
+Released: 2026-08-13T17:58:50Z
+
+## What's Changed
+
+ * Add conversation locking mechanism for conversation to prevent multiple answers to a single question 
+
+ * Add management commands to find and fix broken conversations 
+
+ * Allan/pro 11663 resolving few questions loading slowly 
+
+ *  Increasing timeout for post submit eligiblitiy loading page 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of August 24, 2026
 
 ## Recent Releases
