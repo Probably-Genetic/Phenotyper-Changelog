@@ -1,3 +1,145 @@
+# Changelog - Week of September 14, 2026
+
+## Recent Releases
+
+### v1.571.0
+Released: null
+
+## What's Changed
+
+ * Add temporal to phenotyper depends_on 
+
+ * Update ambry workflow to parse PDF properly 
+
+---
+
+### v1.570.0
+Released: 2026-09-11T16:21:26Z
+
+## What's Changed
+
+ * Appointment dashboard implementation 
+
+ * Keep results-delivery consults out of the pre-test referral events and approval gate 
+
+ *  Add turnstile reset when there's a validation error 
+
+ * Update libs to use uv 
+
+ * Rollout split-phenos to 100% of users 
+
+ * add a set form response id signal 
+
+
+
+---
+
+### v1.569.1
+Released: 2026-09-10T23:43:04Z
+
+- @ivyfriedman-pg - Allow manually setting ambry workflow's form response ids for manual results release
+
+---
+
+### v1.569.0
+Released: 2026-09-10T20:18:30Z
+
+## What's Changed
+
+ * Add links SS<->SC in django admin 
+
+ * Fix/in progress patients offerings 
+
+ * Appointment dashboard updates to hooks and component library 
+
+ *  implement Ambry PDF merge activity + update workflow 
+
+ *  add generic Box file-upload lib and Temporal activity 
+
+ *  wire Box upload and PWN submission into AmbryWorkflow 
+
+ *  extract ambry variants 
+
+ * Update Aptible install info in readme 
+
+## New Contributors
+
+ * @jessica-pg made their first contribution in https://github.com/Probably-Genetic/Phenotyper/pull/5035
+
+
+---
+
+### v1.568.0
+Released: 2026-09-09T18:25:12Z
+
+## What's Changed
+
+ * Add check for no shows to flip a confirmed to false 
+
+
+
+---
+
+### v1.567.1
+Released: 2026-09-09T17:56:43Z
+
+## What's Changed
+
+ * Docs/devops deployment 
+
+ *  Hide status card if report ready 
+
+
+
+---
+
+### v1.567.0
+Released: 2026-09-09T16:19:47Z
+
+## What's Changed
+
+ * : Add runbook for PWN referral orders aliased 
+
+ * : Retry the insurance save once on a network drop and record why it failed 
+
+ * : Fix card upload dropping every picked photo (hotfix) 
+
+
+
+---
+
+### v1.566.0
+Released: 2026-09-08T23:10:13Z
+
+## What's Changed
+
+ * : Show server errors on flow pages and stop caching empty review info 
+
+ * : Add dashboard links and join details to appointment calendar events 
+
+ * : Show the server's reason when saving insurance fails with a 4xx 
+
+ * Create useIsInsuranceEligible hook 
+
+ * chore(deps): bump docker/login-action from 3 to 4 
+
+ * chore(deps): bump actions/upload-artifact from 4 to 7 
+
+ *  Validate patient phone numbers against US numbering rules 
+
+ * GPC 1/7: Frontend detects GPC and denies marketing consent 
+
+ *  No under 2 and record criteria results 
+
+ * GPC 2/7: Storage for the marketing tracking opt-out 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of September 07, 2026
 
 ## Recent Releases
