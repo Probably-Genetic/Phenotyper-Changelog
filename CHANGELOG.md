@@ -7,9 +7,7 @@ Released: null
 
 ## What's Changed
 
- * Add temporal to phenotyper depends_on 
-
- * Update ambry workflow to parse PDF properly 
+ * Fix issue with Ambry workflow where PDFs were not parsing correctly
 
 ---
 
@@ -18,26 +16,20 @@ Released: 2026-09-11T16:21:26Z
 
 ## What's Changed
 
- * Appointment dashboard implementation 
+ * Added a new appointment dashboard
 
- * Keep results-delivery consults out of the pre-test referral events and approval gate 
+ * Fixed an issue where the verification challenge wouldn't reset after a form error
 
- *  Add turnstile reset when there's a validation error 
+ * Rolled out split-phenotypes to all users
 
- * Update libs to use uv 
-
- * Rollout split-phenos to 100% of users 
-
- * add a set form response id signal 
-
-
+ * Internal Update
 
 ---
 
 ### v1.569.1
 Released: 2026-09-10T23:43:04Z
 
-- @ivyfriedman-pg - Allow manually setting ambry workflow's form response ids for manual results release
+- Internal Update
 
 ---
 
@@ -46,21 +38,15 @@ Released: 2026-09-10T20:18:30Z
 
 ## What's Changed
 
- * Add links SS<->SC in django admin 
+ * Add links between Sequencing Service and Symptom Checker in django admin
 
- * Fix/in progress patients offerings 
+ * Fixed an issue affecting in-progress patient offerings
 
- * Appointment dashboard updates to hooks and component library 
+ * Update hooks and components in appointment dashboard
 
- *  implement Ambry PDF merge activity + update workflow 
+ * Support processing and submitting results from Ambry
 
- *  add generic Box file-upload lib and Temporal activity 
-
- *  wire Box upload and PWN submission into AmbryWorkflow 
-
- *  extract ambry variants 
-
- * Update Aptible install info in readme 
+ * Internal Update
 
 ## New Contributors
 
@@ -74,7 +60,7 @@ Released: 2026-09-09T18:25:12Z
 
 ## What's Changed
 
- * Add check for no shows to flip a confirmed to false 
+ * Appointments are now automatically marked as no-shows when a patient doesn't attend
 
 
 
@@ -85,9 +71,9 @@ Released: 2026-09-09T17:56:43Z
 
 ## What's Changed
 
- * Docs/devops deployment 
+ * Internal Update
 
- *  Hide status card if report ready 
+ * Fixed the report status card so it hides once your report is ready
 
 
 
@@ -98,11 +84,11 @@ Released: 2026-09-09T16:19:47Z
 
 ## What's Changed
 
- * : Add runbook for PWN referral orders aliased 
+ * Internal Update
 
- * : Retry the insurance save once on a network drop and record why it failed 
+ * Improved reliability of saving insurance information after a network interruption
 
- * : Fix card upload dropping every picked photo (hotfix) 
+ * Fixed an issue where uploading an insurance card photo could fail
 
 
 
@@ -113,25 +99,17 @@ Released: 2026-09-08T23:10:13Z
 
 ## What's Changed
 
- * : Show server errors on flow pages and stop caching empty review info 
+ * Improved error messages on flow pages and fixed an issue with stale review information
 
- * : Add dashboard links and join details to appointment calendar events 
+ * Added dashboard links and joining details to appointment calendar invites
 
- * : Show the server's reason when saving insurance fails with a 4xx 
+ * Clarify alerts to users when saving insurance information fails
 
- * Create useIsInsuranceEligible hook 
+ * Added validation to ensure phone numbers follow US formatting rules
 
- * chore(deps): bump docker/login-action from 3 to 4 
+ * Added support for Global Privacy Control (GPC) signals to automatically opt out of marketing tracking
 
- * chore(deps): bump actions/upload-artifact from 4 to 7 
-
- *  Validate patient phone numbers against US numbering rules 
-
- * GPC 1/7: Frontend detects GPC and denies marketing consent 
-
- *  No under 2 and record criteria results 
-
- * GPC 2/7: Storage for the marketing tracking opt-out 
+ * Internal Update
 
 
 
