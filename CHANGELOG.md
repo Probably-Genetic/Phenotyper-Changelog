@@ -1,3 +1,89 @@
+# Changelog - Week of September 21, 2026
+
+## Recent Releases
+
+### v1.574.0
+Released: 2026-09-17T17:11:27Z
+
+## What's Changed
+
+ * a]: Fix patient name showing as "Probably Genetic" in cancellation emails 
+
+ * Move stage and prod to the same search version 
+
+ *  : Add seizure severity predictor 
+
+ *   Adding hearing loss profile predictor 
+
+ *  : Add immunodeficiency severity predictor  
+
+ *   Add GDD Fit Predictor 
+
+ *  : Add developmental regression fit predictor 
+
+ *   implement new insurance profiles predictors dev metric 
+
+
+
+---
+
+### v1.573.0
+Released: 2026-09-16T23:21:53Z
+
+## What's Changed
+
+ *  Add comparators backend 
+
+ * Update retool version in terraform 
+
+ *  Email Input Spellcheck 
+
+ *  make backfill_target_condition_v2 support limits 
+
+
+
+---
+
+### v1.572.0
+Released: 2026-09-16T20:29:40Z
+
+## What's Changed
+
+ * : Add the Box to S3 migration status doc 
+
+ * add docs for generating databricks tokens for the mcp 
+
+ * : Normalize Labs-Module contact-log slug so schedule events keep join_link 
+
+ * : Serialise PWN referral minting per form response 
+
+ * Upgrade Retool 
+
+ *  Prevent orders from entering GC pre-test consult flow when sponsor does not require it 
+
+ * : Seed a health plan in the insurance E2E tests 
+
+ *  Adding ambry as possible lab for the rest of insurance profiles 
+
+ * Automate Ambry SFTP report ingestion 
+
+ * : Fix stuck-order recovery to actually use the corrected fabric case id 
+
+ * Update elastic search terraform 
+
+ *  Add new referral:relevant_family_diagnosis event 
+
+ * : Patch medium-severity dependency advisories 
+
+ * Add draft = false to deploy actions 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of September 14, 2026
 
 ## Recent Releases
