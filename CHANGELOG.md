@@ -7,21 +7,19 @@ Released: 2026-09-17T17:11:27Z
 
 ## What's Changed
 
- * a]: Fix patient name showing as "Probably Genetic" in cancellation emails 
+ * Fix patient name showing as "Probably Genetic" in cancellation emails 
 
- * Move stage and prod to the same search version 
+ * Add seizure severity predictor 
 
- *  : Add seizure severity predictor 
+ * Adding hearing loss profile predictor 
 
- *   Adding hearing loss profile predictor 
+ * Add immunodeficiency severity predictor  
 
- *  : Add immunodeficiency severity predictor  
+ * Add GDD Fit Predictor 
 
- *   Add GDD Fit Predictor 
+ * Add developmental regression fit predictor 
 
- *  : Add developmental regression fit predictor 
-
- *   implement new insurance profiles predictors dev metric 
+ * Implement new insurance profiles predictors dev metric 
 
 
 
@@ -32,13 +30,11 @@ Released: 2026-09-16T23:21:53Z
 
 ## What's Changed
 
- *  Add comparators backend 
+ * Add comparators backend 
 
- * Update retool version in terraform 
+ * Email Input Spellcheck 
 
- *  Email Input Spellcheck 
-
- *  make backfill_target_condition_v2 support limits 
+ * Make backfill_target_condition_v2 support limits 
 
 
 
@@ -49,34 +45,25 @@ Released: 2026-09-16T20:29:40Z
 
 ## What's Changed
 
- * : Add the Box to S3 migration status doc 
+ * Normalize Labs-Module contact-log slug so schedule events keep join_link 
 
- * add docs for generating databricks tokens for the mcp 
+ * Serialise PWN referral minting per form response 
 
- * : Normalize Labs-Module contact-log slug so schedule events keep join_link 
+ * Prevent orders from entering GC pre-test consult flow when sponsor does not require it 
 
- * : Serialise PWN referral minting per form response 
+ * Seed a health plan in the insurance E2E tests 
 
- * Upgrade Retool 
-
- *  Prevent orders from entering GC pre-test consult flow when sponsor does not require it 
-
- * : Seed a health plan in the insurance E2E tests 
-
- *  Adding ambry as possible lab for the rest of insurance profiles 
+ * Adding Ambry as possible lab for the rest of insurance profiles 
 
  * Automate Ambry SFTP report ingestion 
 
- * : Fix stuck-order recovery to actually use the corrected fabric case id 
+ * Fix stuck-order recovery to actually use the corrected fabric case id 
 
  * Update elastic search terraform 
 
- *  Add new referral:relevant_family_diagnosis event 
+ * Add new referral:relevant_family_diagnosis event 
 
- * : Patch medium-severity dependency advisories 
-
- * Add draft = false to deploy actions 
-
+ * Patch medium-severity dependency advisories 
 
 
 ---
@@ -103,7 +90,7 @@ Released: 2026-09-14T22:02:13Z
 
 * Fix oaklib-service build: semantic-sql databases moved off S3
 
-* Reduce ambry payload size
+* Reduce Ambry payload size
 
 ---
 
