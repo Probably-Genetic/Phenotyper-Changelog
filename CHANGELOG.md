@@ -89,11 +89,21 @@ Released: 2026-09-16T20:29:40Z
 ## Recent Releases
 
 ### v1.571.0
-Released: null
+Released: 2026-09-14T22:02:13Z
 
 ## What's Changed
 
- * Fix issue with Ambry workflow where PDFs were not parsing correctly
+* Add temporal to phenotyper depends_on
+  
+* Update ambry workflow to parse PDF properly
+
+* Patch high-severity js-yaml, brace-expansion, and pyjwt advisories
+
+* Finish the uv migration: make phenotyper Django tests runnable locally
+
+* Fix oaklib-service build: semantic-sql databases moved off S3
+
+* Reduce ambry payload size
 
 ---
 
