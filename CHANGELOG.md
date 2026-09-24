@@ -1,13 +1,96 @@
+# Changelog - Week of September 21, 2026
+
+## Recent Releases
+
+### v1.574.0
+Released: 2026-09-17T17:11:27Z
+
+## What's Changed
+
+ * Fix patient name showing as "Probably Genetic" in cancellation emails 
+
+ * Add seizure severity predictor 
+
+ * Adding hearing loss profile predictor 
+
+ * Add immunodeficiency severity predictor  
+
+ * Add GDD Fit Predictor 
+
+ * Add developmental regression fit predictor 
+
+ * Implement new insurance profiles predictors dev metric 
+
+
+
+---
+
+### v1.573.0
+Released: 2026-09-16T23:21:53Z
+
+## What's Changed
+
+ * Add comparators backend 
+
+ * Email Input Spellcheck 
+
+ * Make backfill_target_condition_v2 support limits 
+
+
+
+---
+
+### v1.572.0
+Released: 2026-09-16T20:29:40Z
+
+## What's Changed
+
+ * Normalize Labs-Module contact-log slug so schedule events keep join_link 
+
+ * Serialise PWN referral minting per form response 
+
+ * Prevent orders from entering GC pre-test consult flow when sponsor does not require it 
+
+ * Seed a health plan in the insurance E2E tests 
+
+ * Adding Ambry as possible lab for the rest of insurance profiles 
+
+ * Automate Ambry SFTP report ingestion 
+
+ * Fix stuck-order recovery to actually use the corrected fabric case id 
+
+ * Update elastic search terraform 
+
+ * Add new referral:relevant_family_diagnosis event 
+
+ * Patch medium-severity dependency advisories 
+
+
+---
+
+
+---
+
 # Changelog - Week of September 14, 2026
 
 ## Recent Releases
 
 ### v1.571.0
-Released: null
+Released: 2026-09-14T22:02:13Z
 
 ## What's Changed
 
- * Fix issue with Ambry workflow where PDFs were not parsing correctly
+* Add temporal to phenotyper depends_on
+  
+* Update ambry workflow to parse PDF properly
+
+* Patch high-severity js-yaml, brace-expansion, and pyjwt advisories
+
+* Finish the uv migration: make phenotyper Django tests runnable locally
+
+* Fix oaklib-service build: semantic-sql databases moved off S3
+
+* Reduce Ambry payload size
 
 ---
 
