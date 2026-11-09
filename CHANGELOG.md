@@ -7,11 +7,9 @@ Released: 2026-11-05T22:54:32Z
 
 ## What's Changed
 
- * : Add SteadyMD order models, workflow types and client 
+ * Add physician order workflow support 
 
- * Ivy/revent deployrole changes 
-
- * Product offerings feature flag not being read properly 
+ * Fix product offerings feature flag not being read properly 
 
 
 
@@ -22,17 +20,13 @@ Released: 2026-11-05T19:37:24Z
 
 ## What's Changed
 
- *  Add initial sequencing service wiring 
+ * Add initial sequencing service integration 
 
- *  Fix login error display 
+ * Fix login error display 
 
- *  Dev panel flag overrides 
+ * List uploaded test reports in the clinical document 
 
- * : List uploaded test reports in the clinical doc 
-
- * : Skip diagnoses whose name doesn't match their MONDO term in the refresh 
-
- *  Remove legacy insurance_reimbursement:eligible event 
+ * Skip diagnoses whose name doesn't match their MONDO term during refresh 
 
 
 
@@ -43,49 +37,19 @@ Released: 2026-11-04T22:45:43Z
 
 ## What's Changed
 
- * : Pre-approve APOL1 offers until a physician is added 
+ * Pre-approve APOL1 offers until a physician is added 
 
- * Bump pyasn1, oauthlib and werkzeug for security fixes 
+ * Improve doctor search performance and location matching 
 
- * : Add FastenClient.iter_download_chunks 
+ * Add electronic health record (EHR) sync 
 
- * Bump follow-redirects to 1.16.2 for CVE-2026-116689 
+ * Send documents to the new referral after a reissue 
 
- * Remove graphql deadcode 
+ * Record where a patient file was uploaded 
 
- * : Rebuild the doctors index behind an alias and switch it in one step 
+ * Send the form response reference ID as the MRN on referrals 
 
- * : Run pg-doctors on OpenSearch 2.19 with bigger nodes and search slow logs 
-
- * : Index doctor locations as a geo_point 
-
- * : Switch doctor search to the opensearch-py client 
-
- *  Inline LearnMore component 
-
- * Add document to help with manually resolving missing HIPAA and Patient docs 
-
- * : Measure physician search against NPPES doctors and hand-entered physicians 
-
- * : Prevent TerraformDeployRole from modifying itself or its policies 
-
- * : Send documents to the new PWN referral after a reissue 
-
- * : Record where a patient file was uploaded 
-
- * Stop Bug Buster build workflow failing on every push 
-
- * : Add Fasten sync activities and types 
-
- * : Send the form response reference ID as MRN to PWN 
-
- * : Implement the Fasten sync workflow 
-
- * : Harden Hydra EHR file upload schemas and docs 
-
- * : Prevent TerraformDeployRole from modifying itself or its… 
-
- * Remove awswrangler from sequencing-service to fix Celery task discovery 
+ * Apply dependency security updates 
 
 
 
@@ -96,35 +60,23 @@ Released: 2026-11-03T20:29:59Z
 
 ## What's Changed
 
- * : Load the NPPES data file in the weekly doctors job and fail when nothing loads 
+ * Add doctor search 
 
- *  runbook for stuck broad orders 
+ * Improve the weekly doctor directory refresh 
 
- * : Add EHR export S3 key builder 
+ * Add EHR file upload and management 
 
- * : Register EHR files in UniversalFileUploadService 
+ * Hide animal pathology and obsolete terms from diagnosis search 
 
- * : Add file status and sync delete to UniversalFileUploadService 
+ * Pin preferred diseases only on exact or prefix matches 
 
- * : Add internal API for server-side EHR file registration 
+ * Support refreshing stored diagnoses from a pinned MONDO release 
 
- * : Add Hydra client for internal EHR file endpoints 
+ * Time out and retry slow doctor searches 
 
- * : Find doctors 
+ * Send the intake transcript as a separate confidential PDF with referrals 
 
- * : Hide animal pathology and obsolete terms from diagnosis search 
-
- * : Pin preferred diseases only on exact or prefix matches 
-
- * : Add a command to refresh stored diagnoses from a pinned MONDO release 
-
- * : Time out doctor searches after 4s and retry once 
-
- * : Send the intake transcript to PWN as a separate confidential PDF 
-
- * : Match the clinical doc to the GC template 
-
- * Bump UnauthenticatedGuard timeout to 1500 
+ * Align the clinical document with the genetic counseling template 
 
 
 
@@ -135,9 +87,7 @@ Released: 2026-11-03T16:26:30Z
 
 ## What's Changed
 
- *  Fix FlowFooter back button alignment 
-
- *  Intake 'relationship before name' experiment 
+ * Fix back button alignment in the flow footer 
 
 
 
@@ -148,23 +98,15 @@ Released: 2026-11-02T23:12:18Z
 
 ## What's Changed
 
- * : Generate the clinical doc after the referral exists 
+ * Generate the clinical document after the referral is created 
 
- * : Stop listing family members' diagnoses as the patient's in the clinical doc 
+ * Stop listing family members' diagnoses as the patient's in the clinical document 
 
- * : Keep relatives' diagnoses out of the patient's summaries and PWN order 
+ * Keep relatives' diagnoses out of patient summaries and lab orders 
 
- * : Add analytics events to the secondary findings consent page 
+ * Sync the patient's secondary findings choice to the lab order 
 
- * Route low and medium severity security news to the notifications channel 
-
- * : Add how-to for sending patients raw sequencing data (CRAM) 
-
- *  Remove transcribe feature 
-
- *  Remove TRF gate on Arkana workflow, wait before checking box 
-
- * : Sync the patient's secondary findings choice to the PWN order 
+ * Remove transcription feature 
 
 
 
@@ -175,27 +117,11 @@ Released: 2026-11-02T18:37:04Z
 
 ## What's Changed
 
- * Upgrade Retool to 4.34.14-stable-hardened and pin its Terraform module 
+ * Add a secondary findings consent step to the insurance flow 
 
- * : Add secondary findings consent policy type 
+ * Advance orders to pending approval when the consult is completed 
 
- * Update Arkana logic when sending to PWN 
-
- * : Add an endpoint returning the current consent policy 
-
- * : Add has_secondary_findings_choice to the insurance referral check 
-
- * : Add the secondary findings consent page 
-
- * Triage Oct 2026 high-severity advisories (oauthlib x2, nltk, dnspython, vite) 
-
- *  Migrate dashboard StatusSidebar 
-
- *  : Advance orders to pending approval on production consult completion 
-
- * : Wire the secondary findings step into the insurance flow 
-
- *  Filter bots from BE analytics 
+ * Apply dependency security updates 
 
 
 
@@ -206,11 +132,9 @@ Released: 2026-10-30T15:41:03Z
 
 ## What's Changed
 
- * Lowing reasoning for hpo extraction to increase speed 
+ * Speed up HPO extraction 
 
- *  Move useAddressLookup hook out of bearded-dragon-ui 
-
- * : Tag pre-test consult bookings with the Rebook 
+ * Tag rebooked pre-test consult bookings 
 
 
 
@@ -221,17 +145,13 @@ Released: 2026-10-29T23:11:51Z
 
 ## What's Changed
 
- * : Not applicable: add black and zod advisories in .trivyignore 
+ * Remove resource card 
 
- *  Remove resource card and feature flag 
+ * Only send the insurance card with referrals 
 
- * : Backfill consent policy types and versions 
+ * Update temporality description to omit onset information 
 
- *  Send insurance card only to PWN 
-
- * Update (T)emporality description to omit (O)nset information 
-
- *  Comparator page updates 
+ * Comparator page updates 
 
 
 
@@ -242,35 +162,11 @@ Released: 2026-10-29T16:45:01Z
 
 ## What's Changed
 
- * Remove authlib since we dont use? Update unittests 
+ * Sync patient phone number to sequencing orders 
 
- *  Sync Person phone to sequencing-service orders 
+ * Add in-network banner to insurance selection 
 
- * Link the release Slack message to the tag URL, not the draft's untagg… 
-
- *  Clean up hpo extraction and llm lib 
-
- * : Add S3Deleter role for deleting bucket contents 
-
- * New Claude Skill: prepare-pr 
-
- *  Add claude generated API schema for SteadyMD 
-
- *  Add steadymd bruno requests 
-
- *  Add in network banner to insurance select 
-
- * Add 7-day supply-chain cooldown to Poetry and remaining uv projects 
-
- *  removing hallmark phenotype and field_value from clinical doc 
-
- * : Move pwn_scheduler datetime helpers into datetime_utils.py 
-
- * Fix order-dependent test failures in referrals and pwn_scheduler 
-
- *  SteadyMD API client 
-
- * Add another Arkana case based on production document 
+ * Remove hallmark phenotype and field value from the clinical document 
 
 
 
@@ -281,31 +177,15 @@ Released: 2026-10-28T17:08:20Z
 
 ## What's Changed
 
- * : Clear stale portal booking when a PWN referral is reissued 
+ * Clear stale portal booking when a referral is reissued 
 
- * : Add Fasten sync task queue, start client, and signal client 
+ * Add EHR connection and sync foundations 
 
- * Add Claude-triaged security news alerts to Slack 
-
- * : Mitigate DRF advisories pending Django 5.2 upgrade 
-
- * Bump Poetry to 2.5.1 in base images 
-
- * : Add consent policy type and version columns 
-
- * : Fix insurance e2e selectors for scheduler copy changes 
-
- * Removing LLM demo from hydra 
+ * Mitigate Django REST Framework security advisories 
 
  * Update patient info header copy 
 
- * Add Arkana production cases for parser 
-
- * Add Banner to Prime Dragon 
-
- * : EHR connection/sync/webhook models and ehr-enabled flag 
-
- * : Update modal copy in the cancel and reschedule appointment flow 
+ * Update modal copy in the cancel and reschedule appointment flow 
 
 
 
@@ -316,19 +196,7 @@ Released: 2026-10-27T22:44:02Z
 
 ## What's Changed
 
- * : Build the LLM transcript as a Conversation object 
-
- * : Move pwn_scheduler serializers out of views.py 
-
- *  Adding support for citations to hpo extraction 
-
- *  Add comparators to Django Admin 
-
- * Wait for the ngrok tunnel in pwn_webhook_local.sh 
-
- * Adding dev hotkey and conversation id 
-
- * OPQRST backfill verifier improvements 
+ * Add citation support to HPO extraction 
 
 
 
@@ -339,35 +207,15 @@ Released: 2026-10-27T21:42:20Z
 
 ## What's Changed
 
- * : Add shared fasten_health client library 
+ * Update insurance flow and consultation copy 
 
- *  Insurance consultation copy Pt1 
+ * Allow updating the order contact phone number 
 
- * : Add variants and a status dot to prime-dragon Badge 
+ * Increase real-time genetic counseling lead time from 15 to 30 minutes 
 
- *  Add endpoint to update order contact phone 
+ * Reduce frontend bundle size 
 
- * : Build FastenClient on the shared ApiClient 
-
- * Fix force insurance flow dev endpoint 
-
- *  Move StatusCard out of bearded-dragon-ui 
-
- * Move prod deploy notifications to #tech-notifications-prod 
-
- *  Insurance flow copy updates pt 2 
-
- * : Delete the leftover ArpahConsentV2_Deprecated consent policy 
-
- * Import react icons directly instead of through bearded-dragon-ui 
-
- * : Bump realtime GC lead time from 15 to 30 minutes 
-
- * : Log every failed realtime GC check on scheduler:realtime_offer 
-
- * Add sideEffects so that the bundler(s) know what not to include in bundles; fix warning 
-
- * Add flat pdfs to tests, fallback to OCR if we cant find text layer 
+ * Fall back to OCR for PDFs without a text layer 
 
 
 
@@ -378,33 +226,15 @@ Released: 2026-10-26T18:40:33Z
 
 ## What's Changed
 
- * Move shared types out of bearded-dragon-ui 
+ * Upgrade services to Python 3.12 
 
- *  Update sequencing service to use python 3.12 
+ * Apply dependency security updates 
 
- *  Migrate paths from bearded-dragon-ui 
+ * Upgrade the HPO extraction model 
 
- *  Update symptom-checker to use python 3.12 
+ * Update the real-time appointment confirmation page design 
 
- *  Update CI to use 3.12 
-
- * : Bump dompurify and storybook to fix critical Dependabot alerts 
-
- * Update pillow to non-vulnerable 13.0 across entire repo 
-
- * : Track realtime offers from /start/ during the pilot 
-
- * Patch CVE-2026-111497 (Brotli decoder OOB write) 
-
- *  Update to gpt-6-luna for hpo extraction 
-
- * Revert "Prevent auto-deploy to staging" 
-
- * : Update realtime confirmation page to latest Figma 
-
- * OPQRST backfill severity indicator 
-
- * Manually apply referrer for mapbox because it needs it to function 
+ * Fix address autocomplete 
 
 
 
@@ -415,7 +245,7 @@ Released: 2026-10-23T20:36:56Z
 
 ## What's Changed
 
- * OPQRST backfill command improvements 
+ * Internal improvements 
 
 
 
@@ -426,11 +256,7 @@ Released: 2026-10-23T19:55:01Z
 
 ## What's Changed
 
- * : Realtime GC appointments backend 
-
- * : Realtime GC appointments frontend 
-
- * Include the runner's username in release and hotfix Slack messages 
+ * Add real-time genetic counseling appointments 
 
 
 
@@ -441,13 +267,9 @@ Released: 2026-10-23T18:44:28Z
 
 ## What's Changed
 
- * : Map Ambry hemizygous genotype to heterozygous 
+ * Map hemizygous genotypes to heterozygous in lab reports 
 
- * Add index to FormResponse to help with form response internal search, update user/me queries 
-
- *  Add force insurance flow button to dev panel 
-
- * Link release tag in Slack release message header to the release page 
+ * Improve form response query performance 
 
 
 
@@ -458,11 +280,7 @@ Released: 2026-10-23T16:22:08Z
 
 ## What's Changed
 
- *  Reset Ambry workflows that finished update_order_status a… 
-
- * Add complete_intake option to make_form_response_eligible 
-
- * : Stop the genetic tests page linking uploads to the wrong test 
+ * Fix the genetic tests page linking uploads to the wrong test 
 
 
 
@@ -473,17 +291,7 @@ Released: 2026-10-22T21:38:23Z
 
 ## What's Changed
 
- * No one should use pendulum moving forward 
-
- *  Sync phone number with Rudderstack 
-
- *  Clean up old intake 
-
- * Update frontend dependency for trivy 
-
- * Update backfill prompt and Q(uality) definition 
-
- * auto-message tech-internal when releasing 
+ * Remove legacy intake flow 
 
 
 
@@ -494,17 +302,9 @@ Released: 2026-10-22T18:16:13Z
 
 ## What's Changed
 
- * : Keep diagnosis search working when the Monarch API fails 
+ * Keep diagnosis search working when an external ontology service is unavailable 
 
- *  Add command to reset workflows stuck at update_order_status 
-
- * : Move the prod Batch compute environment to the service-linked role and AL2023 
-
- * Remove graphql 
-
- * : Reject a policy holder DOB that isn't in the past before PWN does 
-
- *  Update cloudwatch sentry forwarder to use 3.12 
+ * Validate that the policy holder date of birth is in the past 
 
 
 
@@ -515,7 +315,7 @@ Released: 2026-10-21T23:50:16Z
 
 ## What's Changed
 
- * Management command to backfill OPQRST 
+ * Internal improvements 
 
 
 
@@ -526,17 +326,9 @@ Released: 2026-10-21T23:02:28Z
 
 ## What's Changed
 
- *  Update llm lib to not use snapshottest; remove some workarounds 
+ * Remove the /referral intake page 
 
- *  Update initial `Dockerfile`s 
-
- *  Update RPA service to use python 3.12 
-
- *  Remove /referral intake page 
-
- *  Update `pg_e2e` pinned python version to 3.12, update things because of new lint 
-
- *  Redirect in-network insurance patients to ambry 
+ * Route in-network insurance patients to the in-network lab 
 
 
 
@@ -547,13 +339,7 @@ Released: 2026-10-21T20:14:31Z
 
 ## What's Changed
 
- *  update downloadreport api from graphql to rest 
-
- * Revert opqrst feature flag removal 
-
- * : Add Fasten Health Bruno collection + ADR, remove 1upHealth collection 
-
- *  Add Prime Dragon Modal 
+ * Internal improvements 
 
 
 
@@ -564,11 +350,11 @@ Released: 2026-10-21T16:45:51Z
 
 ## What's Changed
 
- *  Add back button to multistep intake 
+ * Add back button to multistep intake 
 
- * Add comparator email to data we send to pwn 
+ * Include comparator email in referral data 
 
- * : Distrust compromised eMudhra intermediate CAs (certifi + ca-certificates) 
+ * Distrust compromised intermediate certificate authorities 
 
 
 
@@ -579,11 +365,7 @@ Released: 2026-10-20T21:23:39Z
 
 ## What's Changed
 
- * chore(deps): bump actions/setup-node from 7.0.0 to 7.1.0 
-
- *  Preventing ChatPG Chat from asking about genetic testing 
-
- * Use fabric v4 endpoint for `get_report_fields` 
+ * Prevent the chat assistant from asking about genetic testing 
 
 
 
@@ -594,23 +376,7 @@ Released: 2026-10-20T18:18:17Z
 
 ## What's Changed
 
- *   Attach all other processes to arkana workflow 
-
- *  Add authenticated route guard 
-
- *  Update Fabric client to use v4 on getting reports 
-
- * : Report missing and unreadable PWN consult reports to Sentry 
-
- * Run local phenotyper against the oaklib service in docker compose 
-
- * Stop Django tests from calling the live oaklib service 
-
- *  Stop Ambry footnote rows becoming PWN variants 
-
- * Ignore .claude/worktrees/ and .playwright-mcp/ 
-
- *  Remove dead code from bearded-dragon-ui 
+ * Prevent lab report footnote rows from being parsed as variants 
 
 
 
@@ -621,51 +387,19 @@ Released: 2026-10-19T19:58:59Z
 
 ## What's Changed
 
- * : Add missing security headers to shared web-bucket CloudFront policy 
+ * Add missing security headers 
 
- * : Fake door: add experiment flag gating a placeholder card 
+ * Fix conversation errors when the feedback flag is off 
 
- *  Add DevPanel Widget 
+ * Fix intake heading styles 
 
- * : Fix conversation 500s when the conversation-show-feedback flag is off 
+ * Fix comparator event association 
 
- *  Updating the delete order api 
+ * Add checkbox to auto-populate the first comparator's info with the user's 
 
- *  Fix Intake Heading Styles 
+ * Make Add to calendar events 30 minutes 
 
- * : Load flags globally in test setup 
-
- *  Update local box client to handle needed functionality 
-
- *  Delete poc doc validation in symptom checker 
-
- *  Fix comparator event getting associated with the comparator 
-
- *  Add checkbox to auto-populate first comparator info with user's 
-
- *  Remove multistep-intake feature flag 
-
- * Speed up oaklib-search startup 
-
- * : Make Add to calendar events 30 minutes 
-
- *  Add auto sign up to dev panel 
-
- * Add PR tests and image smoke test for rpa_service 
-
- * Stop sending extra sms_marketing consent event 
-
- * Fix flaky date of birth in the insurance e2e tests 
-
- *  Add new functionality to Arkana lib for pdf parsing 
-
- * : Fake door: wire RealtimeAppointmentCard into the time picker 
-
- * : Fake door: analytics events 
-
- * : Update appointment length copy on the time picker 
-
- * Prevent auto-deploy to staging 
+ * Update appointment length copy on the time picker 
 
 
 
@@ -676,9 +410,7 @@ Released: 2026-10-15T18:46:07Z
 
 ## What's Changed
 
- *  Remove dynamic file upload feature flag 
-
- * : Link the informed consent to the IRB-approved v06 PDF 
+ * Link the informed consent to the IRB-approved v06 PDF 
 
 
 
@@ -689,15 +421,11 @@ Released: 2026-10-15T17:23:24Z
 
 ## What's Changed
 
- * : Switch to the InformedConsentV4 / ArpahConsentV2 policies 
+ * Switch to updated informed consent policies 
 
- * Few Questions gathers SMS consent, and now fires the appropriate event as well 
+ * Record SMS consent collected during intake 
 
- * : Replace the per-file card limit with one 8 MB PDF budget and explain PWN's 413 
-
- * : Take Ambry lab ids from the SFTP delivery when report_ready never comes 
-
- *  Revert setuptools in rpa to <81 
+ * Replace the per-file upload limit with a single 8 MB PDF limit and clarify size errors 
 
 
 
