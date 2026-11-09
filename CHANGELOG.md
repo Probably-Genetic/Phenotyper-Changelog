@@ -1,3 +1,439 @@
+# Changelog - Week of November 09, 2026
+
+## Recent Releases
+
+### v1.618.0
+Released: 2026-11-05T22:54:32Z
+
+## What's Changed
+
+ * Add physician order workflow support 
+
+ * Fix product offerings feature flag not being read properly 
+
+
+
+---
+
+### v1.617.0
+Released: 2026-11-05T19:37:24Z
+
+## What's Changed
+
+ * Add initial sequencing service integration 
+
+ * Fix login error display 
+
+ * List uploaded test reports in the clinical document 
+
+ * Skip diagnoses whose name doesn't match their MONDO term during refresh 
+
+
+
+---
+
+### v1.616.0
+Released: 2026-11-04T22:45:43Z
+
+## What's Changed
+
+ * Pre-approve APOL1 offers until a physician is added 
+
+ * Improve doctor search performance and location matching 
+
+ * Add electronic health record (EHR) sync 
+
+ * Send documents to the new referral after a reissue 
+
+ * Record where a patient file was uploaded 
+
+ * Send the form response reference ID as the MRN on referrals 
+
+ * Apply dependency security updates 
+
+
+
+---
+
+### v1.615.0
+Released: 2026-11-03T20:29:59Z
+
+## What's Changed
+
+ * Add doctor search 
+
+ * Improve the weekly doctor directory refresh 
+
+ * Add EHR file upload and management 
+
+ * Hide animal pathology and obsolete terms from diagnosis search 
+
+ * Pin preferred diseases only on exact or prefix matches 
+
+ * Support refreshing stored diagnoses from a pinned MONDO release 
+
+ * Time out and retry slow doctor searches 
+
+ * Send the intake transcript as a separate confidential PDF with referrals 
+
+ * Align the clinical document with the genetic counseling template 
+
+
+
+---
+
+### v1.614.0
+Released: 2026-11-03T16:26:30Z
+
+## What's Changed
+
+ * Fix back button alignment in the flow footer 
+
+
+
+---
+
+### v1.613.0
+Released: 2026-11-02T23:12:18Z
+
+## What's Changed
+
+ * Generate the clinical document after the referral is created 
+
+ * Stop listing family members' diagnoses as the patient's in the clinical document 
+
+ * Keep relatives' diagnoses out of patient summaries and lab orders 
+
+ * Sync the patient's secondary findings choice to the lab order 
+
+ * Remove transcription feature 
+
+
+
+---
+
+### v1.612.0
+Released: 2026-11-02T18:37:04Z
+
+## What's Changed
+
+ * Add a secondary findings consent step to the insurance flow 
+
+ * Advance orders to pending approval when the consult is completed 
+
+ * Apply dependency security updates 
+
+
+
+---
+
+### v1.611.0
+Released: 2026-10-30T15:41:03Z
+
+## What's Changed
+
+ * Speed up HPO extraction 
+
+ * Tag rebooked pre-test consult bookings 
+
+
+
+---
+
+### v1.610.0
+Released: 2026-10-29T23:11:51Z
+
+## What's Changed
+
+ * Remove resource card 
+
+ * Only send the insurance card with referrals 
+
+ * Update temporality description to omit onset information 
+
+ * Comparator page updates 
+
+
+
+---
+
+### v1.609.0
+Released: 2026-10-29T16:45:01Z
+
+## What's Changed
+
+ * Sync patient phone number to sequencing orders 
+
+ * Add in-network banner to insurance selection 
+
+ * Remove hallmark phenotype and field value from the clinical document 
+
+
+
+---
+
+### v1.608.0
+Released: 2026-10-28T17:08:20Z
+
+## What's Changed
+
+ * Clear stale portal booking when a referral is reissued 
+
+ * Add EHR connection and sync foundations 
+
+ * Mitigate Django REST Framework security advisories 
+
+ * Update patient info header copy 
+
+ * Update modal copy in the cancel and reschedule appointment flow 
+
+
+
+---
+
+### v1.607.0
+Released: 2026-10-27T22:44:02Z
+
+## What's Changed
+
+ * Add citation support to HPO extraction 
+
+
+
+---
+
+### v1.606.0
+Released: 2026-10-27T21:42:20Z
+
+## What's Changed
+
+ * Update insurance flow and consultation copy 
+
+ * Allow updating the order contact phone number 
+
+ * Increase real-time genetic counseling lead time from 15 to 30 minutes 
+
+ * Reduce frontend bundle size 
+
+ * Fall back to OCR for PDFs without a text layer 
+
+
+
+---
+
+### v1.605.0
+Released: 2026-10-26T18:40:33Z
+
+## What's Changed
+
+ * Upgrade services to Python 3.12 
+
+ * Apply dependency security updates 
+
+ * Upgrade the HPO extraction model 
+
+ * Update the real-time appointment confirmation page design 
+
+ * Fix address autocomplete 
+
+
+
+---
+
+### v1.604.0
+Released: 2026-10-23T20:36:56Z
+
+## What's Changed
+
+ * Internal improvements 
+
+
+
+---
+
+### v1.603.0
+Released: 2026-10-23T19:55:01Z
+
+## What's Changed
+
+ * Add real-time genetic counseling appointments 
+
+
+
+---
+
+### v1.602.0
+Released: 2026-10-23T18:44:28Z
+
+## What's Changed
+
+ * Map hemizygous genotypes to heterozygous in lab reports 
+
+ * Improve form response query performance 
+
+
+
+---
+
+### v1.601.0
+Released: 2026-10-23T16:22:08Z
+
+## What's Changed
+
+ * Fix the genetic tests page linking uploads to the wrong test 
+
+
+
+---
+
+### v1.600.0
+Released: 2026-10-22T21:38:23Z
+
+## What's Changed
+
+ * Remove legacy intake flow 
+
+
+
+---
+
+### v1.599.0
+Released: 2026-10-22T18:16:13Z
+
+## What's Changed
+
+ * Keep diagnosis search working when an external ontology service is unavailable 
+
+ * Validate that the policy holder date of birth is in the past 
+
+
+
+---
+
+### v1.598.0
+Released: 2026-10-21T23:50:16Z
+
+## What's Changed
+
+ * Internal improvements 
+
+
+
+---
+
+### v1.597.0
+Released: 2026-10-21T23:02:28Z
+
+## What's Changed
+
+ * Remove the /referral intake page 
+
+ * Route in-network insurance patients to the in-network lab 
+
+
+
+---
+
+### v1.596.0
+Released: 2026-10-21T20:14:31Z
+
+## What's Changed
+
+ * Internal improvements 
+
+
+
+---
+
+### v1.595.0
+Released: 2026-10-21T16:45:51Z
+
+## What's Changed
+
+ * Add back button to multistep intake 
+
+ * Include comparator email in referral data 
+
+ * Distrust compromised intermediate certificate authorities 
+
+
+
+---
+
+### v1.594.0
+Released: 2026-10-20T21:23:39Z
+
+## What's Changed
+
+ * Prevent the chat assistant from asking about genetic testing 
+
+
+
+---
+
+### v1.593.0
+Released: 2026-10-20T18:18:17Z
+
+## What's Changed
+
+ * Prevent lab report footnote rows from being parsed as variants 
+
+
+
+---
+
+### v1.592.0
+Released: 2026-10-19T19:58:59Z
+
+## What's Changed
+
+ * Add missing security headers 
+
+ * Fix conversation errors when the feedback flag is off 
+
+ * Fix intake heading styles 
+
+ * Fix comparator event association 
+
+ * Add checkbox to auto-populate the first comparator's info with the user's 
+
+ * Make Add to calendar events 30 minutes 
+
+ * Update appointment length copy on the time picker 
+
+
+
+---
+
+### v1.591.0
+Released: 2026-10-15T18:46:07Z
+
+## What's Changed
+
+ * Link the informed consent to the IRB-approved v06 PDF 
+
+
+
+---
+
+### v1.590.0
+Released: 2026-10-15T17:23:24Z
+
+## What's Changed
+
+ * Switch to updated informed consent policies 
+
+ * Record SMS consent collected during intake 
+
+ * Replace the per-file upload limit with a single 8 MB PDF limit and clarify size errors 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of September 21, 2026
 
 ## Recent Releases
