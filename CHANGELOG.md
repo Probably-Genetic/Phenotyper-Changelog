@@ -1,3 +1,377 @@
+# Changelog - Week of November 23, 2026
+
+## Recent Releases
+
+### v1.631.0
+Released: 2026-11-19T21:52:11Z
+
+## What's Changed
+
+ *  block insurance possible for pag patients 
+
+ * : Move user deletion into a service and add admin delete action 
+
+ *  Add intake intent step 
+
+ *  Rename "Unusual Facial Features" option 
+
+
+
+---
+
+### v1.630.0
+Released: 2026-11-19T17:48:34Z
+
+## What's Changed
+
+ *  Add analytics to opqrst conversation followup 
+
+ * add a runbook for finding missing ambry results 
+
+ *  Accept research:genetic_test as a genetic test upload source 
+
+ * : Add Fasten EHR sync architecture page and runbook 
+
+ * Flush Rudderstack on events to guarantee sends 
+
+
+
+---
+
+### v1.629.0
+Released: 2026-11-18T22:43:31Z
+
+## What's Changed
+
+ * Fix insurance E2E for the PrimeReact fields on the missing-data form 
+
+ *  Updating soupsieve and dnspython 
+
+ *  Don't show 500 for existing form response sponsor entries 
+
+ *  Read SteadyMD Platform Events from SQS 
+
+ * Add pg-steadymd-access IAM group for the SteadyMD events consumer 
+
+ *  add patient type to /me response 
+
+ *  Add file upload event that captures patient type 
+
+ * : Record the oaklib zero-downtime deploy setup in the repo 
+
+ *  Update questioner to put OPQRST as follow ups 
+
+ *  Add HIPAA copy to the symptom select intake step 
+
+ * : Check Ambry report files against AmbryPort before release 
+
+ *  Add intent field to form_response 
+
+ *  Clean up intake value prop experiment 
+
+
+
+---
+
+### v1.628.0
+Released: 2026-11-17T22:25:47Z
+
+## What's Changed
+
+ * Update SteadyMD SQS queue policy 
+
+ * Store the SteadyMD parent or guardian on SteadyMDOrder 
+
+ *  Add retool link to django 
+
+ * Merge the two 0166 api migrations 
+
+ *  Add arpa-h to product offering service 
+
+ *  Clean up old arpa-h eligible service 
+
+ *  be able to use symptom-checker instead of phenotyper 
+
+ *  Pin OPQRST flag on conversation create 
+
+ * : Emit scheduler:slots_viewed and show_more_times_clicked on the slot list 
+
+ * Update docs to use ./pg {{command}} symptom-checker 
+
+ * : Track the PWN appointment slots offered to the patient 
+
+ * : Remove consent policy write routes from Hydra 
+
+ *  Setup for backfilling arpah product offering assessment 
+
+ * Add a parent or guardian and parental consent to SteadyMD orders 
+
+ *  Adding backfill script 
+
+ * Update legacy components 
+
+
+
+---
+
+### v1.627.0
+Released: 2026-11-16T21:45:05Z
+
+## What's Changed
+
+ * : The claim endpoint answers 202 even when it rejects a claim 
+
+ * : Rename provider-agnostic "GenomeMedical" code to Insurance* 
+
+ * Add SteadyMD platform events SQS queue (staging) 
+
+ *  Updating age for vertex/apol1: 20 -> 10 
+
+ * : Skip EHR endpoints quietly when the flag is off 
+
+ * Remove deprecated frontend question flow 
+
+ * : Send only error-level scheduler diagnostics to Sentry 
+
+ * Filter out facebook errors likely from crawlers 
+
+ *  Improvements to django admin for person and order 
+
+
+
+---
+
+### v1.626.0
+Released: 2026-11-14T00:07:25Z
+
+## What's Changed
+
+ * : Refresh Box to S3 migration status 
+
+ * : Pin the common conditions the clinical review chose 
+
+ *  capture pag utm tags on sign up and login front end 
+
+ *  saving patient type on sign-up and login 
+
+ *  Adding identity scoping 
+
+ *  Adding api to test new identity verification scoping 
+
+ *  Handle Fasten expired connections 
+
+ *  Remove task now that queue is clear 
+
+ * : Command to repair PWN referrals missing documents 
+
+ * : Fix typeahead gaps in diagnosis index search 
+
+ * : Retry Ambry SFTP fetch when any delivery file fails 
+
+ * : Command to re-sign HIPAA authorization after corrections 
+
+
+
+---
+
+### v1.625.0
+Released: 2026-11-13T17:53:04Z
+
+## What's Changed
+
+ *  Adding backend support for saving utm tags on patient login/signup 
+
+ * : Report e2e failures, rerun flaky tests once, and drop fixed waits 
+
+ * : Store the e2e database base in GHCR so runs stop seeding from scratch 
+
+
+
+---
+
+### v1.624.0
+Released: 2026-11-12T23:09:53Z
+
+## What's Changed
+
+ * Send flags with Rudderstack events 
+
+ * : Run the e2e suite with 4 xdist workers instead of 2 
+
+ *  Fixing model validate call in identity hook 
+
+ *  Fasten FE follow up fixes 
+
+ *  Make metadata field not nullable 
+
+
+
+---
+
+### v1.623.0
+Released: 2026-11-12T20:00:56Z
+
+## What's Changed
+
+ * Turn off link previews in release notice Slack messages 
+
+ * Update `certifi` to the newest 
+
+ *  include pending connections in endpoints 
+
+ *  upgrade retool to v4.34.16-stable-hardened 
+
+ * : Create and track Ambry kits from matched shipments 
+
+ * : Serve diagnosis search from our own index 
+
+ * : Refresh the diagnosis search index weekly 
+
+ *  add patient type column and metadata to hydra 
+
+ *  Re-add celery task until queue is clear 
+
+ *  Update secondary findings 
+
+ * : Read the NPPES zip over HTTP so the monthly rebuild fits in the Celery worker 
+
+ * : Find doctors when patients type "Dr" or credentials around the name 
+
+ * : Add Ops endpoints to assign or dismiss unmatched Ambry kits 
+
+ * Fix PostHog Unauth Guard Race Condition 
+
+ *  Fasten FE connections 
+
+
+
+---
+
+### v1.622.0
+Released: 2026-11-11T23:55:31Z
+
+## What's Changed
+
+ * : Evaluate the Fasten flag for the requesting user 
+
+ * : Make a missing or wrong Fasten webhook secret loud 
+
+ * : Send X-CSRFToken from the patient app's API client 
+
+ *  Removing error for patient synthesis threshold 
+
+ * : Fill in the provider name when a Fasten connection is claimed 
+
+ *  Add patient type and metadata column in symptom-checker 
+
+
+
+---
+
+### v1.621.0
+Released: 2026-11-11T21:09:28Z
+
+## What's Changed
+
+ * Fix PostHog identity reset 
+
+
+
+---
+
+### v1.620.0
+Released: 2026-11-11T17:53:56Z
+
+## What's Changed
+
+ * : Ingest Ambry's shipped-kit file and match shipments to orders 
+
+ * : Alert patient success when an Ambry kit can't be matched 
+
+ * Update pnpm to 12.17.0 
+
+ * Remove intake-relationship-before-name experiment 
+
+ * : Drop the unused Box dependencies from pg_e2e 
+
+ * : Write Ambry reports to S3 instead of Box 
+
+ * : Remove the Box plumbing from symptom-checker 
+
+ * : Run the Ambry workflow through SteadyMD 
+
+ *  Intake wizard value prop experiment 
+
+ *  Conversation animated progress bar 
+
+
+
+---
+
+### v1.619.0
+Released: 2026-11-10T17:07:03Z
+
+## What's Changed
+
+ * : Log each request's own duration instead of the worker's uptime 
+
+ * : Track diagnosis search behavior in PostHog 
+
+ * : Fasten connection binding, expiry and claim rules 
+
+ * : Fasten webhook receiver 
+
+ * : Fasten claim and connection list routes 
+
+ * : Scrub Fasten signed download links from Sentry events and traces 
+
+ * : Make the monthly doctors index rebuild fit its time limit 
+
+ * : Find doctors when the first letter of the name is mistyped 
+
+ * : Pin the oaklib service to the MONDO release diagnosis search uses 
+
+ * : Track physician search behavior in PostHog 
+
+ * : Find doctors when the half-typed last word has a typo 
+
+ * : Keep relatives' diagnoses out of the insurance tier reasoning 
+
+ *  Add Fasten EHR route and button 
+
+ * : Add Temporal activities for SteadyMD orders 
+
+ * Improve Broad order failure Slack alert 
+
+ *  Conversation Progress Bar BE Info 
+
+ * : Let patients add a diagnosis that isn't listed 
+
+ * : Expire stale Fasten connections when they are read 
+
+ * : Fasten reconnect service, confirmation and route 
+
+ * chore(deps): bump linear/linear-release-action from 0.18.1 to 0.18.2 
+
+ * chore(deps): bump Gr1N/setup-poetry from 9 to 10 
+
+ * : Build a diagnosis search index from a pinned MONDO release 
+
+ * : Track kits with two return labels and keep Shippo status moving forward 
+
+ * : Stop Fasten sync work for a connection whose patient is being deleted 
+
+ * : Keep no ids from Fasten webhooks for connections we no longer hold 
+
+ * : Delete a user's Fasten EHR data when the user is deleted 
+
+
+
+---
+
+
+---
+
 # Changelog - Week of November 09, 2026
 
 ## Recent Releases
